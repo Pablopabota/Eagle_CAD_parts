@@ -26494,6 +26494,24 @@
 </technology>
 </technologies>
 </device>
+<device name="_XAL5030-472ME" package="IND_XAL5030-472ME">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_XFL4020-152ME" package="IND_XFL4020-152ME">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="DIODO_SCHOTTKY" prefix="D_SCHOT" uservalue="yes">
@@ -26821,6 +26839,16 @@
 <connect gate="A" pin="D" pad="5 6 7 8 EP" route="any"/>
 <connect gate="A" pin="G" pad="4"/>
 <connect gate="A" pin="S" pad="1 2 3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_NX7002AK" package="SOT-23-3">
+<connects>
+<connect gate="A" pin="D" pad="3"/>
+<connect gate="A" pin="G" pad="1"/>
+<connect gate="A" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
