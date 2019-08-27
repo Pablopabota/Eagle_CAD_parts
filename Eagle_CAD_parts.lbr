@@ -27948,7 +27948,7 @@ portable devices</description>
 </technology>
 </technologies>
 </device>
-<device name="SOIC-16-M" package="16-SOIC-M">
+<device name="SOIC-16-M" package="16-SOIC">
 <connects>
 <connect gate="A" pin="A_(XCTRL)" pad="11"/>
 <connect gate="A" pin="B_(YCTRL)" pad="10"/>
@@ -27974,7 +27974,7 @@ portable devices</description>
 </technology>
 </technologies>
 </device>
-<device name="SOIC-16-L" package="16-SOIC-L">
+<device name="SOIC-16-L" package="16-SOIC">
 <connects>
 <connect gate="A" pin="A_(XCTRL)" pad="11"/>
 <connect gate="A" pin="B_(YCTRL)" pad="10"/>
