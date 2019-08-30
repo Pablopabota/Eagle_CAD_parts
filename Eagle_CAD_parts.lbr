@@ -26126,18 +26126,18 @@
 <pin name="A2" x="-15.24" y="2.54" length="middle"/>
 <pin name="A3" x="-15.24" y="0" length="middle"/>
 <pin name="A4" x="-15.24" y="-2.54" length="middle"/>
-<pin name="GND" x="15.24" y="-5.08" length="middle" direction="pwr" rot="R180"/>
-<pin name="B4" x="15.24" y="-2.54" length="middle" rot="R180"/>
-<pin name="B3" x="15.24" y="0" length="middle" rot="R180"/>
-<pin name="B2" x="15.24" y="2.54" length="middle" rot="R180"/>
-<pin name="B1" x="15.24" y="5.08" length="middle" rot="R180"/>
-<pin name="VCCB" x="15.24" y="7.62" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND" x="15.24" y="-2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="B4" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="B3" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="B2" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="B1" x="15.24" y="7.62" length="middle" rot="R180"/>
+<pin name="VCCB" x="15.24" y="10.16" length="middle" direction="pwr" rot="R180"/>
 <pin name="OE" x="-15.24" y="10.16" length="middle" direction="out"/>
-<wire x1="-10.16" y1="12.7" x2="-10.16" y2="-10.16" width="0.1524" layer="94"/>
-<wire x1="-10.16" y1="-10.16" x2="10.16" y2="-10.16" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="-10.16" x2="10.16" y2="12.7" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="12.7" x2="-10.16" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="12.7" width="0.1524" layer="94"/>
 <wire x1="10.16" y1="12.7" x2="-10.16" y2="12.7" width="0.1524" layer="94"/>
-<text x="-8.89" y="-8.89" size="2.0828" layer="96" ratio="6">&gt;VALUE</text>
+<text x="-8.89" y="-6.35" size="2.0828" layer="96" ratio="6">&gt;VALUE</text>
 </symbol>
 <symbol name="2+0_TVS_DIODE">
 <polygon width="0.254" layer="94">
@@ -26230,34 +26230,34 @@
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
 <symbol name="QUECTEL_BG96_SYM">
-<wire x1="-17.78" y1="33.02" x2="17.78" y2="33.02" width="0.254" layer="94"/>
-<wire x1="17.78" y1="33.02" x2="17.78" y2="-48.26" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-48.26" x2="-17.78" y2="-48.26" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="-48.26" x2="-17.78" y2="33.02" width="0.254" layer="94"/>
-<pin name="VBAT_BB" x="-22.86" y="30.48" length="middle" direction="pwr"/>
-<pin name="VBAT_RF" x="-22.86" y="27.94" length="middle" direction="pwr"/>
-<pin name="VDD_EXT" x="-22.86" y="22.86" length="middle" direction="sup"/>
-<pin name="GND" x="-22.86" y="-45.72" length="middle" direction="pwr"/>
-<pin name="PWRKEY" x="-22.86" y="17.78" length="middle" direction="in"/>
-<pin name="RESET_N" x="-22.86" y="15.24" length="middle" direction="in"/>
-<pin name="STATUS" x="22.86" y="30.48" length="middle" direction="out" rot="R180"/>
-<pin name="NETLIGHT" x="22.86" y="27.94" length="middle" direction="out" rot="R180"/>
-<pin name="USB_VBUS" x="-22.86" y="10.16" length="middle" direction="pwr"/>
-<pin name="USB_DP" x="-22.86" y="7.62" length="middle"/>
-<pin name="USB_DM" x="-22.86" y="5.08" length="middle"/>
-<pin name="USIM_PRESENCE" x="-22.86" y="-20.32" length="middle" direction="in"/>
-<pin name="USIM_VDD" x="-22.86" y="-22.86" length="middle" direction="pwr"/>
-<pin name="USIM_RST" x="-22.86" y="-25.4" length="middle" direction="out"/>
-<pin name="USIM_DATA" x="-22.86" y="-27.94" length="middle"/>
-<pin name="USIM_CLK" x="-22.86" y="-30.48" length="middle" direction="out"/>
-<pin name="USIM_GND" x="-22.86" y="-33.02" length="middle" direction="pwr"/>
-<pin name="DTR" x="-22.86" y="0" length="middle" direction="in"/>
-<pin name="RXD" x="-22.86" y="-2.54" length="middle" direction="in"/>
-<pin name="TXD" x="-22.86" y="-5.08" length="middle" direction="out"/>
-<pin name="CTS" x="-22.86" y="-7.62" length="middle" direction="out"/>
-<pin name="RTS" x="-22.86" y="-10.16" length="middle" direction="in"/>
-<pin name="DCD" x="-22.86" y="-12.7" length="middle" direction="out"/>
-<pin name="RI" x="-22.86" y="-15.24" length="middle" direction="out"/>
+<wire x1="-17.78" y1="60.96" x2="17.78" y2="60.96" width="0.254" layer="94"/>
+<wire x1="17.78" y1="60.96" x2="17.78" y2="-41.91" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-41.91" x2="-17.78" y2="-41.91" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-41.91" x2="-17.78" y2="60.96" width="0.254" layer="94"/>
+<pin name="VBAT_BB" x="-22.86" y="43.18" length="middle" direction="pwr"/>
+<pin name="VBAT_RF" x="-22.86" y="40.64" length="middle" direction="pwr"/>
+<pin name="VDD_EXT" x="-22.86" y="-2.54" length="middle" direction="sup"/>
+<pin name="GND" x="-22.86" y="-39.37" length="middle" direction="pwr"/>
+<pin name="PWRKEY" x="-22.86" y="25.4" length="middle" direction="in"/>
+<pin name="RESET_N" x="-22.86" y="22.86" length="middle" direction="in"/>
+<pin name="STATUS" x="22.86" y="41.91" length="middle" direction="out" rot="R180"/>
+<pin name="NETLIGHT" x="22.86" y="39.37" length="middle" direction="out" rot="R180"/>
+<pin name="USB_VBUS" x="-22.86" y="17.78" length="middle" direction="pwr"/>
+<pin name="USB_DP" x="-22.86" y="15.24" length="middle"/>
+<pin name="USB_DM" x="-22.86" y="12.7" length="middle"/>
+<pin name="USIM_PRESENCE" x="-22.86" y="-19.05" length="middle" direction="in"/>
+<pin name="USIM_VDD" x="-22.86" y="-24.13" length="middle" direction="pwr"/>
+<pin name="USIM_RST" x="-22.86" y="-31.75" length="middle" direction="out"/>
+<pin name="USIM_DATA" x="-22.86" y="-26.67" length="middle"/>
+<pin name="USIM_CLK" x="-22.86" y="-29.21" length="middle" direction="out"/>
+<pin name="USIM_GND" x="-22.86" y="-36.83" length="middle" direction="pwr"/>
+<pin name="DTR" x="-22.86" y="-12.7" length="middle" direction="in"/>
+<pin name="RXD" x="-22.86" y="-5.08" length="middle" direction="in"/>
+<pin name="TXD" x="-22.86" y="-7.62" length="middle" direction="out"/>
+<pin name="CTS" x="-22.86" y="5.08" length="middle" direction="out"/>
+<pin name="RTS" x="-22.86" y="7.62" length="middle" direction="in"/>
+<pin name="DCD" x="-22.86" y="2.54" length="middle" direction="out"/>
+<pin name="RI" x="-22.86" y="-10.16" length="middle" direction="out"/>
 <pin name="DBG_RXD" x="22.86" y="22.86" length="middle" direction="in" rot="R180"/>
 <pin name="DBG_TXD" x="22.86" y="20.32" length="middle" direction="out" rot="R180"/>
 <pin name="UART3_TXD" x="22.86" y="15.24" length="middle" direction="out" rot="R180"/>
@@ -26266,19 +26266,20 @@
 <pin name="PCM_SYNC" x="22.86" y="5.08" length="middle" direction="out" rot="R180"/>
 <pin name="PCM_IN" x="22.86" y="2.54" length="middle" direction="in" rot="R180"/>
 <pin name="PCM_OUT" x="22.86" y="0" length="middle" direction="out" rot="R180"/>
-<pin name="I²C_SCL" x="22.86" y="-22.86" length="middle" direction="oc" rot="R180"/>
-<pin name="I²C_SDA" x="22.86" y="-25.4" length="middle" direction="oc" rot="R180"/>
-<pin name="ANT_MAIN" x="22.86" y="-30.48" length="middle" rot="R180"/>
-<pin name="ANT_GNSS" x="22.86" y="-33.02" length="middle" direction="in" rot="R180"/>
+<pin name="I²C_SCL" x="22.86" y="34.29" length="middle" direction="oc" rot="R180"/>
+<pin name="I²C_SDA" x="22.86" y="31.75" length="middle" direction="oc" rot="R180"/>
+<pin name="ANT_MAIN" x="-22.86" y="58.42" length="middle"/>
+<pin name="ANT_GNSS" x="22.86" y="58.42" length="middle" direction="in" rot="R180"/>
 <pin name="PSM_IND" x="22.86" y="-5.08" length="middle" direction="out" rot="R180"/>
 <pin name="W_DISABLE#" x="22.86" y="-7.62" length="middle" direction="in" rot="R180"/>
 <pin name="AP_READY" x="22.86" y="-10.16" length="middle" direction="in" rot="R180"/>
 <pin name="USB_BOOT" x="22.86" y="-12.7" length="middle" direction="in" rot="R180"/>
 <pin name="GPIO26" x="22.86" y="-15.24" length="middle" rot="R180"/>
 <pin name="GPIO64" x="22.86" y="-17.78" length="middle" rot="R180"/>
-<pin name="ADC1" x="22.86" y="-38.1" length="middle" direction="in" rot="R180"/>
-<pin name="ADC0" x="22.86" y="-40.64" length="middle" direction="in" rot="R180"/>
-<pin name="RESERVED" x="20.32" y="-45.72" length="short" direction="nc" rot="R180"/>
+<pin name="ADC1" x="22.86" y="-22.86" length="middle" direction="in" rot="R180"/>
+<pin name="ADC0" x="22.86" y="-25.4" length="middle" direction="in" rot="R180"/>
+<pin name="RESERVED" x="20.32" y="-30.48" length="short" direction="nc" rot="R180"/>
+<text x="-16.51" y="49.53" size="2.1844" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -28883,7 +28884,7 @@ portable devices</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="QUECTEL">
+<deviceset name="QUECTEL" prefix="QUECTEL_">
 <gates>
 <gate name="G$1" symbol="QUECTEL_BG96_SYM" x="0" y="0"/>
 </gates>
