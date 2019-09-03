@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="17" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -26591,54 +26591,71 @@
 <text x="-16.51" y="49.53" size="2.1844" layer="95">&gt;NAME</text>
 </symbol>
 <symbol name="SIM5320_SYM">
-<pin name="VBAT_RF" x="-35.56" y="27.94" length="middle"/>
-<pin name="VREG_AUX" x="45.72" y="-22.86" length="middle" rot="R180"/>
-<pin name="GND" x="-22.86" y="-60.96" length="middle"/>
-<pin name="PWR_ON" x="-22.86" y="11.43" length="middle"/>
-<pin name="RESET" x="-22.86" y="-7.62" length="middle"/>
-<pin name="USIM_DATA" x="-22.86" y="-43.18" length="middle"/>
-<pin name="USIM_RST" x="-22.86" y="-48.26" length="middle"/>
-<pin name="USIM_CLK" x="-22.86" y="-45.72" length="middle"/>
-<pin name="V_USIM" x="-22.86" y="-40.64" length="middle"/>
-<pin name="SIM_DET" x="-22.86" y="-35.56" length="middle"/>
-<pin name="USB_VBUS" x="22.86" y="0" length="middle" rot="R180"/>
-<pin name="USB_DP" x="22.86" y="-5.08" length="middle" rot="R180"/>
-<pin name="USB_DN" x="22.86" y="-2.54" length="middle" rot="R180"/>
-<pin name="DTR" x="45.72" y="-12.7" length="middle" rot="R180"/>
-<pin name="RI" x="45.72" y="-7.62" length="middle" rot="R180"/>
-<pin name="DCD" x="45.72" y="-10.16" length="middle" rot="R180"/>
-<pin name="CTS" x="45.72" y="-2.54" length="middle" rot="R180"/>
-<pin name="RTS" x="45.72" y="-5.08" length="middle" rot="R180"/>
-<pin name="TXD" x="45.72" y="0" length="middle" rot="R180"/>
-<pin name="RXD" x="45.72" y="2.54" length="middle" rot="R180"/>
-<pin name="I2C_SDA" x="22.86" y="10.16" length="middle" rot="R180"/>
-<pin name="I2C_SCL" x="22.86" y="12.7" length="middle" rot="R180"/>
-<pin name="PCM_CLK/GPIO3" x="22.86" y="-17.78" length="middle" rot="R180"/>
-<pin name="PCM_SYNC/GPIO2" x="22.86" y="-12.7" length="middle" rot="R180"/>
-<pin name="PCM_DIN/GPIO0" x="22.86" y="-10.16" length="middle" rot="R180"/>
-<pin name="PCM_DOUT/GPIO5" x="22.86" y="-15.24" length="middle" rot="R180"/>
-<pin name="NETLIGHT" x="22.86" y="24.13" length="middle" rot="R180"/>
-<pin name="STATUS" x="22.86" y="21.59" length="middle" rot="R180"/>
-<pin name="GPIO40" x="22.86" y="-27.94" length="middle" rot="R180"/>
-<pin name="GPIO1" x="22.86" y="-22.86" length="middle" rot="R180"/>
-<pin name="GPIO41" x="22.86" y="-30.48" length="middle" rot="R180"/>
-<pin name="GPIO43" x="22.86" y="-35.56" length="middle" rot="R180"/>
-<pin name="GPIO4" x="22.86" y="-25.4" length="middle" rot="R180"/>
-<pin name="GPS_ANT" x="22.86" y="43.18" length="middle" rot="R180"/>
-<pin name="MAIN_ANT" x="-22.86" y="44.45" length="middle"/>
-<pin name="BOOT_CFG" x="-22.86" y="-53.34" length="middle"/>
-<pin name="MDM_LOG_TX" x="-22.86" y="-55.88" length="middle"/>
-<pin name="ADC2" x="40.64" y="17.78" length="middle" rot="R180"/>
+<pin name="VBAT_RF" x="-22.86" y="40.64" length="middle"/>
+<pin name="VREG_AUX" x="-22.86" y="33.02" length="middle"/>
+<pin name="GND" x="-22.86" y="30.48" length="middle"/>
+<pin name="PWR_ON" x="-22.86" y="26.67" length="middle"/>
+<pin name="RESET" x="22.86" y="-30.48" length="middle" rot="R180"/>
+<pin name="USIM_DATA" x="-22.86" y="-7.62" length="middle"/>
+<pin name="USIM_RST" x="-22.86" y="-12.7" length="middle"/>
+<pin name="USIM_CLK" x="-22.86" y="-10.16" length="middle"/>
+<pin name="V_USIM" x="-22.86" y="-2.54" length="middle"/>
+<pin name="USB_VBUS" x="-22.86" y="-30.48" length="middle"/>
+<pin name="USB_DP" x="-22.86" y="-33.02" length="middle"/>
+<pin name="USB_DN" x="-22.86" y="-35.56" length="middle"/>
+<pin name="DTR" x="-22.86" y="-55.88" length="middle"/>
+<pin name="RI" x="-22.86" y="-50.8" length="middle"/>
+<pin name="DCD" x="-22.86" y="-53.34" length="middle"/>
+<pin name="CTS" x="-22.86" y="-45.72" length="middle"/>
+<pin name="RTS" x="-22.86" y="-48.26" length="middle"/>
+<pin name="TXD" x="-22.86" y="-43.18" length="middle"/>
+<pin name="RXD" x="-22.86" y="-40.64" length="middle"/>
+<pin name="I2C_SDA" x="22.86" y="38.1" length="middle" rot="R180"/>
+<pin name="I2C_SCL" x="22.86" y="40.64" length="middle" rot="R180"/>
+<pin name="PCM_CLK/GPIO3" x="22.86" y="-2.54" length="middle" rot="R180"/>
+<pin name="PCM_SYNC/GPIO2" x="22.86" y="0" length="middle" rot="R180"/>
+<pin name="PCM_DIN/GPIO0" x="22.86" y="2.54" length="middle" rot="R180"/>
+<pin name="PCM_DOUT/GPIO5" x="22.86" y="-5.08" length="middle" rot="R180"/>
+<pin name="GPIO40" x="22.86" y="-15.24" length="middle" rot="R180"/>
+<pin name="GPIO1" x="22.86" y="-10.16" length="middle" rot="R180"/>
+<pin name="GPIO41" x="22.86" y="-17.78" length="middle" rot="R180"/>
+<pin name="GPIO43" x="22.86" y="-20.32" length="middle" rot="R180"/>
+<pin name="GPIO4" x="22.86" y="-12.7" length="middle" rot="R180"/>
+<pin name="GPS_ANT" x="22.86" y="-53.34" length="middle" rot="R180"/>
+<pin name="MAIN_ANT" x="22.86" y="-49.53" length="middle" rot="R180"/>
+<pin name="ADC2" x="22.86" y="-43.18" length="middle" rot="R180"/>
 <wire x1="-17.78" y1="46.99" x2="17.78" y2="46.99" width="0.254" layer="94"/>
 <wire x1="17.78" y1="46.99" x2="17.78" y2="-63.5" width="0.254" layer="94"/>
 <wire x1="17.78" y1="-63.5" x2="-17.78" y2="-63.5" width="0.254" layer="94"/>
 <wire x1="-17.78" y1="-63.5" x2="-17.78" y2="46.99" width="0.254" layer="94"/>
-<text x="-15.24" y="35.56" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="VBAT_BB" x="-35.56" y="25.4" length="middle"/>
-<pin name="VBAT_RTC" x="-35.56" y="22.86" length="middle"/>
-<pin name="GPIO42" x="22.86" y="-33.02" length="middle" rot="R180"/>
-<pin name="GPIO44" x="22.86" y="-38.1" length="middle" rot="R180"/>
-<pin name="ADC1" x="40.64" y="15.24" length="middle" rot="R180"/>
+<text x="-15.24" y="-60.96" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="VBAT_BB" x="-22.86" y="38.1" length="middle"/>
+<pin name="VRTC" x="-22.86" y="35.56" length="middle"/>
+<pin name="GPIO42" x="22.86" y="-25.4" length="middle" rot="R180"/>
+<pin name="GPIO44" x="22.86" y="-22.86" length="middle" rot="R180"/>
+<pin name="ADC1" x="22.86" y="-40.64" length="middle" rot="R180"/>
+<pin name="MIC1P" x="-22.86" y="22.86" length="middle"/>
+<pin name="MIC1N" x="-22.86" y="20.32" length="middle"/>
+<pin name="EAR1P" x="-22.86" y="15.24" length="middle"/>
+<pin name="EAR1N" x="-22.86" y="12.7" length="middle"/>
+<pin name="SPK_P" x="-22.86" y="7.62" length="middle"/>
+<pin name="SPK_N" x="-22.86" y="5.08" length="middle"/>
+<pin name="SPI_CLK" x="-22.86" y="-17.78" length="middle"/>
+<pin name="SPI_CS_N" x="-22.86" y="-20.32" length="middle"/>
+<pin name="SPI_MOSI_DATA" x="-22.86" y="-22.86" length="middle"/>
+<pin name="SPI_MISO_DATA" x="-22.86" y="-25.4" length="middle"/>
+<pin name="KEYPAD_0" x="22.86" y="33.02" length="middle" rot="R180"/>
+<pin name="KEYPAD_1" x="22.86" y="30.48" length="middle" rot="R180"/>
+<pin name="KEYPAD_2" x="22.86" y="27.94" length="middle" rot="R180"/>
+<pin name="KEYPAD_3" x="22.86" y="25.4" length="middle" rot="R180"/>
+<pin name="KEYPAD_4" x="22.86" y="22.86" length="middle" rot="R180"/>
+<pin name="KEYSENSE_N0" x="22.86" y="17.78" length="middle" rot="R180"/>
+<pin name="KEYSENSE_N1" x="22.86" y="15.24" length="middle" rot="R180"/>
+<pin name="KEYSENSE_N2" x="22.86" y="12.7" length="middle" rot="R180"/>
+<pin name="KEYSENSE_N3" x="22.86" y="10.16" length="middle" rot="R180"/>
+<pin name="KEYSENSE_N4" x="22.86" y="7.62" length="middle" rot="R180"/>
+<pin name="CURRENT_SINK" x="22.86" y="-35.56" length="middle" rot="R180"/>
+<pin name="RESERVED" x="22.86" y="-58.42" length="middle" direction="nc" rot="R180"/>
 </symbol>
 <symbol name="SPI_IC">
 <wire x1="-12.7" y1="10.16" x2="12.7" y2="10.16" width="0.254" layer="94"/>
@@ -29437,6 +29454,80 @@ portable devices</description>
 <attribute name="TYPE" value="FLASH - NAND" constant="no"/>
 <attribute name="VCC" value="2.7 - 3.6 V" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SIM_5320">
+<gates>
+<gate name="G$1" symbol="SIM5320_SYM" x="0" y="7.62"/>
+</gates>
+<devices>
+<device name="" package="SIM5320_PCKG">
+<connects>
+<connect gate="G$1" pin="ADC1" pad="47"/>
+<connect gate="G$1" pin="ADC2" pad="46"/>
+<connect gate="G$1" pin="CTS" pad="67"/>
+<connect gate="G$1" pin="CURRENT_SINK" pad="45"/>
+<connect gate="G$1" pin="DCD" pad="70"/>
+<connect gate="G$1" pin="DTR" pad="72"/>
+<connect gate="G$1" pin="EAR1N" pad="25"/>
+<connect gate="G$1" pin="EAR1P" pad="26"/>
+<connect gate="G$1" pin="GND" pad="1 2 5 10 14 37 40 41 43 57 58 60 61 64 65 77 78 80"/>
+<connect gate="G$1" pin="GPIO1" pad="51"/>
+<connect gate="G$1" pin="GPIO4" pad="54"/>
+<connect gate="G$1" pin="GPIO40" pad="49"/>
+<connect gate="G$1" pin="GPIO41" pad="52"/>
+<connect gate="G$1" pin="GPIO42" pad="53"/>
+<connect gate="G$1" pin="GPIO43" pad="50"/>
+<connect gate="G$1" pin="GPIO44" pad="48"/>
+<connect gate="G$1" pin="GPS_ANT" pad="79"/>
+<connect gate="G$1" pin="I2C_SCL" pad="55"/>
+<connect gate="G$1" pin="I2C_SDA" pad="56"/>
+<connect gate="G$1" pin="KEYPAD_0" pad="29"/>
+<connect gate="G$1" pin="KEYPAD_1" pad="33"/>
+<connect gate="G$1" pin="KEYPAD_2" pad="30"/>
+<connect gate="G$1" pin="KEYPAD_3" pad="35"/>
+<connect gate="G$1" pin="KEYPAD_4" pad="34"/>
+<connect gate="G$1" pin="KEYSENSE_N0" pad="28"/>
+<connect gate="G$1" pin="KEYSENSE_N1" pad="27"/>
+<connect gate="G$1" pin="KEYSENSE_N2" pad="31"/>
+<connect gate="G$1" pin="KEYSENSE_N3" pad="32"/>
+<connect gate="G$1" pin="KEYSENSE_N4" pad="36"/>
+<connect gate="G$1" pin="MAIN_ANT" pad="59"/>
+<connect gate="G$1" pin="MIC1N" pad="24"/>
+<connect gate="G$1" pin="MIC1P" pad="23"/>
+<connect gate="G$1" pin="PCM_CLK/GPIO3" pad="76"/>
+<connect gate="G$1" pin="PCM_DIN/GPIO0" pad="74"/>
+<connect gate="G$1" pin="PCM_DOUT/GPIO5" pad="73"/>
+<connect gate="G$1" pin="PCM_SYNC/GPIO2" pad="75"/>
+<connect gate="G$1" pin="PWR_ON" pad="3"/>
+<connect gate="G$1" pin="RESERVED" pad="15 16"/>
+<connect gate="G$1" pin="RESET" pad="4"/>
+<connect gate="G$1" pin="RI" pad="69"/>
+<connect gate="G$1" pin="RTS" pad="66"/>
+<connect gate="G$1" pin="RXD" pad="68"/>
+<connect gate="G$1" pin="SPI_CLK" pad="6"/>
+<connect gate="G$1" pin="SPI_CS_N" pad="9"/>
+<connect gate="G$1" pin="SPI_MISO_DATA" pad="7"/>
+<connect gate="G$1" pin="SPI_MOSI_DATA" pad="8"/>
+<connect gate="G$1" pin="SPK_N" pad="21"/>
+<connect gate="G$1" pin="SPK_P" pad="22"/>
+<connect gate="G$1" pin="TXD" pad="71"/>
+<connect gate="G$1" pin="USB_DN" pad="12"/>
+<connect gate="G$1" pin="USB_DP" pad="13"/>
+<connect gate="G$1" pin="USB_VBUS" pad="11"/>
+<connect gate="G$1" pin="USIM_CLK" pad="19"/>
+<connect gate="G$1" pin="USIM_DATA" pad="17"/>
+<connect gate="G$1" pin="USIM_RST" pad="18"/>
+<connect gate="G$1" pin="VBAT_BB" pad="38 39"/>
+<connect gate="G$1" pin="VBAT_RF" pad="62 63"/>
+<connect gate="G$1" pin="VREG_AUX" pad="44"/>
+<connect gate="G$1" pin="VRTC" pad="42"/>
+<connect gate="G$1" pin="V_USIM" pad="20."/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
