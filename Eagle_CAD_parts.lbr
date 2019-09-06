@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="17" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -26786,14 +26786,46 @@
 <text x="-10.16" y="-7.62" size="1.778" layer="95">&gt;VALUE</text>
 </symbol>
 <symbol name="BT_50_SYM">
-<wire x1="-17.78" y1="17.78" x2="15.24" y2="17.78" width="0.254" layer="94"/>
-<wire x1="15.24" y1="17.78" x2="15.24" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-17.78" x2="-17.78" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="-17.78" x2="-17.78" y2="17.78" width="0.254" layer="94"/>
-<pin name="P$1" x="-27.94" y="15.24" length="middle"/>
-<pin name="P$2" x="-25.4" y="-15.24" length="middle"/>
-<pin name="P$3" x="25.4" y="12.7" length="middle" rot="R180"/>
-<pin name="P$4" x="25.4" y="7.62" length="middle" rot="R180"/>
+<wire x1="-38.1" y1="22.86" x2="15.24" y2="22.86" width="0.254" layer="94"/>
+<wire x1="15.24" y1="22.86" x2="15.24" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-20.32" x2="-38.1" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-38.1" y1="-20.32" x2="-38.1" y2="22.86" width="0.254" layer="94"/>
+<pin name="GND" x="7.62" y="-25.4" length="middle" rot="R90"/>
+<pin name="P0.24/SPI_MISO" x="5.08" y="-25.4" length="middle" rot="R90"/>
+<pin name="P0.23/SPI_MOSI" x="2.54" y="-25.4" length="middle" rot="R90"/>
+<pin name="P0.22" x="0" y="-25.4" length="middle" rot="R90"/>
+<pin name="SWDIO" x="-2.54" y="-25.4" length="middle" rot="R90"/>
+<pin name="SWDCLK" x="-5.08" y="-25.4" length="middle" rot="R90"/>
+<pin name="!RESET!/P0.21" x="-7.62" y="-25.4" length="middle" rot="R90"/>
+<pin name="P0.20" x="-10.16" y="-25.4" length="middle" rot="R90"/>
+<pin name="P0.18" x="-12.7" y="-25.4" length="middle" rot="R90"/>
+<pin name="P0.16" x="-15.24" y="-25.4" length="middle" rot="R90"/>
+<pin name="P0.14" x="-17.78" y="-25.4" length="middle" rot="R90"/>
+<pin name="P0.12" x="-20.32" y="-25.4" length="middle" rot="R90"/>
+<pin name="P0.11" x="-22.86" y="-25.4" length="middle" rot="R90"/>
+<pin name="P0.10" x="-25.4" y="-25.4" length="middle" rot="R90"/>
+<pin name="P0.09" x="-27.94" y="-25.4" length="middle" rot="R90"/>
+<pin name="P0.08/UART_RX" x="-43.18" y="-10.16" length="middle"/>
+<pin name="P0.07/UART_CTS" x="-43.18" y="-7.62" length="middle"/>
+<pin name="P0.06/UART_TX" x="-43.18" y="-5.08" length="middle"/>
+<pin name="P0.05/UART_RTS/AIN3" x="-43.18" y="-2.54" length="middle"/>
+<pin name="P0.04/AIN2" x="-43.18" y="0" length="middle"/>
+<pin name="P0.03/AIN1" x="-43.18" y="2.54" length="middle"/>
+<pin name="P0.02/AIN0" x="-43.18" y="5.08" length="middle"/>
+<pin name="P0.01/XL2" x="-43.18" y="7.62" length="middle"/>
+<pin name="P0.00/XL1" x="-43.18" y="10.16" length="middle"/>
+<pin name="VDD_NRF" x="-43.18" y="12.7" length="middle"/>
+<pin name="P0.13" x="-22.86" y="27.94" length="middle" rot="R270"/>
+<pin name="P0.15" x="-20.32" y="27.94" length="middle" rot="R270"/>
+<pin name="P0.17" x="-17.78" y="27.94" length="middle" rot="R270"/>
+<pin name="P0.19" x="-15.24" y="27.94" length="middle" rot="R270"/>
+<pin name="P0.31/AIN7" x="-12.7" y="27.94" length="middle" rot="R270"/>
+<pin name="P0.30/AIN6" x="-10.16" y="27.94" length="middle" rot="R270"/>
+<pin name="P0.29/AIN5" x="-7.62" y="27.94" length="middle" rot="R270"/>
+<pin name="P0.28/AIN4" x="-5.08" y="27.94" length="middle" rot="R270"/>
+<pin name="P0.27/I2C_SCL" x="-2.54" y="27.94" length="middle" rot="R270"/>
+<pin name="P0.26/I2C_SDA" x="0" y="27.94" length="middle" rot="R270"/>
+<pin name="P0.25/SPI_CLK" x="2.54" y="27.94" length="middle" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
