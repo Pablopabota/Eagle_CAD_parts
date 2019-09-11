@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="17" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -26822,6 +26822,41 @@
 <pin name="P0.26/I2C_SDA" x="0" y="27.94" length="middle" rot="R270"/>
 <pin name="P0.25/SPI_CLK" x="2.54" y="27.94" length="middle" rot="R270"/>
 </symbol>
+<symbol name="PIC16F15355_SYM">
+<wire x1="-12.7" y1="22.86" x2="12.7" y2="22.86" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="22.86" x2="-12.7" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-25.4" x2="12.7" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-25.4" x2="12.7" y2="22.86" width="0.254" layer="94"/>
+<pin name="RE3/!MCLCR!/VPP" x="-17.78" y="20.32" length="middle"/>
+<pin name="RB7/ICSPDAT" x="-17.78" y="17.78" length="middle"/>
+<pin name="RB6/ICSPCLK" x="-17.78" y="15.24" length="middle"/>
+<pin name="VDD" x="-17.78" y="10.16" length="middle"/>
+<pin name="VSS" x="-17.78" y="-2.54" length="middle"/>
+<pin name="RB0" x="-17.78" y="-10.16" length="middle"/>
+<pin name="RB1" x="-17.78" y="-12.7" length="middle"/>
+<pin name="RB2" x="-17.78" y="-15.24" length="middle"/>
+<pin name="RB3" x="-17.78" y="-17.78" length="middle"/>
+<pin name="RB4" x="-17.78" y="-20.32" length="middle"/>
+<pin name="RB5" x="-17.78" y="-22.86" length="middle"/>
+<pin name="RA0" x="17.78" y="20.32" length="middle" rot="R180"/>
+<pin name="RC0" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="RA1" x="17.78" y="17.78" length="middle" rot="R180"/>
+<pin name="RA2" x="17.78" y="15.24" length="middle" rot="R180"/>
+<pin name="RA3" x="17.78" y="12.7" length="middle" rot="R180"/>
+<pin name="RA4" x="17.78" y="10.16" length="middle" rot="R180"/>
+<pin name="RA5" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="RA6" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="RA7" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="RC1" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="RC2" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="RC3" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="RC4" x="17.78" y="-15.24" length="middle" rot="R180"/>
+<pin name="RC5" x="17.78" y="-17.78" length="middle" rot="R180"/>
+<pin name="RC6" x="17.78" y="-20.32" length="middle" rot="R180"/>
+<pin name="RC7" x="17.78" y="-22.86" length="middle" rot="R180"/>
+<text x="-10.16" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="2.54" size="1.778" layer="95">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LA6681MC-SMD">
@@ -29715,6 +29750,47 @@ portable devices</description>
 <connect gate="G$1" pin="VREG_AUX" pad="44"/>
 <connect gate="G$1" pin="VRTC" pad="42"/>
 <connect gate="G$1" pin="V_USIM" pad="20."/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PIC16F15355">
+<gates>
+<gate name="U" symbol="PIC16F15355_SYM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_28QFN" package="28-QFN">
+<connects>
+<connect gate="U" pin="RA0" pad="27"/>
+<connect gate="U" pin="RA1" pad="28"/>
+<connect gate="U" pin="RA2" pad="1"/>
+<connect gate="U" pin="RA3" pad="2"/>
+<connect gate="U" pin="RA4" pad="3"/>
+<connect gate="U" pin="RA5" pad="4"/>
+<connect gate="U" pin="RA6" pad="7"/>
+<connect gate="U" pin="RA7" pad="6"/>
+<connect gate="U" pin="RB0" pad="18"/>
+<connect gate="U" pin="RB1" pad="19"/>
+<connect gate="U" pin="RB2" pad="20"/>
+<connect gate="U" pin="RB3" pad="21"/>
+<connect gate="U" pin="RB4" pad="22"/>
+<connect gate="U" pin="RB5" pad="23"/>
+<connect gate="U" pin="RB6/ICSPCLK" pad="24"/>
+<connect gate="U" pin="RB7/ICSPDAT" pad="25"/>
+<connect gate="U" pin="RC0" pad="8"/>
+<connect gate="U" pin="RC1" pad="9"/>
+<connect gate="U" pin="RC2" pad="10"/>
+<connect gate="U" pin="RC3" pad="11"/>
+<connect gate="U" pin="RC4" pad="12"/>
+<connect gate="U" pin="RC5" pad="13"/>
+<connect gate="U" pin="RC6" pad="14"/>
+<connect gate="U" pin="RC7" pad="15"/>
+<connect gate="U" pin="RE3/!MCLCR!/VPP" pad="26"/>
+<connect gate="U" pin="VDD" pad="17"/>
+<connect gate="U" pin="VSS" pad="5 16 29"/>
 </connects>
 <technologies>
 <technology name=""/>
