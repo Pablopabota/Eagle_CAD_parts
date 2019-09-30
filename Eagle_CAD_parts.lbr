@@ -29917,7 +29917,32 @@ portable devices</description>
 <connect gate="G$2" pin="S" pad="3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DIGIKEY_NO" value="SI5902BDC-T1-E3CT-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NP_MOS_2CH">
+<gates>
+<gate name="G$1" symbol="N_MOS" x="-5.08" y="0"/>
+<gate name="G$2" symbol="P_MOS" x="12.7" y="0"/>
+</gates>
+<devices>
+<device name="_SI5515CDC" package="1206-8_CHIP_FET">
+<connects>
+<connect gate="G$1" pin="D" pad="7 8"/>
+<connect gate="G$1" pin="G" pad="2"/>
+<connect gate="G$1" pin="S" pad="1"/>
+<connect gate="G$2" pin="D" pad="5 6"/>
+<connect gate="G$2" pin="G" pad="4"/>
+<connect gate="G$2" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_NO" value="SI5515CDC-T1-E3CT-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
