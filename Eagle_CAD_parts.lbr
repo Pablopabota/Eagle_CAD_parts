@@ -32,12 +32,12 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -8889,6 +8889,92 @@
 <smd name="26" x="-0.64" y="2.85" dx="1" dy="0.37" layer="1" roundness="50" rot="R270"/>
 <smd name="27" x="-1.29" y="2.85" dx="1" dy="0.37" layer="1" roundness="50" rot="R270"/>
 <smd name="28" x="-1.94" y="2.85" dx="1" dy="0.37" layer="1" roundness="50" rot="R270"/>
+</package>
+<package name="SH_SERIE_1MM_VERT">
+<wire x1="-1.873" y1="1.473" x2="-1.873" y2="-1.427" width="0.254" layer="51"/>
+<wire x1="-1.873" y1="-1.427" x2="1.873" y2="-1.427" width="0.254" layer="51"/>
+<wire x1="1.873" y1="-1.427" x2="1.873" y2="1.473" width="0.254" layer="51"/>
+<wire x1="1.873" y1="1.473" x2="-1.873" y2="1.473" width="0.254" layer="51"/>
+<wire x1="-1.873" y1="-0.5" x2="-1.873" y2="-1.427" width="0.254" layer="21"/>
+<wire x1="-1.873" y1="-1.427" x2="-1.5" y2="-1.427" width="0.254" layer="21"/>
+<wire x1="1.873" y1="-0.5" x2="1.873" y2="-1.427" width="0.254" layer="21"/>
+<wire x1="1.873" y1="-1.427" x2="1.5" y2="-1.427" width="0.254" layer="21"/>
+<wire x1="-0.5" y1="1.473" x2="0.5" y2="1.473" width="0.254" layer="21"/>
+<smd name="2" x="0.5" y="-1.625" dx="0.6" dy="1.55" layer="1"/>
+<smd name="1" x="-0.5" y="-1.625" dx="0.6" dy="1.55" layer="1"/>
+<smd name="FIT@1" x="1.8" y="0.9" dx="1.2" dy="1.8" layer="1"/>
+<smd name="FIT@2" x="-1.8" y="0.9" dx="1.2" dy="1.8" layer="1"/>
+<text x="-4.445" y="1.905" size="1.016" layer="25" ratio="18" rot="R270">&gt;NAME</text>
+<text x="3.175" y="1.905" size="0.8128" layer="27" ratio="10" rot="R270">&gt;VALUE</text>
+<polygon width="0.2032" layer="51">
+<vertex x="-1.5" y="-0.5"/>
+<vertex x="-1" y="-0.5"/>
+<vertex x="-1.25" y="-1"/>
+</polygon>
+</package>
+<package name="SH_SERIE_1MM_HORZ">
+<text x="-4.445" y="1.905" size="1.016" layer="25" ratio="18" rot="R270">&gt;NAME</text>
+<text x="3.175" y="1.905" size="0.8128" layer="27" ratio="10" rot="R270">&gt;VALUE</text>
+<wire x1="-1.873" y1="-1.473" x2="-1.873" y2="2.523" width="0.254" layer="51"/>
+<wire x1="-1.873" y1="2.523" x2="1.873" y2="2.523" width="0.254" layer="51"/>
+<wire x1="1.873" y1="2.523" x2="1.873" y2="-1.473" width="0.254" layer="51"/>
+<wire x1="1.873" y1="-1.473" x2="-1.873" y2="-1.473" width="0.254" layer="51"/>
+<wire x1="-1.873" y1="0.5" x2="-1.873" y2="2.523" width="0.254" layer="21"/>
+<wire x1="-1.873" y1="2.523" x2="-1.5" y2="2.523" width="0.254" layer="21"/>
+<wire x1="1.873" y1="0.5" x2="1.873" y2="2.523" width="0.254" layer="21"/>
+<wire x1="1.873" y1="2.523" x2="1.5" y2="2.523" width="0.254" layer="21"/>
+<wire x1="-0.5" y1="-1.473" x2="0.5" y2="-1.473" width="0.254" layer="21"/>
+<smd name="1" x="-0.5" y="2.975" dx="0.6" dy="1.55" layer="1"/>
+<smd name="2" x="0.5" y="2.975" dx="0.6" dy="1.55" layer="1"/>
+<smd name="FIT@1" x="-1.8" y="-0.9" dx="1.2" dy="1.8" layer="1"/>
+<smd name="FIT@2" x="1.8" y="-0.9" dx="1.2" dy="1.8" layer="1"/>
+</package>
+<package name="WR-MPC3_2POS_SMD">
+<smd name="2" x="0" y="4.7" dx="1.32" dy="2.59" layer="1"/>
+<smd name="1" x="0" y="-4.7" dx="1.32" dy="2.59" layer="1" rot="R180"/>
+<smd name="SJ1" x="-3.895" y="0" dx="3.43" dy="1.65" layer="1" rot="R180"/>
+<smd name="SJ2" x="3.895" y="0" dx="3.43" dy="1.65" layer="1"/>
+<wire x1="-0.1" y1="1.6" x2="0.1" y2="1.6" width="0.127" layer="21"/>
+<wire x1="0.1" y1="1.6" x2="0.1" y2="1.4" width="0.127" layer="21"/>
+<wire x1="0.1" y1="1.4" x2="-0.1" y2="1.4" width="0.127" layer="21"/>
+<wire x1="-0.1" y1="1.4" x2="-0.1" y2="1.6" width="0.127" layer="21"/>
+<wire x1="-0.1" y1="-1.4" x2="0.1" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="0.1" y1="-1.4" x2="0.1" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="0.1" y1="-1.6" x2="-0.1" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-0.1" y1="-1.6" x2="-0.1" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="3.35" y1="3.43" x2="1.2" y2="3.43" width="0.127" layer="21"/>
+<wire x1="-1.2" y1="3.43" x2="-3.35" y2="3.43" width="0.127" layer="21"/>
+<wire x1="-3.35" y1="3.43" x2="-3.35" y2="-3.43" width="0.127" layer="21"/>
+<wire x1="-3.35" y1="-3.43" x2="3.35" y2="-3.43" width="0.127" layer="21"/>
+<wire x1="3.35" y1="-3.43" x2="3.35" y2="3.43" width="0.127" layer="21"/>
+<wire x1="-1.2" y1="3.43" x2="-1.2" y2="4.83" width="0.127" layer="21"/>
+<wire x1="-1.2" y1="4.83" x2="1.2" y2="4.83" width="0.127" layer="21"/>
+<wire x1="1.2" y1="4.83" x2="1.2" y2="3.43" width="0.127" layer="21"/>
+<wire x1="1.2" y1="3.43" x2="-1.2" y2="3.43" width="0.127" layer="21"/>
+<wire x1="-1.2" y1="0.5" x2="-1.2" y2="2.75" width="0.127" layer="21"/>
+<wire x1="-1.2" y1="2.75" x2="1.2" y2="2.75" width="0.127" layer="21"/>
+<wire x1="1.2" y1="2.75" x2="1.2" y2="0.5" width="0.127" layer="21"/>
+<wire x1="1.2" y1="0.5" x2="-1.2" y2="0.5" width="0.127" layer="21"/>
+<wire x1="-1.2" y1="-0.5" x2="-1.2" y2="-2.75" width="0.127" layer="21"/>
+<wire x1="-1.2" y1="-2.75" x2="1.2" y2="-2.75" width="0.127" layer="21"/>
+<wire x1="1.2" y1="-2.75" x2="1.2" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="1.2" y1="-0.5" x2="-1.2" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="1.2" x2="-2.2" y2="3.1" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="3.1" x2="-2.6" y2="3.1" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="3.1" x2="-2.6" y2="1.2" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="1.2" x2="-2.2" y2="1.2" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="-1.2" x2="-2.2" y2="-3.1" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="-3.1" x2="-2.6" y2="-3.1" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="-3.1" x2="-2.6" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="-1.2" x2="-2.2" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="2.2" y1="1.2" x2="2.2" y2="3.1" width="0.127" layer="21"/>
+<wire x1="2.2" y1="3.1" x2="2.6" y2="3.1" width="0.127" layer="21"/>
+<wire x1="2.6" y1="3.1" x2="2.6" y2="1.2" width="0.127" layer="21"/>
+<wire x1="2.6" y1="1.2" x2="2.2" y2="1.2" width="0.127" layer="21"/>
+<wire x1="2.2" y1="-1.2" x2="2.2" y2="-3.1" width="0.127" layer="21"/>
+<wire x1="2.2" y1="-3.1" x2="2.6" y2="-3.1" width="0.127" layer="21"/>
+<wire x1="2.6" y1="-3.1" x2="2.6" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="2.6" y1="-1.2" x2="2.2" y2="-1.2" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -27023,6 +27109,22 @@
 <text x="-10.16" y="5.08" size="1.778" layer="95">&gt;NAME</text>
 <text x="-5.08" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="PINES_2_JST">
+<wire x1="3.81" y1="1.27" x2="2.54" y2="1.27" width="0.6096" layer="94"/>
+<text x="6.35" y="1.778" size="1.524" layer="95">&gt;NAME</text>
+<text x="3.048" y="3.937" size="1.524" layer="96">&gt;VALUE</text>
+<pin name="1" x="-1.27" y="1.27" visible="off" length="short" direction="pas"/>
+<wire x1="3.81" y1="-1.27" x2="2.54" y2="-1.27" width="0.6096" layer="94"/>
+<pin name="2" x="-1.27" y="-1.27" visible="off" length="short" direction="pas"/>
+<wire x1="1.27" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="1.27" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="1.27" y2="1.27" width="0.1524" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LA6681MC-SMD">
@@ -30132,6 +30234,69 @@ portable devices</description>
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_NO" value="SI5515CDC-T1-E3CT-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JST_SH/SR_CONN_2POS">
+<description>CONN HEADER SMD 2POS 1MM</description>
+<gates>
+<gate name="G$1" symbol="PINES_2_JST" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_VERT" package="SH_SERIE_1MM_VERT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="455-1788-1-ND " constant="no"/>
+<attribute name="I" value="0.7 A" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="BM02B-SRSS-TB(LF)(SN)" constant="no"/>
+<attribute name="V" value="50 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_HORZ" package="SH_SERIE_1MM_HORZ">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="455-1802-1-ND " constant="no"/>
+<attribute name="I" value="0.7 A" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SM02B-SRSS-TB(LF)(SN)" constant="no"/>
+<attribute name="V" value="50 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WR_MPC3" prefix="H">
+<description>CONN HEADER SMD 2POS
+
+Coupleing part:
+Manufacturer Nº: 662002113322
+Digikey Nº: 732-1958-ND</description>
+<gates>
+<gate name="G$1" symbol="PINES_2_JST" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SMD" package="WR-MPC3_2POS_SMD">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="732-4897-ND" constant="no"/>
+<attribute name="HEIGHT" value="9.90 mm" constant="no"/>
+<attribute name="I" value="5 A" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="662002231822" constant="no"/>
+<attribute name="V" value="250 V" constant="no"/>
 </technology>
 </technologies>
 </device>
