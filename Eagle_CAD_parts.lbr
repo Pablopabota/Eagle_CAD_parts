@@ -54,7 +54,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -8975,6 +8975,52 @@
 <wire x1="2.2" y1="-3.1" x2="2.6" y2="-3.1" width="0.127" layer="21"/>
 <wire x1="2.6" y1="-3.1" x2="2.6" y2="-1.2" width="0.127" layer="21"/>
 <wire x1="2.6" y1="-1.2" x2="2.2" y2="-1.2" width="0.127" layer="21"/>
+</package>
+<package name="PA_SERIE_2MM_HORZ">
+<smd name="G1" x="3.35" y="3.25" dx="1.8" dy="3.8" layer="1"/>
+<smd name="G2" x="-3.35" y="3.25" dx="1.8" dy="3.8" layer="1"/>
+<smd name="2" x="-1" y="0.15" dx="1" dy="2.7" layer="1"/>
+<smd name="1" x="1" y="0.15" dx="1" dy="2.7" layer="1"/>
+<wire x1="-4" y1="-0.1" x2="4" y2="-0.1" width="0.127" layer="21"/>
+<wire x1="4" y1="-0.1" x2="4" y2="7.95" width="0.127" layer="21"/>
+<wire x1="4" y1="7.95" x2="1" y2="7.95" width="0.127" layer="21"/>
+<wire x1="-1" y1="7.95" x2="-4" y2="7.95" width="0.127" layer="21"/>
+<wire x1="-4" y1="7.95" x2="-4" y2="-0.1" width="0.127" layer="21"/>
+<wire x1="-1" y1="6.7" x2="1" y2="6.7" width="0.127" layer="21"/>
+<wire x1="1" y1="6.7" x2="1" y2="7.95" width="0.127" layer="21"/>
+<wire x1="-1" y1="6.7" x2="-1" y2="7.95" width="0.127" layer="21"/>
+</package>
+<package name="SC70-6L_DUAL">
+<wire x1="-1.25" y1="1.25" x2="1.25" y2="1.25" width="0.127" layer="21"/>
+<wire x1="1.25" y1="1.25" x2="1.25" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="1.25" y1="-1.25" x2="-1.25" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-1.25" y1="-1.25" x2="-1.25" y2="1.25" width="0.127" layer="21"/>
+<smd name="1" x="-0.65" y="-0.9" dx="0.3" dy="0.325" layer="1"/>
+<smd name="2" x="0" y="-0.9" dx="0.3" dy="0.325" layer="1"/>
+<smd name="3" x="0.65" y="-0.9" dx="0.3" dy="0.325" layer="1"/>
+<smd name="4" x="0.65" y="0.9" dx="0.3" dy="0.325" layer="1" rot="R180"/>
+<smd name="5" x="0" y="0.9" dx="0.3" dy="0.325" layer="1" rot="R180"/>
+<smd name="6" x="-0.65" y="0.9" dx="0.3" dy="0.325" layer="1" rot="R180"/>
+<smd name="7" x="-0.4665" y="0" dx="0.613" dy="0.95" layer="1" rot="R180"/>
+<smd name="8" x="0.4665" y="0" dx="0.613" dy="0.95" layer="1" rot="R180"/>
+<circle x="-0.81" y="-0.81" radius="0.058309375" width="0.3048" layer="21"/>
+</package>
+<package name="POWERPAK_CHIPFET_DUAL">
+<wire x1="-1.35" y1="0.95" x2="1.35" y2="0.95" width="0.127" layer="21"/>
+<wire x1="1.35" y1="0.95" x2="1.35" y2="-0.95" width="0.127" layer="21"/>
+<wire x1="1.35" y1="-0.95" x2="-1.35" y2="-0.95" width="0.127" layer="21"/>
+<wire x1="-1.35" y1="-0.95" x2="-1.35" y2="0.95" width="0.127" layer="21"/>
+<circle x="-1.0005" y="-0.601" radius="0.063515625" width="0.127" layer="21"/>
+<smd name="9" x="-0.7625" y="0.23" dx="1.175" dy="1.05" layer="1"/>
+<smd name="10" x="0.7625" y="0.23" dx="1.175" dy="1.05" layer="1"/>
+<smd name="1" x="-0.98" y="-0.775" dx="0.3" dy="0.35" layer="1" rot="R180"/>
+<smd name="2" x="-0.33" y="-0.775" dx="0.3" dy="0.35" layer="1" rot="R180"/>
+<smd name="3" x="0.33" y="-0.775" dx="0.3" dy="0.35" layer="1" rot="R180"/>
+<smd name="4" x="0.98" y="-0.775" dx="0.3" dy="0.35" layer="1" rot="R180"/>
+<smd name="5" x="0.98" y="0.775" dx="0.3" dy="0.35" layer="1" rot="R180"/>
+<smd name="6" x="0.33" y="0.775" dx="0.3" dy="0.35" layer="1" rot="R180"/>
+<smd name="7" x="-0.33" y="0.775" dx="0.3" dy="0.35" layer="1" rot="R180"/>
+<smd name="8" x="-0.98" y="0.775" dx="0.3" dy="0.35" layer="1" rot="R180"/>
 </package>
 </packages>
 <symbols>
@@ -30214,6 +30260,38 @@ portable devices</description>
 </technology>
 </technologies>
 </device>
+<device name="_SIA928DJ" package="SC70-6L_DUAL">
+<connects>
+<connect gate="G$1" pin="D" pad="6 7"/>
+<connect gate="G$1" pin="G" pad="2"/>
+<connect gate="G$1" pin="S" pad="1"/>
+<connect gate="G$2" pin="D" pad="3 8"/>
+<connect gate="G$2" pin="G" pad="5"/>
+<connect gate="G$2" pin="S" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="SIA928DJ-T1-GE3CT-ND" constant="no"/>
+<attribute name="ID" value="4.5 A" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SIA928DJ-T1-GE3" constant="no"/>
+<attribute name="P_MAX" value="7.8 W" constant="no"/>
+<attribute name="VDSS" value="30 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SI5922DU" package="POWERPAK_CHIPFET_DUAL">
+<connects>
+<connect gate="G$1" pin="D" pad="7 8 9"/>
+<connect gate="G$1" pin="G" pad="2"/>
+<connect gate="G$1" pin="S" pad="1"/>
+<connect gate="G$2" pin="D" pad="5 6 10"/>
+<connect gate="G$2" pin="G" pad="4"/>
+<connect gate="G$2" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="NP_MOS_2CH">
@@ -30296,6 +30374,28 @@ Digikey Nº: 732-1958-ND</description>
 <attribute name="HEIGHT" value="9.90 mm" constant="no"/>
 <attribute name="I" value="5 A" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="662002231822" constant="no"/>
+<attribute name="V" value="250 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JST_PA_CONN_2POS" prefix="H">
+<description>CONN HEADER SMD R/A 2POS 2MM</description>
+<gates>
+<gate name="G$1" symbol="PINES_2_JST" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_HORZ" package="PA_SERIE_2MM_HORZ">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="455-2650-1-ND" constant="no"/>
+<attribute name="I" value="3 A" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SM02B-PASS-TBT(LF)(SN)" constant="no"/>
 <attribute name="V" value="250 V" constant="no"/>
 </technology>
 </technologies>
