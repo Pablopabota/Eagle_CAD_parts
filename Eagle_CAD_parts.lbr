@@ -28679,6 +28679,63 @@ portable devices</description>
 </technology>
 </technologies>
 </device>
+<device name="_JST_SH/SR_HORZ" package="SH_SERIE_1MM_HORZ">
+<connects>
+<connect gate="A" pin="S" pad="1"/>
+<connect gate="B" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="455-1802-1-ND " constant="no"/>
+<attribute name="I" value="0.7 A" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SM02B-SRSS-TB(LF)(SN)" constant="no"/>
+<attribute name="V" value="50 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_JST_SH/SR_VERT" package="SH_SERIE_1MM_VERT">
+<connects>
+<connect gate="A" pin="S" pad="1"/>
+<connect gate="B" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="455-1788-1-ND " constant="no"/>
+<attribute name="I" value="0.7 A" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="BM02B-SRSS-TB(LF)(SN)" constant="no"/>
+<attribute name="V" value="50 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_JST_PA_2MM_HORZ" package="PA_SERIE_2MM_HORZ">
+<connects>
+<connect gate="A" pin="S" pad="1"/>
+<connect gate="B" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="455-2650-1-ND" constant="no"/>
+<attribute name="I" value="3 A" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SM02B-PASS-TBT(LF)(SN)" constant="no"/>
+<attribute name="V" value="250 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_WR_MPC3_SMD" package="WR-MPC3_2POS_SMD">
+<connects>
+<connect gate="A" pin="S" pad="1"/>
+<connect gate="B" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="732-4897-ND" constant="no"/>
+<attribute name="HEIGHT" value="9.90 mm" constant="no"/>
+<attribute name="I" value="5 A" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="662002231822" constant="no"/>
+<attribute name="V" value="250 V" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="P_MOS">
@@ -30373,91 +30430,6 @@ portable devices</description>
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_NO" value="SI5515CDC-T1-E3CT-ND" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="JST_SH/SR_CONN_2POS">
-<description>CONN HEADER SMD 2POS 1MM</description>
-<gates>
-<gate name="G$1" symbol="PINES_2_JST" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_VERT" package="SH_SERIE_1MM_VERT">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY_PART_NUMBER" value="455-1788-1-ND " constant="no"/>
-<attribute name="I" value="0.7 A" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="BM02B-SRSS-TB(LF)(SN)" constant="no"/>
-<attribute name="V" value="50 V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_HORZ" package="SH_SERIE_1MM_HORZ">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY_PART_NUMBER" value="455-1802-1-ND " constant="no"/>
-<attribute name="I" value="0.7 A" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SM02B-SRSS-TB(LF)(SN)" constant="no"/>
-<attribute name="V" value="50 V" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="WR_MPC3" prefix="H">
-<description>CONN HEADER SMD 2POS
-
-Coupleing part:
-Manufacturer Nº: 662002113322
-Digikey Nº: 732-1958-ND</description>
-<gates>
-<gate name="G$1" symbol="PINES_2_JST" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_SMD" package="WR-MPC3_2POS_SMD">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY_PART_NUMBER" value="732-4897-ND" constant="no"/>
-<attribute name="HEIGHT" value="9.90 mm" constant="no"/>
-<attribute name="I" value="5 A" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="662002231822" constant="no"/>
-<attribute name="V" value="250 V" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="JST_PA_CONN_2POS" prefix="H">
-<description>CONN HEADER SMD R/A 2POS 2MM</description>
-<gates>
-<gate name="G$1" symbol="PINES_2_JST" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_HORZ" package="PA_SERIE_2MM_HORZ">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY_PART_NUMBER" value="455-2650-1-ND" constant="no"/>
-<attribute name="I" value="3 A" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SM02B-PASS-TBT(LF)(SN)" constant="no"/>
-<attribute name="V" value="250 V" constant="no"/>
 </technology>
 </technologies>
 </device>
