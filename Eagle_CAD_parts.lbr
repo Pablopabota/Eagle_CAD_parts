@@ -939,14 +939,14 @@
 <wire x1="-13.97" y1="15.24" x2="-13.97" y2="-20.32" width="0.127" layer="21"/>
 </package>
 <package name="8-TSSOP">
-<smd name="P$1" x="-2.8" y="0.95" dx="1.5" dy="0.45" layer="1"/>
-<smd name="P$2" x="-2.8" y="0.3" dx="1.5" dy="0.45" layer="1"/>
-<smd name="P$5" x="3" y="0.95" dx="1.5" dy="0.45" layer="1"/>
-<smd name="P$6" x="3" y="0.3" dx="1.5" dy="0.45" layer="1"/>
-<smd name="P$7" x="3" y="-1" dx="1.5" dy="0.45" layer="1"/>
-<smd name="P$8" x="3" y="-0.35" dx="1.5" dy="0.45" layer="1"/>
-<smd name="P$3" x="-2.8" y="-0.35" dx="1.5" dy="0.45" layer="1"/>
-<smd name="P$4" x="-2.8" y="-1" dx="1.5" dy="0.45" layer="1"/>
+<smd name="1" x="-2.8" y="0.95" dx="1.5" dy="0.45" layer="1"/>
+<smd name="2" x="-2.8" y="0.3" dx="1.5" dy="0.45" layer="1"/>
+<smd name="8" x="3" y="0.95" dx="1.5" dy="0.45" layer="1"/>
+<smd name="7" x="3" y="0.3" dx="1.5" dy="0.45" layer="1"/>
+<smd name="5" x="3" y="-1" dx="1.5" dy="0.45" layer="1"/>
+<smd name="6" x="3" y="-0.35" dx="1.5" dy="0.45" layer="1"/>
+<smd name="3" x="-2.8" y="-0.35" dx="1.5" dy="0.45" layer="1"/>
+<smd name="4" x="-2.8" y="-1" dx="1.5" dy="0.45" layer="1"/>
 <wire x1="-2.05" y1="-1.44" x2="2.25" y2="-1.44" width="0.2032" layer="21"/>
 <wire x1="2.25" y1="-1.44" x2="2.25" y2="1.36" width="0.2032" layer="21"/>
 <wire x1="2.25" y1="1.36" x2="-2.05" y2="1.36" width="0.2032" layer="21"/>
@@ -1233,7 +1233,7 @@
 <wire x1="2.12" y1="1.3" x2="-2.12" y2="1.3" width="0.127" layer="21"/>
 <rectangle x1="-1.51" y1="-1.33" x2="-1.25" y2="1.31" layer="21"/>
 </package>
-<package name="CAP_PANA_SMD_D8">
+<package name="PANASONIC_FK_SERIE">
 <wire x1="-3.3" y1="-3.31" x2="1.55" y2="-3.31" width="0.127" layer="21"/>
 <wire x1="1.55" y1="3.3" x2="-3.3" y2="3.3" width="0.127" layer="21"/>
 <wire x1="-3.3" y1="3.3" x2="-3.3" y2="-3.3" width="0.127" layer="21"/>
@@ -1245,7 +1245,7 @@
 <wire x1="3.3" y1="1.55" x2="1.55" y2="3.3" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="2.717075" width="0.127" layer="21"/>
 </package>
-<package name="KEMET_A7000_SERIE_V_SIZE">
+<package name="KEMET_A7000_V">
 <wire x1="-3.65" y1="-2.15" x2="3.65" y2="-2.15" width="0.127" layer="21"/>
 <wire x1="3.65" y1="-2.15" x2="3.65" y2="2.15" width="0.127" layer="21"/>
 <wire x1="3.65" y1="2.15" x2="-3.65" y2="2.15" width="0.127" layer="21"/>
@@ -1259,7 +1259,7 @@
 <wire x1="1.51" y1="0.25" x2="0.51" y2="1" width="0.127" layer="21"/>
 <wire x1="0.51" y1="1" x2="-1.5" y2="1" width="0.127" layer="21"/>
 </package>
-<package name="PANASONIC_CX">
+<package name="PANASONIC_CX_SERIE">
 <wire x1="-3.65" y1="-2.15" x2="3.65" y2="-2.15" width="0.127" layer="21"/>
 <wire x1="3.65" y1="-2.15" x2="3.65" y2="2.15" width="0.127" layer="21"/>
 <wire x1="3.65" y1="2.15" x2="-3.65" y2="2.15" width="0.127" layer="21"/>
@@ -9654,6 +9654,22 @@
 <wire x1="1.5494" y1="1.5494" x2="-1.5494" y2="1.5494" width="0.1524" layer="51"/>
 <wire x1="-1.5494" y1="1.5494" x2="-1.5494" y2="-1.5494" width="0.1524" layer="51"/>
 <circle x="-1.016" y="1.016" radius="0.127" width="0.254" layer="21"/>
+</package>
+<package name="KEMET_T491_C">
+<smd name="A+" x="-2.725" y="0" dx="2.37" dy="2.23" layer="1"/>
+<smd name="C-" x="2.725" y="0" dx="2.37" dy="2.23" layer="1"/>
+<wire x1="-3.15" y1="2" x2="3.15" y2="2" width="0.127" layer="21"/>
+<wire x1="3.15" y1="2" x2="3.15" y2="-2" width="0.127" layer="21"/>
+<wire x1="3.15" y1="-2" x2="-3.15" y2="-2" width="0.127" layer="21"/>
+<wire x1="-3.15" y1="-2" x2="-3.15" y2="2" width="0.127" layer="21"/>
+<wire x1="-1.29" y1="0" x2="-0.3" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.3" y1="0" x2="-0.3" y2="0.7" width="0.127" layer="21"/>
+<wire x1="-0.3" y1="0" x2="-0.3" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="1.29" y1="0" x2="0.3" y2="0" width="0.127" layer="21"/>
+<wire x1="0.3" y1="0" x2="0.3" y2="0.7" width="0.127" layer="21"/>
+<wire x1="0.3" y1="0" x2="0.3" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="-1" y1="-0.3" x2="-1" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="-1.2" y1="-0.5" x2="-0.8" y2="-0.5" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -27943,7 +27959,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="INA333-SMD" prefix="U">
+<deviceset name="INA333" prefix="U">
 <description>0.05ìV/°C max, SINGLE-SUPPLY CMOS OPERATIONAL AMPLIFIERS Zer.-Drift Series</description>
 <gates>
 <gate name="U1" symbol="INA333-OPAMP" x="0" y="0"/>
@@ -27972,7 +27988,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="OPA4348-SMD" prefix="U">
+<deviceset name="OPA4348" prefix="U">
 <description>RAIL-TO-RAIL OPERATIONAL AMPLIFIER</description>
 <gates>
 <gate name="-1" symbol="OPAMP-COMUN" x="-15.24" y="12.7"/>
@@ -28042,13 +28058,13 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="TLV1117-33-SMD" prefix="U">
-<description>V REG, LDO, 3.3V, 0.8A</description>
+<deviceset name="TLV1117" prefix="U">
+<description>IC REG LINEAR SOT223-4</description>
 <gates>
 <gate name="A" symbol="TLV1117-33IDCY" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOT223">
+<device name="_LV33DCYR" package="SOT223">
 <connects>
 <connect gate="A" pin="ADJ/GND" pad="1"/>
 <connect gate="A" pin="INPUT" pad="3"/>
@@ -28057,17 +28073,17 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MPN" value="TLV1117-33IDCY" constant="no"/>
-<attribute name="OC_FARNELL" value="1703385" constant="no"/>
-<attribute name="OC_NEWARK" value="67K8522" constant="no"/>
-<attribute name="PACKAGE" value="SOT-223-3" constant="no"/>
-<attribute name="SUPPLIER" value="TEXAS INSTRUMENTS" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="296-28778-1-ND" constant="no"/>
+<attribute name="I_OUT" value="1 A" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TLV1117LV33DCYR" constant="no"/>
+<attribute name="PACKAGE" value="SOT-223-4" constant="no"/>
+<attribute name="V_OUT" value="3.3 V" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MAX4528-SMD" prefix="U">
+<deviceset name="MAX4528" prefix="U">
 <gates>
 <gate name="G$1" symbol="SWITCH-DPDT" x="-2.54" y="-5.08"/>
 </gates>
@@ -28247,7 +28263,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="AD8232-SMD" prefix="U">
+<deviceset name="AD8232" prefix="U">
 <gates>
 <gate name="A" symbol="AD8232" x="-2.54" y="-2.54"/>
 </gates>
@@ -28325,24 +28341,28 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="TPS2115APW">
+<deviceset name="TPS2115APW" prefix="U">
+<description>IC OR CTRLR SRC SELECT 8TSSOP</description>
 <gates>
 <gate name="G$1" symbol="TPS211XA_SYM" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="8-TSSOP">
+<device name="_8-TSSOP" package="8-TSSOP">
 <connects>
-<connect gate="G$1" pin="D0" pad="P$2"/>
-<connect gate="G$1" pin="D1" pad="P$3"/>
-<connect gate="G$1" pin="GND" pad="P$5"/>
-<connect gate="G$1" pin="ILIM" pad="P$4"/>
-<connect gate="G$1" pin="IN1" pad="P$8"/>
-<connect gate="G$1" pin="IN2" pad="P$6"/>
-<connect gate="G$1" pin="OUT" pad="P$7"/>
-<connect gate="G$1" pin="STAT" pad="P$1"/>
+<connect gate="G$1" pin="D0" pad="2"/>
+<connect gate="G$1" pin="D1" pad="3"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="ILIM" pad="4"/>
+<connect gate="G$1" pin="IN1" pad="8"/>
+<connect gate="G$1" pin="IN2" pad="6"/>
+<connect gate="G$1" pin="OUT" pad="7"/>
+<connect gate="G$1" pin="STAT" pad="1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="296-26918-5-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TPS2115APW" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -28418,11 +28438,12 @@
 </devices>
 </deviceset>
 <deviceset name="MAX5035D">
+<description>IC REG BUCK 5V 1A 8SOIC</description>
 <gates>
 <gate name="G$1" symbol="MAX5035_SYM" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="8-SOIC">
+<device name="_8-SOIC" package="8-SOIC">
 <connects>
 <connect gate="G$1" pin="BST" pad="1"/>
 <connect gate="G$1" pin="FB" pad="4"/>
@@ -28434,12 +28455,15 @@
 <connect gate="G$1" pin="VIN" pad="7"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="MAX5035BUSA+-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MAX5035BUSA+" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LT1308A/B_DEV">
+<deviceset name="LT1308A/B">
 <gates>
 <gate name="G$1" symbol="LT1308" x="0" y="0"/>
 </gates>
@@ -28461,18 +28485,25 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="INDUCTANCIAS">
+<deviceset name="INDUCTANCIAS" prefix="L">
 <gates>
 <gate name="G$1" symbol="INDUCTANCIA_SYM" x="0" y="0"/>
 </gates>
 <devices>
-<device name="ETQP5M□□□YFK/YGK" package="ETQP5M_YFK/YGK">
+<device name="_ETQ-P5M101YGK" package="ETQP5M_YFK/YGK">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DCR" value="333 mOhm" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="P17070CT-ND" constant="no"/>
+<attribute name="I" value="2.1 A" constant="no"/>
+<attribute name="I_SAT" value="3 A" constant="no"/>
+<attribute name="L" value="100 uH" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ETQ-P5M101YGK" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="MURATA_6000B_SERIE" package="INDUCT_6000B_SERIE">
@@ -28582,13 +28613,18 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="D0-221AC" package="DO-221AC">
+<device name="_VSSAF5N50-M3/6A" package="DO-221AC">
 <connects>
 <connect gate="G$1" pin="A" pad="ANO"/>
 <connect gate="G$1" pin="C" pad="CAT"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="VSSAF5N50-M3/6AGICT-ND" constant="no"/>
+<attribute name="I_FWRD" value="3 A" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="VSSAF5N50-M3/6A" constant="no"/>
+<attribute name="V_RVRS" value="50 V" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="SMC" package="SMC">
@@ -28671,25 +28707,38 @@
 <gate name="A" symbol="CAPACITOR_POLAR_SYM" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_SMD_D8" package="CAP_PANA_SMD_D8">
+<device name="_EEE-FK1H470XP" package="PANASONIC_FK_SERIE">
 <connects>
 <connect gate="A" pin="NEG" pad="NEG"/>
 <connect gate="A" pin="POS" pad="POS"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="C" value="47 uF" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="PCE3816CT-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="EEE-FK1H470XP" constant="no"/>
+<attribute name="TOL" value="20%" constant="no"/>
+<attribute name="V" value="50 V" constant="no"/>
+</technology>
 </technologies>
 </device>
-<device name="_KEMET_A7000_V" package="KEMET_A7000_SERIE_V_SIZE">
+<device name="_A700V686M006ATE028" package="KEMET_A7000_V">
 <connects>
 <connect gate="A" pin="NEG" pad="NEG"/>
 <connect gate="A" pin="POS" pad="POS"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="C" value="68 uF" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="399-3053-1-ND" constant="no"/>
+<attribute name="ESR" value="28 mOhm" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="A700V686M006ATE028" constant="no"/>
+<attribute name="TOL" value="20%" constant="no"/>
+<attribute name="V" value="6.3 V" constant="no"/>
+</technology>
 </technologies>
 </device>
-<device name="_PANASONIC_CX" package="PANASONIC_CX">
+<device name="_PANASONIC_CX" package="PANASONIC_CX_SERIE">
 <connects>
 <connect gate="A" pin="NEG" pad="NEG"/>
 <connect gate="A" pin="POS" pad="POS"/>
@@ -28708,6 +28757,22 @@
 <attribute name="C" value="470uF" constant="no"/>
 <attribute name="TOL" value="10%" constant="no"/>
 <attribute name="V" value="6.3V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_T491C686K006AT" package="KEMET_T491_C">
+<connects>
+<connect gate="A" pin="NEG" pad="C-"/>
+<connect gate="A" pin="POS" pad="A+"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="C" value="68 uF" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="399-3764-1-ND" constant="no"/>
+<attribute name="ESR" value="1.2 Ohm" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="T491C686K006AT" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="V" value="6.3 V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -30266,7 +30331,7 @@ portable devices</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SC16IS752_I2C" prefix="U">
+<deviceset name="SC16IS752" prefix="U">
 <gates>
 <gate name="G$1" symbol="SC16IS752_SYM" x="0" y="0"/>
 </gates>
@@ -30742,8 +30807,10 @@ portable devices</description>
 <technologies>
 <technology name="">
 <attribute name="C_XTAL" value="12pF" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="XC3061CT-ND" constant="no"/>
 <attribute name="ESR" value="150 Ohm" constant="no"/>
 <attribute name="FREQ" value="16 MHz" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ECS-160-12-37B-CTN-TR" constant="no"/>
 </technology>
 </technologies>
 </device>
