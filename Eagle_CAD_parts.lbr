@@ -9453,6 +9453,208 @@
 <wire x1="-0.16" y1="1.1" x2="5.24" y2="1.1" width="0.127" layer="21"/>
 <wire x1="5.24" y1="-1.1" x2="-0.16" y2="-1.1" width="0.127" layer="21"/>
 </package>
+<package name="12-QFN-3X3">
+<polygon width="0.0254" layer="31">
+<vertex x="-0.975" y="0.875"/>
+<vertex x="-0.975" y="0.725"/>
+<vertex x="-0.425" y="0.725"/>
+<vertex x="-0.425" y="0.875"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="-0.975" y="0.475"/>
+<vertex x="-0.975" y="0.325"/>
+<vertex x="-0.425" y="0.325"/>
+<vertex x="-0.425" y="0.475"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="-0.975" y="0.075"/>
+<vertex x="-0.975" y="-0.075"/>
+<vertex x="-0.425" y="-0.075"/>
+<vertex x="-0.425" y="0.075"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="-0.975" y="-0.325"/>
+<vertex x="-0.975" y="-0.475"/>
+<vertex x="-0.425" y="-0.475"/>
+<vertex x="-0.425" y="-0.325"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="-0.975" y="-0.725"/>
+<vertex x="-0.975" y="-0.875"/>
+<vertex x="-0.425" y="-0.875"/>
+<vertex x="-0.425" y="-0.725"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="-0.075" y="-0.525"/>
+<vertex x="-0.075" y="-1.075"/>
+<vertex x="0.075" y="-1.075"/>
+<vertex x="0.075" y="-0.525"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="0.425" y="-0.725"/>
+<vertex x="0.425" y="-0.875"/>
+<vertex x="0.975" y="-0.875"/>
+<vertex x="0.975" y="-0.725"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="0.425" y="-0.325"/>
+<vertex x="0.425" y="-0.475"/>
+<vertex x="0.975" y="-0.475"/>
+<vertex x="0.975" y="-0.325"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="0.425" y="0.075"/>
+<vertex x="0.425" y="-0.075"/>
+<vertex x="0.975" y="-0.075"/>
+<vertex x="0.975" y="0.075"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="0.425" y="0.475"/>
+<vertex x="0.425" y="0.325"/>
+<vertex x="0.975" y="0.325"/>
+<vertex x="0.975" y="0.475"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="0.425" y="0.875"/>
+<vertex x="0.425" y="0.725"/>
+<vertex x="0.975" y="0.725"/>
+<vertex x="0.975" y="0.875"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="-0.075" y="1.075"/>
+<vertex x="-0.075" y="0.525"/>
+<vertex x="0.075" y="0.525"/>
+<vertex x="0.075" y="1.075"/>
+</polygon>
+<wire x1="-1.143" y1="-1.2954" x2="-1.143" y2="-1.143" width="0.1524" layer="39"/>
+<wire x1="-1.143" y1="-1.143" x2="-1.2446" y2="-1.143" width="0.1524" layer="39"/>
+<wire x1="-1.2446" y1="-1.143" x2="-1.2446" y2="1.143" width="0.1524" layer="39"/>
+<wire x1="-1.2446" y1="1.143" x2="-1.143" y2="1.143" width="0.1524" layer="39"/>
+<wire x1="-1.143" y1="1.143" x2="-1.143" y2="1.2954" width="0.1524" layer="39"/>
+<wire x1="-1.143" y1="1.2954" x2="-0.3556" y2="1.2954" width="0.1524" layer="39"/>
+<wire x1="-0.3556" y1="1.2954" x2="-0.3556" y2="1.3462" width="0.1524" layer="39"/>
+<wire x1="-0.3556" y1="1.3462" x2="0.3556" y2="1.3462" width="0.1524" layer="39"/>
+<wire x1="0.3556" y1="1.3462" x2="0.3556" y2="1.2954" width="0.1524" layer="39"/>
+<wire x1="0.3556" y1="1.2954" x2="1.143" y2="1.2954" width="0.1524" layer="39"/>
+<wire x1="1.143" y1="1.2954" x2="1.143" y2="1.143" width="0.1524" layer="39"/>
+<wire x1="1.143" y1="1.143" x2="1.2446" y2="1.143" width="0.1524" layer="39"/>
+<wire x1="1.2446" y1="1.143" x2="1.2446" y2="-1.143" width="0.1524" layer="39"/>
+<wire x1="1.2446" y1="-1.143" x2="1.143" y2="-1.143" width="0.1524" layer="39"/>
+<wire x1="1.143" y1="-1.143" x2="1.143" y2="-1.2954" width="0.1524" layer="39"/>
+<wire x1="1.143" y1="-1.2954" x2="0.3556" y2="-1.2954" width="0.1524" layer="39"/>
+<wire x1="0.3556" y1="-1.2954" x2="0.3556" y2="-1.3462" width="0.1524" layer="39"/>
+<wire x1="0.3556" y1="-1.3462" x2="-0.3556" y2="-1.3462" width="0.1524" layer="39"/>
+<wire x1="-0.3556" y1="-1.3462" x2="-0.3556" y2="-1.2954" width="0.1524" layer="39"/>
+<wire x1="-0.3556" y1="-1.2954" x2="-1.143" y2="-1.2954" width="0.1524" layer="39"/>
+<polygon width="0.1524" layer="39">
+<vertex x="-1.154" y="-1.304"/>
+<vertex x="-1.154" y="-1.154"/>
+<vertex x="-1.254" y="-1.154"/>
+<vertex x="-1.254" y="1.154"/>
+<vertex x="-1.154" y="1.154"/>
+<vertex x="-1.154" y="1.304"/>
+<vertex x="-0.354" y="1.304"/>
+<vertex x="-0.354" y="1.354"/>
+<vertex x="0.354" y="1.354"/>
+<vertex x="0.354" y="1.304"/>
+<vertex x="1.154" y="1.304"/>
+<vertex x="1.154" y="1.154"/>
+<vertex x="1.254" y="1.154"/>
+<vertex x="1.254" y="-1.154"/>
+<vertex x="1.154" y="-1.154"/>
+<vertex x="1.154" y="-1.304"/>
+<vertex x="0.354" y="-1.304"/>
+<vertex x="0.354" y="-1.354"/>
+<vertex x="-0.354" y="-1.354"/>
+<vertex x="-0.354" y="-1.304"/>
+</polygon>
+<smd name="1" x="-1.4478" y="0.5" dx="0.2032" dy="0.8128" layer="1" rot="R270"/>
+<smd name="2" x="-1.4478" y="0" dx="0.2032" dy="0.8128" layer="1" rot="R270"/>
+<smd name="3" x="-1.4478" y="-0.5" dx="0.2032" dy="0.8128" layer="1" rot="R270"/>
+<smd name="4" x="-0.5" y="-1.4478" dx="0.2032" dy="0.8128" layer="1" rot="R180"/>
+<smd name="5" x="0" y="-1.4478" dx="0.2032" dy="0.8128" layer="1" rot="R180"/>
+<smd name="6" x="0.5" y="-1.4478" dx="0.2032" dy="0.8128" layer="1" rot="R180"/>
+<smd name="7" x="1.4478" y="-0.5" dx="0.2032" dy="0.8128" layer="1" rot="R270"/>
+<smd name="8" x="1.4478" y="0" dx="0.2032" dy="0.8128" layer="1" rot="R270"/>
+<smd name="9" x="1.4478" y="0.5" dx="0.2032" dy="0.8128" layer="1" rot="R270"/>
+<smd name="10" x="0.5" y="1.4478" dx="0.2032" dy="0.8128" layer="1" rot="R180"/>
+<smd name="11" x="0" y="1.4478" dx="0.2032" dy="0.8128" layer="1" rot="R180"/>
+<smd name="12" x="-0.5" y="1.4478" dx="0.2032" dy="0.8128" layer="1" rot="R180"/>
+<smd name="13" x="0" y="0" dx="1.7526" dy="1.7526" layer="1" cream="no"/>
+<wire x1="-1.6764" y1="-1.6764" x2="-0.9398" y2="-1.6764" width="0.1524" layer="21"/>
+<wire x1="1.6764" y1="-1.6764" x2="1.6764" y2="-0.9398" width="0.1524" layer="21"/>
+<wire x1="1.6764" y1="1.6764" x2="0.9398" y2="1.6764" width="0.1524" layer="21"/>
+<wire x1="-1.6764" y1="1.6764" x2="-1.6764" y2="0.9398" width="0.1524" layer="21"/>
+<wire x1="-1.6764" y1="-0.9398" x2="-1.6764" y2="-1.6764" width="0.1524" layer="21"/>
+<wire x1="0.9398" y1="-1.6764" x2="1.6764" y2="-1.6764" width="0.1524" layer="21"/>
+<wire x1="1.6764" y1="0.9398" x2="1.6764" y2="1.6764" width="0.1524" layer="21"/>
+<wire x1="-0.9398" y1="1.6764" x2="-1.6764" y2="1.6764" width="0.1524" layer="21"/>
+<polygon width="0.0254" layer="31">
+<vertex x="-0.8763" y="0.8763"/>
+<vertex x="-0.8763" y="-0.8763"/>
+<vertex x="0.8763" y="-0.8763"/>
+<vertex x="0.8763" y="0.8763"/>
+</polygon>
+<wire x1="-1.8034" y1="-1.8034" x2="-1.8034" y2="-0.8636" width="0.1524" layer="39"/>
+<wire x1="-1.8034" y1="-0.8636" x2="-2.1082" y2="-0.8636" width="0.1524" layer="39"/>
+<wire x1="-2.1082" y1="-0.8636" x2="-2.1082" y2="0.8636" width="0.1524" layer="39"/>
+<wire x1="-2.1082" y1="0.8636" x2="-1.8034" y2="0.8636" width="0.1524" layer="39"/>
+<wire x1="-1.8034" y1="0.8636" x2="-1.8034" y2="1.8034" width="0.1524" layer="39"/>
+<wire x1="-1.8034" y1="1.8034" x2="-0.8636" y2="1.8034" width="0.1524" layer="39"/>
+<wire x1="-0.8636" y1="1.8034" x2="-0.8636" y2="2.1082" width="0.1524" layer="39"/>
+<wire x1="-0.8636" y1="2.1082" x2="0.8636" y2="2.1082" width="0.1524" layer="39"/>
+<wire x1="0.8636" y1="2.1082" x2="0.8636" y2="1.8034" width="0.1524" layer="39"/>
+<wire x1="0.8636" y1="1.8034" x2="1.8034" y2="1.8034" width="0.1524" layer="39"/>
+<wire x1="1.8034" y1="1.8034" x2="1.8034" y2="0.8636" width="0.1524" layer="39"/>
+<wire x1="1.8034" y1="0.8636" x2="2.1082" y2="0.8636" width="0.1524" layer="39"/>
+<wire x1="2.1082" y1="0.8636" x2="2.1082" y2="-0.8636" width="0.1524" layer="39"/>
+<wire x1="2.1082" y1="-0.8636" x2="1.8034" y2="-0.8636" width="0.1524" layer="39"/>
+<wire x1="1.8034" y1="-0.8636" x2="1.8034" y2="-1.8034" width="0.1524" layer="39"/>
+<wire x1="1.8034" y1="-1.8034" x2="0.8636" y2="-1.8034" width="0.1524" layer="39"/>
+<wire x1="0.8636" y1="-1.8034" x2="0.8636" y2="-2.1082" width="0.1524" layer="39"/>
+<wire x1="0.8636" y1="-2.1082" x2="-0.8636" y2="-2.1082" width="0.1524" layer="39"/>
+<wire x1="-0.8636" y1="-2.1082" x2="-0.8636" y2="-1.8034" width="0.1524" layer="39"/>
+<wire x1="-0.8636" y1="-1.8034" x2="-1.8034" y2="-1.8034" width="0.1524" layer="39"/>
+<polygon width="0.1524" layer="39">
+<vertex x="-1.8034" y="-1.8034"/>
+<vertex x="-1.8034" y="-0.8556"/>
+<vertex x="-2.1082" y="-0.8556"/>
+<vertex x="-2.1082" y="0.8556"/>
+<vertex x="-1.8034" y="0.8556"/>
+<vertex x="-1.8034" y="1.8034"/>
+<vertex x="-0.8556" y="1.8034"/>
+<vertex x="-0.8556" y="2.1082"/>
+<vertex x="0.8556" y="2.1082"/>
+<vertex x="0.8556" y="1.8034"/>
+<vertex x="1.8034" y="1.8034"/>
+<vertex x="1.8034" y="0.8556"/>
+<vertex x="2.1082" y="0.8556"/>
+<vertex x="2.1082" y="-0.8556"/>
+<vertex x="1.8034" y="-0.8556"/>
+<vertex x="1.8034" y="-1.8034"/>
+<vertex x="0.8556" y="-1.8034"/>
+<vertex x="0.8556" y="-2.1082"/>
+<vertex x="-0.8556" y="-2.1082"/>
+<vertex x="-0.8556" y="-1.8034"/>
+</polygon>
+<wire x1="0.6604" y1="1.5494" x2="0.3556" y2="1.5494" width="0.1524" layer="51"/>
+<wire x1="0.1524" y1="1.5494" x2="-0.1524" y2="1.5494" width="0.1524" layer="51"/>
+<wire x1="-0.3556" y1="1.5494" x2="-0.6604" y2="1.5494" width="0.1524" layer="51"/>
+<wire x1="-1.5494" y1="0.6604" x2="-1.5494" y2="0.3556" width="0.1524" layer="51"/>
+<wire x1="-1.5494" y1="0.1524" x2="-1.5494" y2="-0.1524" width="0.1524" layer="51"/>
+<wire x1="-1.5494" y1="-0.3556" x2="-1.5494" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-0.6604" y1="-1.5494" x2="-0.3556" y2="-1.5494" width="0.1524" layer="51"/>
+<wire x1="-0.1524" y1="-1.5494" x2="0.1524" y2="-1.5494" width="0.1524" layer="51"/>
+<wire x1="0.3556" y1="-1.5494" x2="0.6604" y2="-1.5494" width="0.1524" layer="51"/>
+<wire x1="1.5494" y1="-0.6604" x2="1.5494" y2="-0.3556" width="0.1524" layer="51"/>
+<wire x1="1.5494" y1="-0.1524" x2="1.5494" y2="0.1524" width="0.1524" layer="51"/>
+<wire x1="1.5494" y1="0.3556" x2="1.5494" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.5494" y1="-1.5494" x2="1.5494" y2="-1.5494" width="0.1524" layer="51"/>
+<wire x1="1.5494" y1="-1.5494" x2="1.5494" y2="1.5494" width="0.1524" layer="51"/>
+<wire x1="1.5494" y1="1.5494" x2="-1.5494" y2="1.5494" width="0.1524" layer="51"/>
+<wire x1="-1.5494" y1="1.5494" x2="-1.5494" y2="-1.5494" width="0.1524" layer="51"/>
+<circle x="-1.016" y="1.016" radius="0.127" width="0.254" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PUENTE-H">
@@ -27602,14 +27804,35 @@
 <wire x1="2.54" y1="-1.27" x2="1.27" y2="-1.27" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="1.27" x2="1.27" y2="1.27" width="0.1524" layer="94"/>
 </symbol>
+<symbol name="LTC2945_SYM">
+<pin name="INTVCC" x="-25.4" y="12.7" length="middle"/>
+<pin name="ADR1" x="-25.4" y="7.62" length="middle" direction="in"/>
+<pin name="ADR0" x="-25.4" y="5.08" length="middle" direction="in"/>
+<pin name="ADIN" x="25.4" y="-7.62" length="middle" direction="in" rot="R180"/>
+<pin name="GND" x="-25.4" y="-5.08" length="middle" direction="pwr"/>
+<pin name="SCL" x="25.4" y="12.7" length="middle" direction="in" rot="R180"/>
+<pin name="SDAI" x="25.4" y="10.16" length="middle" direction="in" rot="R180"/>
+<pin name="SDAO" x="25.4" y="7.62" length="middle" direction="out" rot="R180"/>
+<pin name="!ALERT" x="25.4" y="15.24" length="middle" direction="out" rot="R180"/>
+<pin name="SENSE-" x="7.62" y="25.4" length="middle" direction="in" rot="R270"/>
+<pin name="SENSE+" x="-7.62" y="25.4" length="middle" direction="in" rot="R270"/>
+<pin name="VDD" x="-25.4" y="15.24" length="middle" direction="pwr"/>
+<pin name="EPAD" x="-25.4" y="0" length="middle" direction="pas"/>
+<wire x1="-20.32" y1="20.32" x2="-20.32" y2="-17.78" width="0.1524" layer="94"/>
+<wire x1="-20.32" y1="-17.78" x2="20.32" y2="-17.78" width="0.1524" layer="94"/>
+<wire x1="20.32" y1="-17.78" x2="20.32" y2="20.32" width="0.1524" layer="94"/>
+<wire x1="20.32" y1="20.32" x2="-20.32" y2="20.32" width="0.1524" layer="94"/>
+<text x="-17.78" y="-12.7" size="1.778" layer="95">&gt;NAME</text>
+<text x="-17.78" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="LA6681MC-SMD">
+<deviceset name="LA6681MC">
 <gates>
 <gate name="G$1" symbol="PUENTE-H" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="8SOIC">
+<device name="_SMD" package="8SOIC">
 <connects>
 <connect gate="G$1" pin="FG" pad="8"/>
 <connect gate="G$1" pin="GND" pad="5"/>
@@ -27626,12 +27849,12 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="LA6585-SMD">
+<deviceset name="LA6585">
 <gates>
 <gate name="G$1" symbol="PUENTE-H" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="8-MSOP">
+<device name="_SMD" package="8-MSOP">
 <connects>
 <connect gate="G$1" pin="FG" pad="8"/>
 <connect gate="G$1" pin="GND" pad="5"/>
@@ -27668,12 +27891,12 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="ADG804-SMD">
+<deviceset name="ADG804">
 <gates>
 <gate name="G$1" symbol="ADG804_SYM" x="-10.16" y="-33.02"/>
 </gates>
 <devices>
-<device name="" package="10-MSOP">
+<device name="_SMD" package="10-MSOP">
 <connects>
 <connect gate="G$1" pin="A0" pad="1"/>
 <connect gate="G$1" pin="A1" pad="10"/>
@@ -27692,13 +27915,13 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="ADS1115-SMD" prefix="U">
-<description>ADC</description>
+<deviceset name="ADS1115" prefix="U">
+<description>IC ADC 16BIT SIGMA-DELTA 10VSSOP</description>
 <gates>
 <gate name="A" symbol="ADS1115IDGSR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="10-MSOP">
+<device name="_SMD" package="10-MSOP">
 <connects>
 <connect gate="A" pin="ADDR" pad="1"/>
 <connect gate="A" pin="AIN0" pad="4"/>
@@ -27712,7 +27935,10 @@
 <connect gate="A" pin="VDD" pad="8"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="296-38849-1-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ADS1115IDGSR" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -28191,7 +28417,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="MAX5035D_DEV">
+<deviceset name="MAX5035D">
 <gates>
 <gate name="G$1" symbol="MAX5035_SYM" x="0" y="0"/>
 </gates>
@@ -28342,7 +28568,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="DIODO_SCHOTTKY" prefix="D_SCHOT" uservalue="yes">
+<deviceset name="DIODO_SCHOTTKY" prefix="D" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="SCHOTTKY" x="0" y="0"/>
 </gates>
@@ -28376,14 +28602,15 @@
 </technology>
 </technologies>
 </device>
-<device name="" package="SO−8FL">
+<device name="_NTS12120EMFST1G" package="SO−8FL">
 <connects>
 <connect gate="G$1" pin="A" pad="1 2 3"/>
 <connect gate="G$1" pin="C" pad="5"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="NTS12120EMFST1G" value="0K" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="NTS12120EMFST1GOSCT-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="NTS12120EMFST1G" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -28429,7 +28656,12 @@
 <connect gate="G$1" pin="C" pad="C-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="CUS10S30H3FCT-ND" constant="no"/>
+<attribute name="I_FWRD" value="1 A" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CUS10S30,H3F" constant="no"/>
+<attribute name="V_RVRS" value="30 V" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -29032,7 +29264,7 @@ portable devices</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2_PINES">
+<deviceset name="2_PINES" prefix="H">
 <gates>
 <gate name="A" symbol="PIN" x="2.54" y="1.27"/>
 <gate name="B" symbol="PIN" x="2.54" y="-1.27"/>
@@ -29148,7 +29380,10 @@ portable devices</description>
 <connect gate="G$1" pin="S" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="785-1001-1-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="AO3401A" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -30010,7 +30245,7 @@ portable devices</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="3_PINES">
+<deviceset name="3_PINES" prefix="H">
 <gates>
 <gate name="A" symbol="PIN" x="0" y="2.54"/>
 <gate name="B" symbol="PIN" x="0" y="0"/>
@@ -30241,7 +30476,7 @@ portable devices</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="4_PINES">
+<deviceset name="4_PINES" prefix="H">
 <gates>
 <gate name="A" symbol="PIN" x="0" y="3.81"/>
 <gate name="B" symbol="PIN" x="0" y="1.27"/>
@@ -30312,7 +30547,7 @@ portable devices</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="1_PINES">
+<deviceset name="1_PINES" prefix="H">
 <gates>
 <gate name="A" symbol="PIN" x="0" y="0"/>
 </gates>
@@ -30347,7 +30582,7 @@ portable devices</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="5_PINES">
+<deviceset name="5_PINES" prefix="H">
 <gates>
 <gate name="G$1" symbol="PIN" x="0" y="5.08"/>
 <gate name="G$2" symbol="PIN" x="0" y="2.54"/>
@@ -30372,7 +30607,7 @@ portable devices</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="6_PINES">
+<deviceset name="6_PINES" prefix="H">
 <gates>
 <gate name="G$1" symbol="PIN" x="0" y="6.35"/>
 <gate name="G$2" symbol="PIN" x="0" y="3.81"/>
@@ -30514,7 +30749,7 @@ portable devices</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="8_PINES">
+<deviceset name="8_PINES" prefix="H">
 <gates>
 <gate name="G$1" symbol="PIN" x="0" y="10.16"/>
 <gate name="G$2" symbol="PIN" x="0" y="7.62"/>
@@ -30770,7 +31005,7 @@ portable devices</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DIGIKEY_PART_NO" value="RN4871U-V/RM118-ND"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="RN4871U-V/RM118-ND"/>
 </technology>
 </technologies>
 </device>
@@ -30793,7 +31028,7 @@ portable devices</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DIGIKEY_NO" value="SI5902BDC-T1-E3CT-ND" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="SI5902BDC-T1-E3CT-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -30849,6 +31084,37 @@ portable devices</description>
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_NO" value="SI5515CDC-T1-E3CT-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LTC2945" prefix="U">
+<description>IC POWER MONITOR I2C 12-QFN</description>
+<gates>
+<gate name="G$1" symbol="LTC2945_SYM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="12-QFN-3X3">
+<connects>
+<connect gate="G$1" pin="!ALERT" pad="9"/>
+<connect gate="G$1" pin="ADIN" pad="4"/>
+<connect gate="G$1" pin="ADR0" pad="3"/>
+<connect gate="G$1" pin="ADR1" pad="2"/>
+<connect gate="G$1" pin="EPAD" pad="13"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="INTVCC" pad="1"/>
+<connect gate="G$1" pin="SCL" pad="6"/>
+<connect gate="G$1" pin="SDAI" pad="7"/>
+<connect gate="G$1" pin="SDAO" pad="8"/>
+<connect gate="G$1" pin="SENSE+" pad="11"/>
+<connect gate="G$1" pin="SENSE-" pad="10"/>
+<connect gate="G$1" pin="VDD" pad="12"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="LTC2945IUD#TRPBFCT-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LTC2945IUD#TRPBF" constant="no"/>
 </technology>
 </technologies>
 </device>
