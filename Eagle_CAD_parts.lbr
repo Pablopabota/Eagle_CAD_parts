@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="17" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -28284,14 +28284,14 @@
 <pin name="INTVCC" x="-25.4" y="12.7" length="middle"/>
 <pin name="ADR1" x="-25.4" y="7.62" length="middle" direction="in"/>
 <pin name="ADR0" x="-25.4" y="5.08" length="middle" direction="in"/>
-<pin name="ADIN" x="25.4" y="-7.62" length="middle" direction="in" rot="R180"/>
+<pin name="ADIN" x="25.4" y="-12.7" length="middle" direction="in" rot="R180"/>
 <pin name="GND" x="-25.4" y="-5.08" length="middle" direction="pwr"/>
-<pin name="SCL" x="25.4" y="12.7" length="middle" direction="in" rot="R180"/>
-<pin name="SDAI" x="25.4" y="10.16" length="middle" direction="in" rot="R180"/>
-<pin name="SDAO" x="25.4" y="7.62" length="middle" direction="out" rot="R180"/>
-<pin name="!ALERT" x="25.4" y="15.24" length="middle" direction="out" rot="R180"/>
-<pin name="SENSE-" x="7.62" y="25.4" length="middle" direction="in" rot="R270"/>
-<pin name="SENSE+" x="-7.62" y="25.4" length="middle" direction="in" rot="R270"/>
+<pin name="SCL" x="25.4" y="0" length="middle" direction="in" rot="R180"/>
+<pin name="SDAI" x="25.4" y="-2.54" length="middle" direction="in" rot="R180"/>
+<pin name="SDAO" x="25.4" y="-5.08" length="middle" direction="out" rot="R180"/>
+<pin name="!ALERT" x="25.4" y="2.54" length="middle" direction="out" rot="R180"/>
+<pin name="SENSE-" x="-7.62" y="25.4" length="middle" direction="in" rot="R270"/>
+<pin name="SENSE+" x="7.62" y="25.4" length="middle" direction="in" rot="R270"/>
 <pin name="VDD" x="-25.4" y="15.24" length="middle" direction="pwr"/>
 <pin name="EPAD" x="-25.4" y="0" length="middle" direction="pas"/>
 <wire x1="-20.32" y1="20.32" x2="-20.32" y2="-17.78" width="0.1524" layer="94"/>
