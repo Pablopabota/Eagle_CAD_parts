@@ -28284,7 +28284,7 @@
 <pin name="INTVCC" x="-25.4" y="12.7" length="middle"/>
 <pin name="ADR1" x="-25.4" y="7.62" length="middle" direction="in"/>
 <pin name="ADR0" x="-25.4" y="5.08" length="middle" direction="in"/>
-<pin name="ADIN" x="25.4" y="-12.7" length="middle" direction="in" rot="R180"/>
+<pin name="ADIN" x="-25.4" y="-17.78" length="middle" direction="in"/>
 <pin name="GND" x="-25.4" y="-5.08" length="middle" direction="pwr"/>
 <pin name="SCL" x="25.4" y="0" length="middle" direction="in" rot="R180"/>
 <pin name="SDAI" x="25.4" y="-2.54" length="middle" direction="in" rot="R180"/>
@@ -28294,12 +28294,12 @@
 <pin name="SENSE+" x="7.62" y="25.4" length="middle" direction="in" rot="R270"/>
 <pin name="VDD" x="-25.4" y="15.24" length="middle" direction="pwr"/>
 <pin name="EPAD" x="-25.4" y="0" length="middle" direction="pas"/>
-<wire x1="-20.32" y1="20.32" x2="-20.32" y2="-17.78" width="0.1524" layer="94"/>
-<wire x1="-20.32" y1="-17.78" x2="20.32" y2="-17.78" width="0.1524" layer="94"/>
-<wire x1="20.32" y1="-17.78" x2="20.32" y2="20.32" width="0.1524" layer="94"/>
+<wire x1="-20.32" y1="20.32" x2="-20.32" y2="-27.94" width="0.1524" layer="94"/>
+<wire x1="-20.32" y1="-27.94" x2="20.32" y2="-27.94" width="0.1524" layer="94"/>
+<wire x1="20.32" y1="-27.94" x2="20.32" y2="20.32" width="0.1524" layer="94"/>
 <wire x1="20.32" y1="20.32" x2="-20.32" y2="20.32" width="0.1524" layer="94"/>
-<text x="-17.78" y="-12.7" size="1.778" layer="95">&gt;NAME</text>
-<text x="-17.78" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-17.78" y="-22.86" size="1.778" layer="95">&gt;NAME</text>
+<text x="-17.78" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="TRIAC_SYM">
 <pin name="T2" x="0" y="-5.08" length="point"/>
