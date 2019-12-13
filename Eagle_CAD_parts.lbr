@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="17" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -7115,18 +7115,6 @@
 <wire x1="1.2446" y1="-1.4986" x2="1.2446" y2="1.4986" width="0.1524" layer="51"/>
 <wire x1="1.2446" y1="1.4986" x2="-1.2446" y2="1.4986" width="0.1524" layer="51"/>
 <wire x1="-1.2446" y1="1.4986" x2="-1.2446" y2="-1.4986" width="0.1524" layer="51"/>
-<polygon width="0.0254" layer="1">
-<vertex x="0.148" y="1.349003125"/>
-<vertex x="0.148" y="1.095003125"/>
-<vertex x="0.91" y="1.095003125"/>
-<vertex x="0.91" y="1.349003125"/>
-</polygon>
-<polygon width="0.0254" layer="1">
-<vertex x="0.148" y="-1.0952"/>
-<vertex x="0.148" y="-1.349003125"/>
-<vertex x="0.91" y="-1.349003125"/>
-<vertex x="0.91" y="-1.095003125"/>
-</polygon>
 </package>
 <package name="IND_XFL4020-152ME">
 <dimension x1="-1.185" y1="0" x2="1.185" y2="0" x3="0" y3="1.7" textsize="0.254" layer="47" width="0"/>
@@ -32324,8 +32312,52 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <technology name="">
 <attribute name="DIGIKEY_PART_NUMBER" value="TC58CVG0S3HRAIG-ND" constant="no"/>
 <attribute name="FREQ" value="104 MHz" constant="no"/>
-<attribute name="MEMORY" value="1 Gb" constant="no"/>
+<attribute name="MEMORY" value="1 Gbit (512 MB)" constant="no"/>
 <attribute name="TYPE" value="FLASH - NAND" constant="no"/>
+<attribute name="VCC" value="2.7 - 3.6 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_W25Q256JVEIQ" package="8-WSON-8X6">
+<connects>
+<connect gate="G$1" pin="!CS" pad="1"/>
+<connect gate="G$1" pin="!HOLD!/SO3" pad="7"/>
+<connect gate="G$1" pin="!WP!/SO2" pad="3"/>
+<connect gate="G$1" pin="SCK" pad="6"/>
+<connect gate="G$1" pin="SI/SO0" pad="5"/>
+<connect gate="G$1" pin="SO/SO1" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+<connect gate="G$1" pin="VSS" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="W25Q256JVEIQ-ND" constant="no"/>
+<attribute name="FREQ" value="104 MHz" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="W25Q256JVEIQ" constant="no"/>
+<attribute name="MEMORY" value="256 Mbit (32 MB)" constant="no"/>
+<attribute name="TYPE" value="FLASH - NOR" constant="no"/>
+<attribute name="VCC" value="2.7 - 3.6 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_W25Q512JVEIQ" package="8-WSON-8X6">
+<connects>
+<connect gate="G$1" pin="!CS" pad="1"/>
+<connect gate="G$1" pin="!HOLD!/SO3" pad="7"/>
+<connect gate="G$1" pin="!WP!/SO2" pad="3"/>
+<connect gate="G$1" pin="SCK" pad="6"/>
+<connect gate="G$1" pin="SI/SO0" pad="5"/>
+<connect gate="G$1" pin="SO/SO1" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+<connect gate="G$1" pin="VSS" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="W25Q512JVEIQ-ND" constant="no"/>
+<attribute name="FREQ" value="104 MHz" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="W25Q512JVEIQ" constant="no"/>
+<attribute name="MEMORY" value="512 Mbit (64 MB)" constant="no"/>
+<attribute name="TYPE" value="FLASH - NOR" constant="no"/>
 <attribute name="VCC" value="2.7 - 3.6 V" constant="no"/>
 </technology>
 </technologies>
