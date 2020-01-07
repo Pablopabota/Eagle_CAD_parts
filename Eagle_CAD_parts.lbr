@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="17" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -27668,6 +27668,8 @@
 <pin name="A+" x="-1.27" y="0" visible="off" length="point" direction="pas" rot="R90"/>
 <pin name="C-" x="3.81" y="0" visible="off" length="point" direction="pas" rot="R90"/>
 <wire x1="-1.27" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-7.62" size="1.778" layer="95">&gt;COLOR</text>
 </symbol>
 <symbol name="P_MOS">
 <pin name="S" x="-2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
@@ -30415,22 +30417,76 @@ portable devices</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LED">
+<deviceset name="LED" prefix="D">
 <gates>
-<gate name="A" symbol="LED" x="0" y="0"/>
+<gate name="D" symbol="LED" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_150060VS75000" package="LED_0603">
+<device name="_0603_GREEN_CLR" package="LED_0603">
 <connects>
-<connect gate="A" pin="A+" pad="A+"/>
-<connect gate="A" pin="C-" pad="C-"/>
+<connect gate="D" pin="A+" pad="A+"/>
+<connect gate="D" pin="C-" pad="C-"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="IF" value="30mMAX" constant="no"/>
-<attribute name="I_PK" value="100mA" constant="no"/>
-<attribute name="VF" value="2Vtyp" constant="no"/>
-<attribute name="V_REV" value="5V" constant="no"/>
+<attribute name="COLOR" value="Green" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="732-4980-2-ND" constant="no"/>
+<attribute name="IF" value="30 mA" constant="no"/>
+<attribute name="I_PK" value="100 mA" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="150060VS75000" constant="no"/>
+<attribute name="VF" value="2 V" constant="no"/>
+<attribute name="V_REV" value="5 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0603_RED_CLR" package="LED_0603">
+<connects>
+<connect gate="D" pin="A+" pad="A+"/>
+<connect gate="D" pin="C-" pad="C-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COLOR" value="Red" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="732-4978-1-ND" constant="no"/>
+<attribute name="IF" value="30 mA" constant="no"/>
+<attribute name="I_PK" value="100 mA" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="150060RS75000" constant="no"/>
+<attribute name="VF" value="2 V" constant="no"/>
+<attribute name="V_REV" value="5 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0603_YELLOW_CLR" package="LED_0603">
+<connects>
+<connect gate="D" pin="A+" pad="A+"/>
+<connect gate="D" pin="C-" pad="C-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COLOR" value="Yellow" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="732-4981-1-ND" constant="no"/>
+<attribute name="IF" value="30 mA" constant="no"/>
+<attribute name="I_PK" value="100 mA" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="150060YS75000" constant="no"/>
+<attribute name="VF" value="2 V" constant="no"/>
+<attribute name="V_REV" value="5 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0603_BLUE_CLR" package="LED_0603">
+<connects>
+<connect gate="D" pin="A+" pad="A+"/>
+<connect gate="D" pin="C-" pad="C-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COLOR" value="Blue" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="732-4966-1-ND" constant="no"/>
+<attribute name="IF" value="30 mA" constant="no"/>
+<attribute name="I_PK" value="100 mA" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="150060BS75000" constant="no"/>
+<attribute name="VF" value="3.2 V" constant="no"/>
+<attribute name="V_REV" value="5 V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -32796,6 +32852,36 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0603511KFKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
 <attribute name="R" value="511 KOhm" constant="no"/>
+<attribute name="TOL" value="1%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0603_66R5" package="R0603">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="541-66.5HCT-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW060366R5FKEA" constant="no"/>
+<attribute name="P" value="1/10 W" constant="no"/>
+<attribute name="R" value="66.5 Ohm" constant="no"/>
+<attribute name="TOL" value="1%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0603_187K" package="R0603">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="541-187KHCT-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0603187KFKEA" constant="no"/>
+<attribute name="P" value="1/10 W" constant="no"/>
+<attribute name="R" value="187 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
 </technology>
 </technologies>
