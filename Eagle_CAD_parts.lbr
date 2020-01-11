@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="10" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="17" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -10610,6 +10610,20 @@
 <wire x1="-4.45" y1="2.9" x2="-4.45" y2="-1.85" width="0.127" layer="21"/>
 <wire x1="4.45" y1="-1.85" x2="4.45" y2="2.9" width="0.127" layer="21"/>
 <wire x1="4.45" y1="2.9" x2="-4.45" y2="2.9" width="0.127" layer="21"/>
+</package>
+<package name="BUTTON_SMD_3X2">
+<smd name="1" x="-1.625" y="0" dx="0.55" dy="1.5" layer="1"/>
+<smd name="2" x="1.625" y="0" dx="0.55" dy="1.5" layer="1"/>
+<wire x1="-1.75" y1="1" x2="1.75" y2="1" width="0.127" layer="21"/>
+<wire x1="1.75" y1="1" x2="1.75" y2="-1" width="0.127" layer="21"/>
+<wire x1="1.75" y1="-1" x2="-1.75" y2="-1" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="-1" x2="-1.75" y2="1" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="0.45276875" width="0.127" layer="21"/>
+<text x="-2.54" y="1.27" size="0.8128" layer="25">&gt;NAME</text>
+<wire x1="-1.9" y1="1.1" x2="1.9" y2="1.1" width="0.127" layer="39"/>
+<wire x1="1.9" y1="1.1" x2="1.9" y2="-1.1" width="0.127" layer="39"/>
+<wire x1="1.9" y1="-1.1" x2="-1.9" y2="-1.1" width="0.127" layer="39"/>
+<wire x1="-1.9" y1="-1.1" x2="-1.9" y2="1.1" width="0.127" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -27265,11 +27279,11 @@
 <wire x1="12.7" y1="20.32" x2="12.7" y2="-20.32" width="0.254" layer="94"/>
 <pin name="VC" x="-7.62" y="-25.4" visible="pin" length="middle" rot="R90"/>
 <pin name="FB" x="17.78" y="-5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="SHDN'" x="-17.78" y="-5.08" visible="pin" length="middle"/>
+<pin name="!SHDN" x="-17.78" y="7.62" visible="pin" length="middle"/>
 <pin name="GND" x="7.62" y="-25.4" visible="pin" length="middle" rot="R90"/>
 <pin name="SW" x="10.16" y="25.4" visible="pin" length="middle" rot="R270"/>
 <pin name="VIN" x="-10.16" y="25.4" visible="pin" length="middle" rot="R270"/>
-<pin name="LBI" x="-17.78" y="7.62" visible="pin" length="middle"/>
+<pin name="LBI" x="-17.78" y="-5.08" visible="pin" length="middle"/>
 <pin name="LBO" x="17.78" y="7.62" visible="pin" length="middle" rot="R180"/>
 <text x="-7.62" y="12.7" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
@@ -28962,6 +28976,20 @@
 <pin name="I/O" x="-10.16" y="0" length="middle"/>
 <pin name="SW/GND" x="-10.16" y="7.62" length="middle"/>
 </symbol>
+<symbol name="NO_BUTTON">
+<pin name="A" x="-6.35" y="0" length="short"/>
+<pin name="B" x="6.35" y="0" length="short" rot="R180"/>
+<wire x1="-3.81" y1="0" x2="-2.921" y2="0" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0" x2="2.921" y2="0" width="0.1524" layer="94"/>
+<circle x="-2.54" y="0" radius="0.381" width="0.1524" layer="94"/>
+<circle x="2.54" y="0" radius="0.381" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="0" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.27" x2="2.54" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="3.81" x2="1.27" y2="3.81" width="0.1524" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LA6681MC">
@@ -29591,11 +29619,11 @@
 <devices>
 <device name="" package="8-SOIC">
 <connects>
+<connect gate="G$1" pin="!SHDN" pad="3"/>
 <connect gate="G$1" pin="FB" pad="2"/>
 <connect gate="G$1" pin="GND" pad="4"/>
 <connect gate="G$1" pin="LBI" pad="7"/>
 <connect gate="G$1" pin="LBO" pad="8"/>
-<connect gate="G$1" pin="SHDN'" pad="3"/>
 <connect gate="G$1" pin="SW" pad="5"/>
 <connect gate="G$1" pin="VC" pad="1"/>
 <connect gate="G$1" pin="VIN" pad="6"/>
@@ -30608,7 +30636,7 @@ portable devices</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="P_MOS">
+<deviceset name="P_MOS" prefix="Q">
 <gates>
 <gate name="G$1" symbol="P_MOS" x="2.54" y="0"/>
 </gates>
@@ -32927,6 +32955,21 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </technology>
 </technologies>
 </device>
+<device name="_0603_5K1" package="R0603">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="541-10481-1-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RCS06035K10FKEA" constant="no"/>
+<attribute name="P" value="1/4 W" constant="no"/>
+<attribute name="R" value="5.1 KOhm" constant="no"/>
+<attribute name="TOL" value="1%" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="QUECTEL" prefix="QUECTEL_">
@@ -34034,6 +34077,26 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="2073-SIM8060-6-1-14-00-ACT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="SIM8060-6-1-14-00-A" constant="no"/>
 <attribute name="SIM_SIZE" value="Nano" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NO_BUTTON" prefix="K">
+<gates>
+<gate name="G$1" symbol="NO_BUTTON" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_KXT331LHS" package="BUTTON_SMD_3X2">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="B" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="CKN10779CT-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="KXT 331 LHS" constant="no"/>
+<attribute name="TYPE" value="Normaly Open" constant="no"/>
 </technology>
 </technologies>
 </device>
