@@ -29784,13 +29784,15 @@
 </technology>
 </technologies>
 </device>
-<device name="" package="R1206">
+<device name="_1206_NC" package="R1206">
 <connects>
 <connect gate="L" pin="1" pad="1"/>
 <connect gate="L" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="L" value="NC/DNM" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_XAL7070-332MEB" package="IND_XAL7070">
@@ -29820,6 +29822,17 @@
 <attribute name="L" value="0.47 uH" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="XFL4015-471MEC" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="994-XFL4015-471MEC" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0402_NC" package="R0402">
+<connects>
+<connect gate="L" pin="1" pad="1"/>
+<connect gate="L" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="L" value="NC/DNM" constant="no"/>
 </technology>
 </technologies>
 </device>
