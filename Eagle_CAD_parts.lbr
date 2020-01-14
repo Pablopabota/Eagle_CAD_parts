@@ -29784,14 +29784,23 @@
 </technology>
 </technologies>
 </device>
+<<<<<<< HEAD
 <device name="_1206_NC" package="R1206">
+=======
+<device name="_FERRITE_BEAD" package="R1206">
+>>>>>>> ce355c543db899b10918dee60bba3f477473936b
 <connects>
 <connect gate="L" pin="1" pad="1"/>
 <connect gate="L" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
+<<<<<<< HEAD
 <attribute name="L" value="NC/DNM" constant="no"/>
+=======
+<attribute name="DIGIKEY_PART_NUMBER" value="240-2402-1-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LI1206H151R-10" constant="no"/>
+>>>>>>> ce355c543db899b10918dee60bba3f477473936b
 </technology>
 </technologies>
 </device>
@@ -34312,7 +34321,10 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <connect gate="U" pin="VOUT" pad="E2 E3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="296-TPS63806YFFRCT-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TPS63806YFFR" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
