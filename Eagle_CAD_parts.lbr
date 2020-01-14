@@ -29792,6 +29792,7 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_NUMBER" value="240-2402-1-ND" constant="no"/>
+<attribute name="L" value="Fe Bead" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LI1206H151R-10" constant="no"/>
 </technology>
 </technologies>
