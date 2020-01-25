@@ -29834,7 +29834,24 @@
 </connects>
 <technologies>
 <technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="NC/DNM" constant="no"/>
 <attribute name="L" value="NC/DNM" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="NC/DNM" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0603_33N_400MA" package="R0603">
+<connects>
+<connect gate="L" pin="1" pad="1"/>
+<connect gate="L" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="732-6269-1-ND" constant="no"/>
+<attribute name="I" value="400 mA" constant="no"/>
+<attribute name="L" value="33 nH" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="744786133A" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -31364,6 +31381,7 @@ portable devices</description>
 <technology name="">
 <attribute name="DIGIKEY_PART_NUMBER" value="732-5954-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="693043020611" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="710-693043020611" constant="no"/>
 <attribute name="SIM_SIZE" value="Nano" constant="no"/>
 </technology>
 </technologies>
@@ -31955,7 +31973,7 @@ portable devices</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="STAR_GND">
+<deviceset name="STAR_GND" prefix="GND">
 <gates>
 <gate name="G$1" symbol="STAR_GND_SYM" x="0" y="0"/>
 </gates>
@@ -31968,7 +31986,10 @@ portable devices</description>
 <connect gate="G$1" pin="P$4" pad="P$4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="PCB star ground, no part number available" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PCB star ground, no part number available" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
