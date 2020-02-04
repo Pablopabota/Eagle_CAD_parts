@@ -10945,6 +10945,20 @@
 <wire x1="-0.6731" y1="-1.1049" x2="-0.6731" y2="1.1049" width="0.127" layer="21"/>
 <text x="-1.27" y="1.27" size="0.6096" layer="21">&gt;NAME</text>
 </package>
+<package name="TSOP-6F">
+<smd name="1" x="-0.95" y="-1.25" dx="0.62" dy="0.7" layer="1"/>
+<smd name="2" x="0" y="-1.25" dx="0.62" dy="0.7" layer="1"/>
+<smd name="3" x="0.95" y="-1.25" dx="0.62" dy="0.7" layer="1"/>
+<smd name="4" x="0.95" y="1.25" dx="0.62" dy="0.7" layer="1"/>
+<smd name="5" x="0" y="1.25" dx="0.62" dy="0.7" layer="1"/>
+<smd name="6" x="-0.95" y="1.25" dx="0.62" dy="0.7" layer="1"/>
+<wire x1="-1.55" y1="1.15" x2="1.55" y2="1.15" width="0.127" layer="21"/>
+<wire x1="1.55" y1="1.15" x2="1.55" y2="-1.15" width="0.127" layer="21"/>
+<wire x1="1.55" y1="-1.15" x2="-1.55" y2="-1.15" width="0.127" layer="21"/>
+<wire x1="-1.55" y1="-1.15" x2="-1.55" y2="1.15" width="0.127" layer="21"/>
+<circle x="-1" y="-0.5" radius="0.01" width="0.6096" layer="21"/>
+<text x="-1.8" y="-1.9" size="0.8128" layer="25" rot="R90">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="PUENTE-H">
@@ -34120,6 +34134,25 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="DMN3035LWN-7" constant="no"/>
 <attribute name="P_MAX" value="770 mW" constant="no"/>
 <attribute name="VDSS" value="30 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SSM6N815R" package="TSOP-6F">
+<connects>
+<connect gate="A" pin="D" pad="6"/>
+<connect gate="A" pin="G" pad="2"/>
+<connect gate="A" pin="S" pad="1"/>
+<connect gate="B" pin="D" pad="3"/>
+<connect gate="B" pin="G" pad="5"/>
+<connect gate="B" pin="S" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="SSM6N815RLFCT-ND" constant="no"/>
+<attribute name="ID" value="2 A" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSM6N815R,LF" constant="no"/>
+<attribute name="P_MAX" value="1.8 W" constant="no"/>
+<attribute name="VDSS" value="100 V" constant="no"/>
 </technology>
 </technologies>
 </device>
