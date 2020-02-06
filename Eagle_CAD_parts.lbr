@@ -10959,6 +10959,9 @@
 <circle x="-1" y="-0.5" radius="0.01" width="0.6096" layer="21"/>
 <text x="-1.8" y="-1.9" size="0.8128" layer="25" rot="R90">&gt;NAME</text>
 </package>
+<package name="AWG_8_WIRE">
+<pad name="1" x="0" y="0" drill="3.5"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PUENTE-H">
@@ -35110,6 +35113,25 @@ Typical Applications&lt;br&gt;
 <attribute name="MANUFACTURER_PART_NUMBER" value="LMV321SQ3T2G" constant="no"/>
 <attribute name="OUT_TYPE" value="Rail-to-Rail" constant="no"/>
 <attribute name="V_SUPP" value="2.7V - 5.5V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WIRE" prefix="K">
+<description>Wire hole for external or case mount connectors</description>
+<gates>
+<gate name="A" symbol="PIN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_AWG_8" package="AWG_8_WIRE">
+<connects>
+<connect gate="A" pin="S" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AWG" value="8" constant="no"/>
+<attribute name="I_MAX" value="48 A" constant="no"/>
 </technology>
 </technologies>
 </device>
