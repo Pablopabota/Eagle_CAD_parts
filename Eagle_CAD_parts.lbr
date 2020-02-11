@@ -10659,37 +10659,6 @@
 <wire x1="2.116665625" y1="-0.846665625" x2="0.423334375" y2="-0.846665625" width="0.0635" layer="21"/>
 <wire x1="0.423334375" y1="-0.846665625" x2="0.423334375" y2="0.846665625" width="0.0635" layer="21"/>
 </package>
-<package name="3_PINES_F">
-<wire x1="-3.175" y1="1.27" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-0.635" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="-1.27" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="1.27" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="-0.635" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-1.27" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.1524" layer="21"/>
-<text x="-3.81" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.08" y="-0.635" size="1.27" layer="21" ratio="10">1</text>
-<text x="-3.81" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="21"/>
-<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="21"/>
-<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="21"/>
-<pad name="1" x="-2.54" y="0" drill="1.1"/>
-<pad name="2" x="0" y="0" drill="1.1"/>
-<pad name="3" x="2.54" y="0" drill="1.1"/>
-</package>
 <package name="4_PINES_4F1C_F">
 <wire x1="-5.08" y1="1.27" x2="5.08" y2="1.27" width="0.1524" layer="21"/>
 <wire x1="5.08" y1="-1.27" x2="-5.08" y2="-1.27" width="0.1524" layer="21"/>
@@ -10961,6 +10930,62 @@
 </package>
 <package name="AWG_8_WIRE">
 <pad name="1" x="0" y="0" drill="3.5"/>
+</package>
+<package name="DPAK-3">
+<smd name="4" x="-4.39" y="0" dx="6.2" dy="5.8" layer="1"/>
+<smd name="1" x="2.79" y="-2.285" dx="3" dy="1.6" layer="1"/>
+<smd name="3" x="2.79" y="2.285" dx="3" dy="1.6" layer="1"/>
+<wire x1="-5.72" y1="3.365" x2="0.5" y2="3.365" width="0.127" layer="21"/>
+<wire x1="0.5" y1="3.365" x2="0.5" y2="2.86" width="0.127" layer="21"/>
+<wire x1="0.5" y1="2.86" x2="0.5" y2="1.72" width="0.127" layer="21"/>
+<wire x1="0.5" y1="1.72" x2="0.5" y2="0.57" width="0.127" layer="21"/>
+<wire x1="0.5" y1="0.57" x2="0.5" y2="-0.57" width="0.127" layer="21"/>
+<wire x1="0.5" y1="-0.57" x2="0.5" y2="-1.72" width="0.127" layer="21"/>
+<wire x1="0.5" y1="-1.72" x2="0.5" y2="-2.86" width="0.127" layer="21"/>
+<wire x1="0.5" y1="-2.86" x2="0.5" y2="-3.365" width="0.127" layer="21"/>
+<wire x1="0.5" y1="-3.365" x2="-5.72" y2="-3.365" width="0.127" layer="21"/>
+<wire x1="-5.72" y1="-3.365" x2="-5.72" y2="3.365" width="0.127" layer="21"/>
+<wire x1="0.5" y1="0.57" x2="1.51" y2="0.57" width="0.127" layer="21"/>
+<wire x1="1.51" y1="0.57" x2="1.51" y2="-0.57" width="0.127" layer="21"/>
+<wire x1="1.51" y1="-0.57" x2="0.5" y2="-0.57" width="0.127" layer="21"/>
+<wire x1="0.5" y1="-1.72" x2="3.4" y2="-1.72" width="0.127" layer="21"/>
+<wire x1="3.4" y1="-1.72" x2="3.4" y2="-2.86" width="0.127" layer="21"/>
+<wire x1="3.4" y1="-2.86" x2="0.5" y2="-2.86" width="0.127" layer="21"/>
+<wire x1="0.5" y1="2.86" x2="3.4" y2="2.86" width="0.127" layer="21"/>
+<wire x1="3.4" y1="2.86" x2="3.4" y2="1.72" width="0.127" layer="21"/>
+<wire x1="3.4" y1="1.72" x2="0.5" y2="1.72" width="0.127" layer="21"/>
+<text x="2.1" y="-0.7" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-6.36" y1="2.73" x2="-1.925" y2="2.73" width="0.127" layer="25"/>
+<wire x1="-1.925" y1="2.73" x2="-1.925" y2="-2.73" width="0.127" layer="25"/>
+<wire x1="-1.925" y1="-2.73" x2="-6.29" y2="-2.73" width="0.127" layer="25"/>
+<wire x1="-7.125" y1="-1.9" x2="-7.125" y2="1.97" width="0.127" layer="25"/>
+<wire x1="-6.36" y1="2.73" x2="-7.125" y2="1.97" width="0.127" layer="25"/>
+<wire x1="-6.29" y1="-2.73" x2="-7.125" y2="-1.9" width="0.127" layer="25"/>
+</package>
+<package name="3_PINES_F">
+<wire x1="-3.81" y1="1.27" x2="3.81" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-1.27" x2="-3.81" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="1.27" x2="3.81" y2="-1.27" width="0.1524" layer="21"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="21"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="21"/>
+<wire x1="-3.81" y1="1.27" x2="-3.81" y2="-1.27" width="0.1524" layer="21"/>
+<text x="-5.08" y="-0.635" size="1.27" layer="21" ratio="10">1</text>
+<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="21"/>
+<pad name="1" x="-2.54" y="0" drill="1.1"/>
+<pad name="2" x="0" y="0" drill="1.1"/>
+<pad name="3" x="2.54" y="0" drill="1.1"/>
+<wire x1="-3.386665625" y1="0.846665625" x2="-1.693334375" y2="0.846665625" width="0.0635" layer="21"/>
+<wire x1="-1.693334375" y1="0.846665625" x2="-1.693334375" y2="-0.846665625" width="0.0635" layer="21"/>
+<wire x1="-1.693334375" y1="-0.846665625" x2="-3.386665625" y2="-0.846665625" width="0.0635" layer="21"/>
+<wire x1="-3.386665625" y1="-0.846665625" x2="-3.386665625" y2="0.846665625" width="0.0635" layer="21"/>
+<wire x1="-0.846665625" y1="0.846665625" x2="0.846665625" y2="0.846665625" width="0.0635" layer="21"/>
+<wire x1="0.846665625" y1="0.846665625" x2="0.846665625" y2="-0.846665625" width="0.0635" layer="21"/>
+<wire x1="0.846665625" y1="-0.846665625" x2="-0.846665625" y2="-0.846665625" width="0.0635" layer="21"/>
+<wire x1="-0.846665625" y1="-0.846665625" x2="-0.846665625" y2="0.846665625" width="0.0635" layer="21"/>
+<wire x1="1.693334375" y1="0.846665625" x2="3.386665625" y2="0.846665625" width="0.0635" layer="21"/>
+<wire x1="3.386665625" y1="0.846665625" x2="3.386665625" y2="-0.846665625" width="0.0635" layer="21"/>
+<wire x1="3.386665625" y1="-0.846665625" x2="1.693334375" y2="-0.846665625" width="0.0635" layer="21"/>
+<wire x1="1.693334375" y1="-0.846665625" x2="1.693334375" y2="0.846665625" width="0.0635" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -29187,7 +29212,7 @@
 <text x="-15.24" y="12.7" size="1.778" layer="95">&gt;NAME</text>
 <text x="-15.24" y="7.62" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="MCP9700_SYM">
+<symbol name="LDO_SYM">
 <wire x1="-10.16" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
 <wire x1="10.16" y1="5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
@@ -29195,6 +29220,7 @@
 <pin name="VOUT" x="-15.24" y="2.54" length="middle"/>
 <pin name="VDD" x="15.24" y="2.54" length="middle" rot="R180"/>
 <pin name="GND" x="0" y="-10.16" length="middle" rot="R90"/>
+<text x="-10.16" y="5.08" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 <symbol name="OPTOTRIAC_SYM">
 <polygon width="0.254" layer="94">
@@ -32065,6 +32091,21 @@ portable devices</description>
 </technology>
 </technologies>
 </device>
+<device name="_SCS_F" package="3_PINES_F">
+<connects>
+<connect gate="A" pin="S" pad="1"/>
+<connect gate="B" pin="S" pad="2"/>
+<connect gate="C" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="S7036-ND" constant="no"/>
+<attribute name="I" value="3 A" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PPPC031LFBN-RC" constant="no"/>
+<attribute name="V" value="250 V" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="SC16IS752" prefix="U">
@@ -33650,6 +33691,36 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </technology>
 </technologies>
 </device>
+<device name="_0603_200K" package="R0603">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="541-4317-1-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0603200KFKEB" constant="no"/>
+<attribute name="P" value="1/10 W" constant="no"/>
+<attribute name="R" value="200 KOhm" constant="no"/>
+<attribute name="TOL" value="1%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1206_2K" package="R1206">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="541-4181-1-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW12062K00FKEAC" constant="no"/>
+<attribute name="P" value="1/4 W" constant="no"/>
+<attribute name="R" value="2 KOhm" constant="no"/>
+<attribute name="TOL" value="1%" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="QUECTEL" prefix="QUECTEL_">
@@ -34349,7 +34420,7 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </deviceset>
 <deviceset name="THERMISTOR" prefix="U">
 <gates>
-<gate name="G$1" symbol="MCP9700_SYM" x="0" y="0"/>
+<gate name="G$1" symbol="LDO_SYM" x="0" y="0"/>
 </gates>
 <devices>
 <device name="_MCP9700" package="SOT-23-3">
@@ -35132,6 +35203,28 @@ Typical Applications&lt;br&gt;
 <technology name="">
 <attribute name="AWG" value="8" constant="no"/>
 <attribute name="I_MAX" value="48 A" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MC78M06" prefix="U">
+<gates>
+<gate name="G$1" symbol="LDO_SYM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_DPAK-3" package="DPAK-3">
+<connects>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="VDD" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="MC78M06CDTRKGOSCT-ND" constant="no"/>
+<attribute name="I_MAX" value="500 mA" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MC78M06CDTRKG" constant="no"/>
+<attribute name="VOUT" value="6 V" constant="no"/>
 </technology>
 </technologies>
 </device>
