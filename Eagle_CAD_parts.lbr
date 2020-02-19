@@ -4002,7 +4002,7 @@
 <wire x1="1.229" y1="0" x2="-1.229" y2="0" width="0.1" layer="21"/>
 <wire x1="-1.229" y1="0" x2="-1.228" y2="1.249" width="0.1" layer="21"/>
 <wire x1="-1.228" y1="1.249" x2="0" y2="1.246" width="0.1" layer="21"/>
-<text x="-1.905" y="1.905" size="0.8128" layer="25">&gt;NAME</text>
+<text x="1.905" y="-0.635" size="0.6096" layer="25" rot="R90">&gt;NAME</text>
 </package>
 <package name="TO-236">
 <smd name="3" x="0" y="1.608" dx="0.559" dy="0.724" layer="1"/>
@@ -4046,6 +4046,7 @@
 </polygon>
 <wire x1="-0.6" y1="-0.1" x2="0.6" y2="-0.1" width="0.127" layer="21"/>
 <wire x1="0" y1="1" x2="0" y2="-0.6" width="0.127" layer="21"/>
+<text x="-1.5875" y="-1.27" size="0.6096" layer="25" rot="R90">&gt;NAME</text>
 </package>
 <package name="10-MSOP-MC">
 <smd name="1" x="-2.0447" y="1" dx="1.524" dy="0.2794" layer="1"/>
@@ -4439,6 +4440,12 @@
 <wire x1="9.5" y1="15.7" x2="9.5" y2="-15.7" width="0.127" layer="21"/>
 <wire x1="9.5" y1="-15.7" x2="-8.5" y2="-15.7" width="0.127" layer="21"/>
 <text x="-1.27" y="-15.24" size="0.8128" layer="25">&gt;NAME</text>
+<polygon width="0.127" layer="39">
+<vertex x="-8.5" y="15.7"/>
+<vertex x="9.5" y="15.7"/>
+<vertex x="9.5" y="-15.7"/>
+<vertex x="-8.5" y="-15.7"/>
+</polygon>
 </package>
 <package name="20-QFN">
 <rectangle x1="0.1" y1="-0.85" x2="0.85" y2="-0.1" layer="31"/>
@@ -6371,6 +6378,7 @@
 <wire x1="1" y1="1" x2="1" y2="-1" width="0.127" layer="21"/>
 <wire x1="1" y1="-1" x2="-1" y2="-1" width="0.127" layer="21"/>
 <circle x="-0.7" y="-0.7" radius="0.035" width="0.127" layer="21"/>
+<text x="-1.27" y="1.27" size="0.6096" layer="25">&gt;NAME</text>
 </package>
 <package name="SIM7000_PCKG">
 <dimension x1="0" y1="0" x2="-13.5" y2="0" x3="-6.75" y3="17" textsize="0.254" layer="47" width="0"/>
@@ -7167,6 +7175,7 @@
 <wire x1="1" y1="-1" x2="-1" y2="-1" width="0.127" layer="21"/>
 <wire x1="-1" y1="-1" x2="-1" y2="1" width="0.127" layer="21"/>
 <circle x="-0.68" y="0.78" radius="0.05" width="0.127" layer="21"/>
+<text x="-1.27" y="1.27" size="0.6096" layer="25">&gt;NAME</text>
 </package>
 <package name="IND_XAL5030">
 <smd name="P$1" x="-1.655" y="0" dx="1.18" dy="4.7" layer="1"/>
@@ -7525,6 +7534,7 @@
 <wire x1="1.1938" y1="0.508" x2="1.1938" y2="0.8128" width="0.1524" layer="21"/>
 <wire x1="1.1938" y1="0.8128" x2="0.7118" y2="0.8128" width="0.1524" layer="21"/>
 <wire x1="0.2988" y1="1.0642" x2="-0.3048" y2="1.0668" width="0.1524" layer="21" curve="-180"/>
+<text x="-1.5875" y="1.27" size="0.6096" layer="25">&gt;NAME</text>
 </package>
 <package name="DCK5-M">
 <smd name="1" x="-1.016" y="0.65" dx="1.4732" dy="0.4064" layer="1"/>
@@ -7681,6 +7691,7 @@
 <wire x1="1" y1="-1" x2="-1" y2="-1" width="0.127" layer="21"/>
 <wire x1="-1" y1="-1" x2="-1" y2="1" width="0.127" layer="21"/>
 <circle x="-0.7" y="0.7" radius="0.03" width="0.127" layer="21"/>
+<text x="-0.9525" y="1.27" size="0.6096" layer="25">&gt;NAME</text>
 </package>
 <package name="12-UQFN">
 <smd name="1" x="-0.7" y="0.8" dx="0.2" dy="0.6" layer="1" rot="R270"/>
@@ -7894,6 +7905,7 @@
 <wire x1="0.889" y1="1.0414" x2="-0.889" y2="1.0414" width="0.127" layer="21"/>
 <wire x1="-0.889" y1="1.0414" x2="-0.889" y2="-1.0414" width="0.127" layer="21"/>
 <circle x="-0.6" y="0.8" radius="0.06" width="0.127" layer="21"/>
+<text x="-1.27" y="1.5875" size="0.6096" layer="25">&gt;NAME</text>
 </package>
 <package name="4_PINES_4F1C">
 <wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
@@ -7931,6 +7943,7 @@
 <pad name="2" x="-1.27" y="0" drill="1.1"/>
 <pad name="3" x="1.27" y="0" drill="1.1"/>
 <pad name="4" x="3.81" y="0" drill="1.1"/>
+<text x="-4.7625" y="1.5875" size="0.6096" layer="25">&gt;NAME</text>
 </package>
 <package name="1_PINES">
 <wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
@@ -8851,7 +8864,7 @@
 <smd name="7" x="4" y="0.635" dx="1" dy="0.4" layer="1" roundness="70"/>
 <smd name="6" x="4" y="-0.635" dx="1" dy="0.4" layer="1" roundness="70"/>
 <smd name="5" x="4" y="-1.905" dx="1" dy="0.4" layer="1" roundness="70"/>
-<text x="-3.175" y="3.175" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-0.9525" y="3.175" size="0.8128" layer="25">&gt;NAME</text>
 </package>
 <package name="28-QFN-6X6">
 <wire x1="-3.05" y1="3.05" x2="3.05" y2="3.05" width="0.127" layer="21"/>
@@ -9691,6 +9704,7 @@
 <wire x1="3.25" y1="1.61" x2="3.25" y2="-1.61" width="0.127" layer="21"/>
 <wire x1="3.25" y1="-1.61" x2="-3.25" y2="-1.61" width="0.127" layer="21"/>
 <wire x1="-3.25" y1="-1.61" x2="-3.25" y2="1.61" width="0.127" layer="21"/>
+<text x="-1.5875" y="1.905" size="0.6096" layer="25">&gt;NAME</text>
 </package>
 <package name="R0201">
 <smd name="1" x="-0.255" y="0" dx="0.28" dy="0.43" layer="1"/>
@@ -10340,6 +10354,7 @@
 <wire x1="-2.15" y1="-2.15" x2="-2.15" y2="2.15" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="1.78280625" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="1.4" width="0.127" layer="21"/>
+<text x="-1.27" y="2.2225" size="0.6096" layer="25">&gt;NAME</text>
 </package>
 <package name="5_PINES_W_SCREW">
 <wire x1="-0.83" y1="3.25" x2="0.82" y2="3.25" width="0.127" layer="21"/>
@@ -10610,6 +10625,7 @@
 <wire x1="-4.45" y1="2.9" x2="-4.45" y2="-1.85" width="0.127" layer="21"/>
 <wire x1="4.45" y1="-1.85" x2="4.45" y2="2.9" width="0.127" layer="21"/>
 <wire x1="4.45" y1="2.9" x2="-4.45" y2="2.9" width="0.127" layer="21"/>
+<text x="-1.5875" y="3.81" size="0.6096" layer="25">&gt;NAME</text>
 </package>
 <package name="BUTTON_SMD_3X2">
 <smd name="1" x="-1.625" y="0" dx="0.55" dy="1.5" layer="1"/>
@@ -10689,6 +10705,7 @@
 <wire x1="4.656665625" y1="0.846665625" x2="4.656665625" y2="-0.846665625" width="0.0635" layer="21"/>
 <wire x1="4.656665625" y1="-0.846665625" x2="2.963334375" y2="-0.846665625" width="0.0635" layer="21"/>
 <wire x1="2.963334375" y1="-0.846665625" x2="2.963334375" y2="0.846665625" width="0.0635" layer="21"/>
+<text x="-4.7625" y="1.5875" size="0.6096" layer="25">&gt;NAME</text>
 </package>
 <package name="5_PINES_F">
 <wire x1="-6.35" y1="1.27" x2="6.35" y2="1.27" width="0.1524" layer="21"/>
@@ -10986,6 +11003,20 @@
 <wire x1="3.386665625" y1="0.846665625" x2="3.386665625" y2="-0.846665625" width="0.0635" layer="21"/>
 <wire x1="3.386665625" y1="-0.846665625" x2="1.693334375" y2="-0.846665625" width="0.0635" layer="21"/>
 <wire x1="1.693334375" y1="-0.846665625" x2="1.693334375" y2="0.846665625" width="0.0635" layer="21"/>
+</package>
+<package name="SOT-666">
+<wire x1="-0.8" y1="1" x2="0.8" y2="1" width="0.127" layer="21"/>
+<wire x1="0.8" y1="1" x2="0.8" y2="-1" width="0.127" layer="21"/>
+<wire x1="0.8" y1="-1" x2="-0.8" y2="-1" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="-1" x2="-0.8" y2="1" width="0.127" layer="21"/>
+<smd name="1" x="-0.85" y="0.5375" dx="0.5" dy="0.375" layer="1"/>
+<smd name="3" x="-0.85" y="-0.5375" dx="0.5" dy="0.375" layer="1"/>
+<smd name="4" x="0.85" y="-0.5375" dx="0.5" dy="0.375" layer="1"/>
+<smd name="6" x="0.85" y="0.5375" dx="0.5" dy="0.375" layer="1"/>
+<smd name="2" x="-0.93" y="0" dx="0.65" dy="0.375" layer="1"/>
+<smd name="5" x="0.93" y="0" dx="0.65" dy="0.375" layer="1"/>
+<circle x="-0.5" y="0.7" radius="0.15" width="0" layer="21"/>
+<text x="-1.1" y="1.2" size="0.4064" layer="21">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -30258,6 +30289,21 @@
 </technology>
 </technologies>
 </device>
+<device name="_0603_1N_300MA" package="R0603">
+<connects>
+<connect gate="L" pin="1" pad="1"/>
+<connect gate="L" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="712-1424-1-ND" constant="no"/>
+<attribute name="I" value="300 mA" constant="no"/>
+<attribute name="L" value="1 nH" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="L-14C1N0SV4T" constant="no"/>
+<attribute name="TOL" value="0.3 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="DIODO_SCHOTTKY" prefix="D" uservalue="yes">
@@ -33872,20 +33918,20 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="P_MOS_2CH">
+<deviceset name="P_MOS_2CH" prefix="Q">
 <gates>
-<gate name="G$1" symbol="P_MOS" x="2.54" y="7.62"/>
-<gate name="G$2" symbol="P_MOS" x="2.54" y="-7.62"/>
+<gate name="A" symbol="P_MOS" x="2.54" y="7.62"/>
+<gate name="B" symbol="P_MOS" x="2.54" y="-7.62"/>
 </gates>
 <devices>
 <device name="_DMP3085LSD" package="8-SO">
 <connects>
-<connect gate="G$1" pin="D" pad="7 8"/>
-<connect gate="G$1" pin="G" pad="2"/>
-<connect gate="G$1" pin="S" pad="1"/>
-<connect gate="G$2" pin="D" pad="5 6"/>
-<connect gate="G$2" pin="G" pad="4"/>
-<connect gate="G$2" pin="S" pad="3"/>
+<connect gate="A" pin="D" pad="7 8"/>
+<connect gate="A" pin="G" pad="2"/>
+<connect gate="A" pin="S" pad="1"/>
+<connect gate="B" pin="D" pad="5 6"/>
+<connect gate="B" pin="G" pad="4"/>
+<connect gate="B" pin="S" pad="3"/>
 </connects>
 <technologies>
 <technology name="">
@@ -33895,16 +33941,35 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </device>
 <device name="_SI5935CDC" package="1206-8_CHIP_FET">
 <connects>
-<connect gate="G$1" pin="D" pad="7 8"/>
-<connect gate="G$1" pin="G" pad="2"/>
-<connect gate="G$1" pin="S" pad="1"/>
-<connect gate="G$2" pin="D" pad="5 6"/>
-<connect gate="G$2" pin="G" pad="4"/>
-<connect gate="G$2" pin="S" pad="3"/>
+<connect gate="A" pin="D" pad="7 8"/>
+<connect gate="A" pin="G" pad="2"/>
+<connect gate="A" pin="S" pad="1"/>
+<connect gate="B" pin="D" pad="5 6"/>
+<connect gate="B" pin="G" pad="4"/>
+<connect gate="B" pin="S" pad="3"/>
 </connects>
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_NUMBER" value="SI5935CDC-T1-GE3CT-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_NDS9948" package="8-SO">
+<connects>
+<connect gate="A" pin="D" pad="5 6"/>
+<connect gate="A" pin="G" pad="4"/>
+<connect gate="A" pin="S" pad="3"/>
+<connect gate="B" pin="D" pad="7 8"/>
+<connect gate="B" pin="G" pad="2"/>
+<connect gate="B" pin="S" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="NDS9948CT-ND" constant="no"/>
+<attribute name="ID" value="2.3 A" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="NDS9948" constant="no"/>
+<attribute name="P_MAX" value="900 mW" constant="no"/>
+<attribute name="VDSS" value="60 V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -34227,6 +34292,25 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="SSM6N815R,LF" constant="no"/>
 <attribute name="P_MAX" value="1.8 W" constant="no"/>
 <attribute name="VDSS" value="100 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_2N7002PV" package="SOT-666">
+<connects>
+<connect gate="A" pin="D" pad="6"/>
+<connect gate="A" pin="G" pad="2"/>
+<connect gate="A" pin="S" pad="1"/>
+<connect gate="B" pin="D" pad="3"/>
+<connect gate="B" pin="G" pad="5"/>
+<connect gate="B" pin="S" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="1727-4792-1-ND" constant="no"/>
+<attribute name="ID" value="350 mA" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="2N7002PV,115" constant="no"/>
+<attribute name="P_MAX" value="330 mW" constant="no"/>
+<attribute name="VDSS" value="60 V" constant="no"/>
 </technology>
 </technologies>
 </device>
