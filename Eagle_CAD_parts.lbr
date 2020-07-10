@@ -12515,7 +12515,7 @@
 </symbol>
 <symbol name="PIN">
 <wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
-<pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <text x="2.032" y="-0.762" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 <symbol name="AD8232ACPZ-R7">
@@ -30732,8 +30732,7 @@
 <symbol name="SWITCH-SPDT">
 <pin name="COM" x="-6.35" y="0" visible="pad" length="point" rot="R180"/>
 <pin name="NO" x="2.54" y="-1.27" visible="pad" length="point"/>
-<wire x1="-2.032" y1="-1.27" x2="-2.54" y2="-1.27" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-1.27" x2="-3.302" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-2.032" y1="-1.27" x2="-3.302" y2="-1.27" width="0.1524" layer="94"/>
 <wire x1="-3.302" y1="-1.27" x2="-2.667" y2="-0.635" width="0.1524" layer="94"/>
 <wire x1="-2.667" y1="-0.635" x2="-2.032" y2="-1.27" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="0.381" x2="-3.81" y2="0" width="0.1524" layer="94"/>
@@ -30742,8 +30741,7 @@
 <wire x1="-2.667" y1="0.635" x2="-2.032" y2="1.27" width="0.1524" layer="94"/>
 <circle x="-2.286" y="0.508" radius="0.254" width="0.254" layer="94"/>
 <pin name="NC" x="2.54" y="1.27" visible="pad" length="point"/>
-<pin name="CTRL" x="-6.35" y="-5.08" visible="pad" length="point" rot="R180"/>
-<wire x1="-2.54" y1="-5.08" x2="-6.35" y2="-5.08" width="0.1524" layer="94"/>
+<pin name="CTRL" x="-2.54" y="-3.81" visible="pad" length="point" rot="R90"/>
 <wire x1="-5.08" y1="0" x2="-5.08" y2="1.27" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="-5.08" y1="1.27" x2="-3.81" y2="2.54" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="-3.81" y1="2.54" x2="-1.27" y2="2.54" width="0.1524" layer="94"/>
@@ -30752,12 +30750,12 @@
 <wire x1="-2.54" y1="-2.54" x2="-3.81" y2="-2.54" width="0.1524" layer="94"/>
 <wire x1="-3.81" y1="-2.54" x2="-5.08" y2="-1.27" width="0.1524" layer="94"/>
 <wire x1="-5.08" y1="-1.27" x2="-5.08" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
 <wire x1="-3.175" y1="-3.175" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="-2.54" x2="-1.905" y2="-3.175" width="0.1524" layer="94"/>
 <wire x1="-6.35" y1="0" x2="-3.81" y2="0" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="1.27" x2="-2.032" y2="1.27" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="-1.27" x2="-2.032" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-3.81" width="0.1524" layer="94"/>
 </symbol>
 <symbol name="ADS112U04_SYM">
 <wire x1="-17.78" y1="35.56" x2="17.78" y2="35.56" width="0.254" layer="94"/>
@@ -33923,10 +33921,10 @@ portable devices</description>
 </deviceset>
 <deviceset name="4_PINES" prefix="H">
 <gates>
-<gate name="A" symbol="PIN" x="0" y="3.81"/>
-<gate name="B" symbol="PIN" x="0" y="1.27"/>
-<gate name="C" symbol="PIN" x="0" y="-1.27"/>
-<gate name="D" symbol="PIN" x="0" y="-3.81"/>
+<gate name="A" symbol="PIN" x="0" y="6.35" swaplevel="1"/>
+<gate name="B" symbol="PIN" x="0" y="1.27" swaplevel="1"/>
+<gate name="C" symbol="PIN" x="0" y="-3.81" swaplevel="1"/>
+<gate name="D" symbol="PIN" x="0" y="-8.89" swaplevel="1"/>
 </gates>
 <devices>
 <device name="_WR-PHD" package="4_PINES_4F1C">
@@ -35578,7 +35576,52 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-6.04KHCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW06036K04FKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="6.04 kOhm" constant="no"/>
+<attribute name="R" value="6.04 KOhm" constant="no"/>
+<attribute name="TOL" value="1%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0603_750R" package="R0603">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="541-750SCT-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0603750RFKEAHP" constant="no"/>
+<attribute name="P" value="1/3 W" constant="no"/>
+<attribute name="R" value="750 Ohm" constant="no"/>
+<attribute name="TOL" value="1%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0603_1K65" package="R0603">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="311-1.65KHRCT-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR-071K65L" constant="no"/>
+<attribute name="P" value="1/10 W" constant="no"/>
+<attribute name="R" value="1.65 KOhm" constant="no"/>
+<attribute name="TOL" value="1%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0603_16K5" package="R0603">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="311-16.5KHRCT-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR-0716K5L" constant="no"/>
+<attribute name="P" value="1/10 W" constant="no"/>
+<attribute name="R" value="16.5 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
 </technology>
 </technologies>
@@ -36877,6 +36920,54 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="TOL" value="20%" constant="no"/>
 <attribute name="TYPE" value="Ceramic" constant="no"/>
 <attribute name="VC" value="16 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0603_47N_50V" package="C0603">
+<connects>
+<connect gate="C" pin="A" pad="1"/>
+<connect gate="C" pin="B" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="C" value="47 nF" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="399-7933-1-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C0603C473K5RACTU" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VC" value="50 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0603_22N_100V" package="C0603">
+<connects>
+<connect gate="C" pin="A" pad="1"/>
+<connect gate="C" pin="B" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="C" value="22 nF" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="399-3476-1-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C0603C223K1RACTU" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VC" value="100 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0603_12N_50V" package="C0603">
+<connects>
+<connect gate="C" pin="A" pad="1"/>
+<connect gate="C" pin="B" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="C" value="12 nF" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="399-7852-1-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C0603C123K5RACTU" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VC" value="50 V" constant="no"/>
 </technology>
 </technologies>
 </device>
