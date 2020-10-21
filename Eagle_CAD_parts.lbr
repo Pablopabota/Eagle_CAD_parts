@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="17" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -12479,6 +12479,16 @@
 <wire x1="-2.963334375" y1="-0.846665625" x2="-4.656665625" y2="-0.846665625" width="0.0635" layer="21"/>
 <wire x1="4.656665625" y1="-0.846665625" x2="2.963334375" y2="-0.846665625" width="0.0635" layer="21"/>
 <wire x1="2.963334375" y1="0.846665625" x2="4.656665625" y2="0.846665625" width="0.0635" layer="21"/>
+</package>
+<package name="POWER_MODULE_SERIGRAPHI">
+<wire x1="0" y1="27.2" x2="33.2" y2="27.2" width="0.063" layer="21"/>
+<wire x1="33.2" y1="27.2" x2="33.2" y2="0" width="0.063" layer="21"/>
+<wire x1="33.2" y1="0" x2="0" y2="0" width="0.063" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="27.2" width="0.063" layer="21"/>
+<wire x1="1.6" y1="5.1" x2="1.6" y2="4.9" width="0" layer="21"/>
+<wire x1="1.5" y1="5" x2="1.7" y2="5" width="0" layer="21"/>
+<wire x1="31.6" y1="19.4" x2="31.6" y2="19.2" width="0" layer="21"/>
+<wire x1="31.5" y1="19.3" x2="31.7" y2="19.3" width="0" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -31236,6 +31246,13 @@
 <pin name="NC" x="22.86" y="-40.64" length="middle" rot="R180"/>
 <text x="-16.51" y="46.99" size="2.1844" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="POWER_MODULE_SYMBOL">
+<wire x1="-12.7" y1="12.7" x2="-12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-12.7" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-12.7" x2="12.7" y2="12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="12.7" x2="-12.7" y2="12.7" width="0.254" layer="94"/>
+<text x="-10.16" y="10.16" size="1.27" layer="94">POWER MODULE SOCKET</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LA6681MC">
@@ -32621,7 +32638,7 @@
 </device>
 <device name="_CSD18504Q5A" package="8-VSONP-5X6">
 <connects>
-<connect gate="A" pin="D" pad="5 6 7 8 9"/>
+<connect gate="A" pin="D" pad="5 6 7 8 9" route="any"/>
 <connect gate="A" pin="G" pad="4"/>
 <connect gate="A" pin="S" pad="1 2 3"/>
 </connects>
@@ -36218,6 +36235,21 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </technology>
 </technologies>
 </device>
+<device name="_0603_1M" package="R0603">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="541-2803-2-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RCS06031M00FKEA" constant="no"/>
+<attribute name="P" value="1/4 W" constant="no"/>
+<attribute name="R" value="1 MOhm" constant="no"/>
+<attribute name="TOL" value="1%" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="QUECTEL_BG" prefix="U">
@@ -38524,6 +38556,18 @@ Typical Applications&lt;br&gt;
 <connect gate="U$1" pin="VBAT_RF" pad="52 53"/>
 <connect gate="U$1" pin="VDD_EXT" pad="29"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="POWER_MODULE_TEMPLATE">
+<gates>
+<gate name="G$1" symbol="POWER_MODULE_SYMBOL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="POWER_MODULE_SERIGRAPHI">
 <technologies>
 <technology name=""/>
 </technologies>
