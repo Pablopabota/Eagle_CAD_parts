@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="10" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="17" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -4167,6 +4167,7 @@
 <vertex x="-1.7526" y="-1.7526"/>
 <vertex x="-1.7526" y="-1.3937"/>
 </polygon>
+<text x="-1.905" y="1.905" size="0.6096" layer="25">&gt;NAME</text>
 </package>
 <package name="10-MSOP-MC-M">
 <smd name="1" x="-2.0955" y="1" dx="1.8288" dy="0.3302" layer="1"/>
@@ -9170,7 +9171,7 @@
 <vertex x="1.35" y="-0.3"/>
 </polygon>
 </package>
-<package name="2_PINES_W_SCREW">
+<package name="2_PINES_W_SCREW_254">
 <wire x1="-2.74" y1="3.25" x2="-2.1" y2="3.25" width="0.127" layer="21"/>
 <wire x1="-2.1" y1="3.25" x2="-0.45" y2="3.25" width="0.127" layer="21"/>
 <wire x1="-0.45" y1="3.25" x2="0.45" y2="3.25" width="0.127" layer="21"/>
@@ -9216,8 +9217,9 @@
 <wire x1="1.5" y1="2.8" x2="2.1" y2="2.8" width="0.06" layer="21"/>
 <wire x1="-1" y1="2.8" x2="-0.45" y2="2.8" width="0.06" layer="21"/>
 <wire x1="-2.1" y1="2.8" x2="-1.5" y2="2.8" width="0.06" layer="21"/>
+<dimension x1="-1.27" y1="0" x2="1.27" y2="0" x3="0" y3="0" textsize="1.27" layer="21"/>
 </package>
-<package name="4_PINES_W_SCREW">
+<package name="4_PINES_W_SCREW_254">
 <wire x1="-2.74" y1="3.25" x2="-2.1" y2="3.25" width="0.127" layer="21"/>
 <wire x1="-2.1" y1="3.25" x2="-0.45" y2="3.25" width="0.127" layer="21"/>
 <wire x1="-0.45" y1="3.25" x2="0.45" y2="3.25" width="0.127" layer="21"/>
@@ -9850,8 +9852,8 @@
 <wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
 <smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
 <smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-0.635" y="0.635" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.27" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="21"/>
 <rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="21"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
@@ -9865,8 +9867,8 @@
 <wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
 <smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
-<text x="-0.635" y="0.635" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-0.635" y="0.635" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="21"/>
 <rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="21"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
@@ -9971,8 +9973,8 @@
 <wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
 <smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
 <smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<text x="-0.635" y="0.635" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-0.635" y="0.635" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.27" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="21"/>
 <rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="21"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
@@ -9987,7 +9989,7 @@
 <smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
 <text x="-0.635" y="0.635" size="0.6096" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-0.635" y="-1.27" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="21"/>
 <rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="21"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
@@ -10526,7 +10528,7 @@
 <wire x1="2.41" y1="-2.41" x2="-2.41" y2="-2.41" width="0.0508" layer="39"/>
 <wire x1="-2.41" y1="-2.41" x2="-2.41" y2="2.41" width="0.0508" layer="39"/>
 </package>
-<package name="5_PINES_W_SCREW">
+<package name="5_PINES_W_SCREW_254">
 <wire x1="-0.83" y1="3.25" x2="0.82" y2="3.25" width="0.127" layer="21"/>
 <wire x1="0.82" y1="3.25" x2="1.72" y2="3.25" width="0.127" layer="21"/>
 <wire x1="1.72" y1="3.25" x2="3.37" y2="3.25" width="0.127" layer="21"/>
@@ -12765,6 +12767,7 @@
 <wire x1="1" y1="-2.2" x2="1" y2="-3.4" width="0.127" layer="21"/>
 <wire x1="1" y1="-3.4" x2="1.5" y2="-3.4" width="0.127" layer="21"/>
 <wire x1="1.5" y1="-3.4" x2="1.5" y2="-2.2" width="0.127" layer="21"/>
+<text x="-2.54" y="-1.27" size="0.6096" layer="25" rot="R90">&gt;NAME</text>
 </package>
 <package name="9_PINES">
 <wire x1="-8.255" y1="1.27" x2="-6.985" y2="1.27" width="0.1524" layer="21"/>
@@ -13330,6 +13333,7 @@
 <wire x1="-2.2" y1="-2.2" x2="2.2" y2="-2.2" width="0.0635" layer="39"/>
 <wire x1="2.2" y1="-2.2" x2="2.2" y2="2.2" width="0.0635" layer="39"/>
 <wire x1="2.2" y1="2.2" x2="-2.2" y2="2.2" width="0.0635" layer="39"/>
+<text x="-1.905" y="2.54" size="0.6096" layer="25">&gt;NAME</text>
 </package>
 <package name="X2Y0603">
 <wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="21"/>
@@ -13441,6 +13445,256 @@
 <wire x1="-4.6" y1="-3.8" x2="4.6" y2="-3.8" width="0.0635" layer="39"/>
 <wire x1="4.6" y1="-3.8" x2="4.6" y2="3.8" width="0.0635" layer="39"/>
 <wire x1="4.6" y1="3.8" x2="-4.6" y2="3.8" width="0.0635" layer="39"/>
+<text x="5.08" y="-1.905" size="0.6096" layer="25" rot="R90">&gt;NAME</text>
+</package>
+<package name="10_PINES_2F1C_F">
+<wire x1="-6.35" y1="2.54" x2="6.35" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="2.54" x2="-6.35" y2="-2.54" width="0.1524" layer="21"/>
+<text x="-6.35" y="2.921" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
+<text x="-7.62" y="0.635" size="1.27" layer="21" ratio="10">1</text>
+<text x="-6.35" y="-3.556" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-2.794" y1="1.016" x2="-2.286" y2="1.524" layer="21"/>
+<rectangle x1="-5.334" y1="1.016" x2="-4.826" y2="1.524" layer="21"/>
+<rectangle x1="-0.254" y1="1.016" x2="0.254" y2="1.524" layer="21"/>
+<wire x1="6.35" y1="-2.54" x2="-6.35" y2="-2.54" width="0.1524" layer="21"/>
+<rectangle x1="4.826" y1="1.016" x2="5.334" y2="1.524" layer="21"/>
+<rectangle x1="2.286" y1="1.016" x2="2.794" y2="1.524" layer="21"/>
+<wire x1="6.35" y1="2.54" x2="6.35" y2="-2.54" width="0.1524" layer="21"/>
+<pad name="1" x="-5.08" y="1.27" drill="1.1"/>
+<pad name="2" x="-2.54" y="1.27" drill="1.1"/>
+<pad name="3" x="0" y="1.27" drill="1.1"/>
+<pad name="4" x="2.54" y="1.27" drill="1.1"/>
+<pad name="5" x="5.08" y="1.27" drill="1.1"/>
+<wire x1="-5.926665625" y1="2.116665625" x2="-4.233334375" y2="2.116665625" width="0.0635" layer="21"/>
+<wire x1="-4.233334375" y1="2.116665625" x2="-4.233334375" y2="0.423334375" width="0.0635" layer="21"/>
+<wire x1="-4.233334375" y1="0.423334375" x2="-5.926665625" y2="0.423334375" width="0.0635" layer="21"/>
+<wire x1="-5.926665625" y1="0.423334375" x2="-5.926665625" y2="2.116665625" width="0.0635" layer="21"/>
+<wire x1="-3.386665625" y1="2.116665625" x2="-1.693334375" y2="2.116665625" width="0.0635" layer="21"/>
+<wire x1="-1.693334375" y1="2.116665625" x2="-1.693334375" y2="0.423334375" width="0.0635" layer="21"/>
+<wire x1="-1.693334375" y1="0.423334375" x2="-3.386665625" y2="0.423334375" width="0.0635" layer="21"/>
+<wire x1="-3.386665625" y1="0.423334375" x2="-3.386665625" y2="2.116665625" width="0.0635" layer="21"/>
+<wire x1="-0.846665625" y1="2.116665625" x2="0.846665625" y2="2.116665625" width="0.0635" layer="21"/>
+<wire x1="0.846665625" y1="2.116665625" x2="0.846665625" y2="0.423334375" width="0.0635" layer="21"/>
+<wire x1="0.846665625" y1="0.423334375" x2="-0.846665625" y2="0.423334375" width="0.0635" layer="21"/>
+<wire x1="-0.846665625" y1="0.423334375" x2="-0.846665625" y2="2.116665625" width="0.0635" layer="21"/>
+<wire x1="1.693334375" y1="2.116665625" x2="3.386665625" y2="2.116665625" width="0.0635" layer="21"/>
+<wire x1="3.386665625" y1="2.116665625" x2="3.386665625" y2="0.423334375" width="0.0635" layer="21"/>
+<wire x1="3.386665625" y1="0.423334375" x2="1.693334375" y2="0.423334375" width="0.0635" layer="21"/>
+<wire x1="1.693334375" y1="0.423334375" x2="1.693334375" y2="2.116665625" width="0.0635" layer="21"/>
+<wire x1="4.233334375" y1="2.116665625" x2="5.926665625" y2="2.116665625" width="0.0635" layer="21"/>
+<wire x1="5.926665625" y1="2.116665625" x2="5.926665625" y2="0.423334375" width="0.0635" layer="21"/>
+<wire x1="5.926665625" y1="0.423334375" x2="4.233334375" y2="0.423334375" width="0.0635" layer="21"/>
+<wire x1="4.233334375" y1="0.423334375" x2="4.233334375" y2="2.116665625" width="0.0635" layer="21"/>
+<pad name="6" x="-5.08" y="-1.27" drill="1.1"/>
+<pad name="7" x="-2.54" y="-1.27" drill="1.1"/>
+<rectangle x1="-0.254" y1="-1.524" x2="0.254" y2="-1.016" layer="21"/>
+<pad name="8" x="0" y="-1.27" drill="1.1"/>
+<pad name="9" x="2.54" y="-1.27" drill="1.1"/>
+<pad name="10" x="5.08" y="-1.27" drill="1.1"/>
+<rectangle x1="-5.334" y1="-1.524" x2="-4.826" y2="-1.016" layer="21"/>
+<rectangle x1="-2.794" y1="-1.524" x2="-2.286" y2="-1.016" layer="21"/>
+<rectangle x1="2.286" y1="-1.524" x2="2.794" y2="-1.016" layer="21"/>
+<rectangle x1="4.826" y1="-1.524" x2="5.334" y2="-1.016" layer="21"/>
+<wire x1="0.846665625" y1="-2.116665625" x2="-0.846665625" y2="-2.116665625" width="0.0635" layer="21"/>
+<wire x1="3.386665625" y1="-2.116665625" x2="1.693334375" y2="-2.116665625" width="0.0635" layer="21"/>
+<wire x1="5.926665625" y1="-2.116665625" x2="4.233334375" y2="-2.116665625" width="0.0635" layer="21"/>
+<wire x1="-1.693334375" y1="-2.116665625" x2="-3.386665625" y2="-2.116665625" width="0.0635" layer="21"/>
+<wire x1="-4.233334375" y1="-2.116665625" x2="-5.926665625" y2="-2.116665625" width="0.0635" layer="21"/>
+<wire x1="-5.926665625" y1="-0.423334375" x2="-4.233334375" y2="-0.423334375" width="0.0635" layer="21"/>
+<wire x1="-3.386665625" y1="-0.423334375" x2="-1.693334375" y2="-0.423334375" width="0.0635" layer="21"/>
+<wire x1="-0.846665625" y1="-0.423334375" x2="0.846665625" y2="-0.423334375" width="0.0635" layer="21"/>
+<wire x1="1.693334375" y1="-0.423334375" x2="3.386665625" y2="-0.423334375" width="0.0635" layer="21"/>
+<wire x1="4.233334375" y1="-0.423334375" x2="5.926665625" y2="-0.423334375" width="0.0635" layer="21"/>
+<wire x1="4.233334375" y1="-2.116665625" x2="4.233334375" y2="-0.423334375" width="0.0635" layer="21"/>
+<wire x1="5.926665625" y1="-0.423334375" x2="5.926665625" y2="-2.116665625" width="0.0635" layer="21"/>
+<wire x1="3.386665625" y1="-0.423334375" x2="3.386665625" y2="-2.116665625" width="0.0635" layer="21"/>
+<wire x1="1.693334375" y1="-2.116665625" x2="1.693334375" y2="-0.423334375" width="0.0635" layer="21"/>
+<wire x1="0.846665625" y1="-0.423334375" x2="0.846665625" y2="-2.116665625" width="0.0635" layer="21"/>
+<wire x1="-0.846665625" y1="-2.116665625" x2="-0.846665625" y2="-0.423334375" width="0.0635" layer="21"/>
+<wire x1="-1.693334375" y1="-0.423334375" x2="-1.693334375" y2="-2.116665625" width="0.0635" layer="21"/>
+<wire x1="-3.386665625" y1="-2.116665625" x2="-3.386665625" y2="-0.423334375" width="0.0635" layer="21"/>
+<wire x1="-4.233334375" y1="-0.423334375" x2="-4.233334375" y2="-2.116665625" width="0.0635" layer="21"/>
+<wire x1="-5.926665625" y1="-2.116665625" x2="-5.926665625" y2="-0.423334375" width="0.0635" layer="21"/>
+<text x="6.35" y="-1.905" size="1.27" layer="21" ratio="10">10</text>
+</package>
+<package name="3_PINES_W_SCREW_508">
+<wire x1="-7.62" y1="4.52" x2="-5.91" y2="4.52" width="0.127" layer="21"/>
+<wire x1="-5.91" y1="4.52" x2="-4.26" y2="4.52" width="0.127" layer="21"/>
+<wire x1="-4.26" y1="4.52" x2="-0.82" y2="4.52" width="0.127" layer="21"/>
+<wire x1="-0.82" y1="4.52" x2="0.83" y2="4.52" width="0.127" layer="21"/>
+<wire x1="0.83" y1="4.52" x2="4.26" y2="4.52" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-2.54" x2="8.32" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="8.32" y1="-2.54" x2="8.32" y2="-3.25" width="0.127" layer="21"/>
+<wire x1="8.32" y1="-3.25" x2="7.62" y2="-3.25" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-4.52" x2="-7.62" y2="-4.52" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="-4.52" x2="-7.62" y2="-1.1" width="0.127" layer="21"/>
+<pad name="1" x="-5.08" y="0" drill="1.3" shape="long" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1.3" shape="long" rot="R90"/>
+<circle x="-5.08" y="0" radius="0.83" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="0.83" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="-1.1" x2="-7.62" y2="1.1" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="1.1" x2="-7.62" y2="3.77" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="3.77" x2="-7.62" y2="4.52" width="0.127" layer="21"/>
+<wire x1="-5.81" y1="-0.4" x2="-4.67" y2="0.72" width="0.127" layer="21"/>
+<wire x1="-5.5" y1="-0.71" x2="-4.36" y2="0.41" width="0.127" layer="21"/>
+<wire x1="0.69" y1="-0.44" x2="-0.43" y2="0.7" width="0.127" layer="21"/>
+<wire x1="0.42" y1="-0.71" x2="-0.7" y2="0.43" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="3.77" x2="-5.91" y2="3.77" width="0.127" layer="21"/>
+<wire x1="-4.26" y1="3.77" x2="-0.82" y2="3.77" width="0.127" layer="21"/>
+<wire x1="-0.82" y1="3.77" x2="-0.27" y2="3.77" width="0.127" layer="21"/>
+<wire x1="-0.27" y1="3.77" x2="0.23" y2="3.77" width="0.127" layer="21"/>
+<wire x1="0.23" y1="3.77" x2="0.83" y2="3.77" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="1.1" x2="7.62" y2="1.1" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-1.1" x2="-7.62" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="-5.91" y1="4.52" x2="-5.91" y2="4.07" width="0.127" layer="21"/>
+<wire x1="-5.91" y1="4.07" x2="-5.91" y2="3.77" width="0.127" layer="21"/>
+<wire x1="-5.91" y1="3.77" x2="-5.31" y2="3.77" width="0.127" layer="21"/>
+<wire x1="-5.31" y1="3.77" x2="-4.81" y2="3.77" width="0.127" layer="21"/>
+<wire x1="-4.81" y1="3.77" x2="-4.26" y2="3.77" width="0.127" layer="21"/>
+<wire x1="-4.26" y1="3.77" x2="-4.26" y2="4.07" width="0.127" layer="21"/>
+<wire x1="-4.26" y1="4.07" x2="-4.26" y2="4.52" width="0.127" layer="21"/>
+<wire x1="-0.82" y1="3.77" x2="-0.82" y2="4.07" width="0.127" layer="21"/>
+<wire x1="-0.82" y1="4.07" x2="-0.82" y2="4.52" width="0.127" layer="21"/>
+<wire x1="0.83" y1="3.77" x2="0.83" y2="4.07" width="0.127" layer="21"/>
+<wire x1="0.83" y1="4.07" x2="0.83" y2="4.52" width="0.127" layer="21"/>
+<wire x1="-5.31" y1="3.77" x2="-5.31" y2="4.07" width="0.127" layer="21"/>
+<wire x1="-5.31" y1="4.07" x2="-4.81" y2="4.07" width="0.127" layer="21"/>
+<wire x1="-4.81" y1="4.07" x2="-4.81" y2="3.77" width="0.127" layer="21"/>
+<wire x1="-0.27" y1="3.77" x2="-0.27" y2="4.07" width="0.127" layer="21"/>
+<wire x1="-0.27" y1="4.07" x2="0.23" y2="4.07" width="0.127" layer="21"/>
+<wire x1="0.23" y1="4.07" x2="0.23" y2="3.77" width="0.127" layer="21"/>
+<wire x1="-0.82" y1="4.07" x2="-0.27" y2="4.07" width="0.06" layer="21"/>
+<wire x1="0.23" y1="4.07" x2="0.83" y2="4.07" width="0.06" layer="21"/>
+<wire x1="-4.81" y1="4.07" x2="-4.26" y2="4.07" width="0.06" layer="21"/>
+<wire x1="-5.91" y1="4.07" x2="-5.31" y2="4.07" width="0.06" layer="21"/>
+<pad name="3" x="5.08" y="0" drill="1.3" shape="long" rot="R90"/>
+<wire x1="4.26" y1="4.52" x2="5.91" y2="4.52" width="0.127" layer="21"/>
+<wire x1="5.91" y1="4.52" x2="7.62" y2="4.52" width="0.127" layer="21"/>
+<circle x="5.08" y="0" radius="0.83" width="0.127" layer="21"/>
+<wire x1="5.52" y1="0.69" x2="4.38" y2="-0.43" width="0.127" layer="21"/>
+<wire x1="5.79" y1="0.42" x2="4.65" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="0.82" y1="3.77" x2="4.26" y2="3.77" width="0.127" layer="21"/>
+<wire x1="4.26" y1="3.77" x2="4.81" y2="3.77" width="0.127" layer="21"/>
+<wire x1="4.81" y1="3.77" x2="5.31" y2="3.77" width="0.127" layer="21"/>
+<wire x1="5.31" y1="3.77" x2="5.91" y2="3.77" width="0.127" layer="21"/>
+<wire x1="4.26" y1="3.77" x2="4.26" y2="4.07" width="0.127" layer="21"/>
+<wire x1="4.26" y1="4.07" x2="4.26" y2="4.52" width="0.127" layer="21"/>
+<wire x1="5.91" y1="3.77" x2="5.91" y2="4.07" width="0.127" layer="21"/>
+<wire x1="5.91" y1="4.07" x2="5.91" y2="4.52" width="0.127" layer="21"/>
+<wire x1="4.81" y1="3.77" x2="4.81" y2="4.07" width="0.127" layer="21"/>
+<wire x1="4.81" y1="4.07" x2="5.31" y2="4.07" width="0.127" layer="21"/>
+<wire x1="5.31" y1="4.07" x2="5.31" y2="3.77" width="0.127" layer="21"/>
+<wire x1="4.26" y1="4.07" x2="4.81" y2="4.07" width="0.06" layer="21"/>
+<wire x1="5.31" y1="4.07" x2="5.91" y2="4.07" width="0.06" layer="21"/>
+<wire x1="5.91" y1="3.77" x2="7.62" y2="3.77" width="0.127" layer="21"/>
+<wire x1="7.62" y1="4.52" x2="7.62" y2="3.77" width="0.127" layer="21"/>
+<wire x1="7.62" y1="3.77" x2="7.62" y2="1.1" width="0.127" layer="21"/>
+<wire x1="7.62" y1="1.1" x2="7.62" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-1.1" x2="7.62" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-2.54" x2="7.62" y2="-3.25" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-3.25" x2="7.62" y2="-4.52" width="0.127" layer="21"/>
+</package>
+<package name="SMB_FLAT">
+<smd name="C-" x="-2.32" y="0" dx="1.2" dy="2.07" layer="1"/>
+<smd name="A+" x="2.32" y="0" dx="1.2" dy="2.07" layer="1"/>
+<wire x1="-2.3" y1="2" x2="2.3" y2="2" width="0.127" layer="21"/>
+<wire x1="2.3" y1="2" x2="2.3" y2="-2" width="0.127" layer="21"/>
+<wire x1="2.3" y1="-2" x2="-2.3" y2="-2" width="0.127" layer="21"/>
+<wire x1="-2.3" y1="-2" x2="-2.3" y2="2" width="0.127" layer="21"/>
+<rectangle x1="-1.8" y1="-2" x2="-1.2" y2="2" layer="21"/>
+<text x="-2.2" y="2.4" size="0.6096" layer="25">&gt;NAME</text>
+<wire x1="-3.2" y1="2.2" x2="3.2" y2="2.2" width="0.0635" layer="39"/>
+<wire x1="3.2" y1="2.2" x2="3.2" y2="-2.2" width="0.0635" layer="39"/>
+<wire x1="3.2" y1="-2.2" x2="-3.2" y2="-2.2" width="0.0635" layer="39"/>
+<wire x1="-3.2" y1="-2.2" x2="-3.2" y2="2.2" width="0.0635" layer="39"/>
+</package>
+<package name="WP934CB">
+<pad name="2" x="0" y="1.27" drill="0.9" shape="square"/>
+<pad name="1" x="0" y="-1.27" drill="0.9"/>
+<wire x1="-4.4" y1="2.3" x2="1.95" y2="2.3" width="0.127" layer="21"/>
+<wire x1="1.95" y1="2.3" x2="1.95" y2="-2.3" width="0.127" layer="21"/>
+<wire x1="1.95" y1="-2.3" x2="-4.4" y2="-2.3" width="0.127" layer="21"/>
+<wire x1="-4.4" y1="-2.3" x2="-4.4" y2="-1.45" width="0.127" layer="21"/>
+<wire x1="-4.4" y1="-1.45" x2="-4.4" y2="1.45" width="0.127" layer="21"/>
+<wire x1="-4.4" y1="1.45" x2="-4.4" y2="2.3" width="0.127" layer="21"/>
+<wire x1="-4.4" y1="-1.45" x2="-4.4" y2="1.45" width="0.127" layer="21" curve="-180"/>
+<wire x1="-6.1" y1="2.5" x2="2.2" y2="2.5" width="0.127" layer="39"/>
+<wire x1="2.2" y1="2.5" x2="2.2" y2="-2.5" width="0.127" layer="39"/>
+<wire x1="2.2" y1="-2.5" x2="-6.1" y2="-2.5" width="0.127" layer="39"/>
+<wire x1="-6.1" y1="-2.5" x2="-6.1" y2="2.5" width="0.127" layer="39"/>
+</package>
+<package name="FSMRA5J">
+<pad name="NC1" x="-3.505" y="1.245" drill="1.3"/>
+<pad name="NC2" x="3.505" y="1.245" drill="1.3"/>
+<pad name="1" x="-2.25" y="-1.245" drill="1"/>
+<pad name="2" x="2.25" y="-1.245" drill="1"/>
+<wire x1="-3.55" y1="0" x2="-3.15" y2="0" width="0.127" layer="21"/>
+<wire x1="3.15" y1="0" x2="3.55" y2="0" width="0.127" layer="21"/>
+<wire x1="3.55" y1="0" x2="3.55" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="3.55" y1="-3.835" x2="1.755" y2="-3.835" width="0.127" layer="21"/>
+<wire x1="1.755" y1="-3.835" x2="1.755" y2="-4.395" width="0.127" layer="21"/>
+<wire x1="1.755" y1="-4.395" x2="-1.755" y2="-4.395" width="0.127" layer="21"/>
+<wire x1="-1.755" y1="-4.395" x2="-1.755" y2="-3.835" width="0.127" layer="21"/>
+<wire x1="-1.755" y1="-3.835" x2="-3.55" y2="-3.835" width="0.127" layer="21"/>
+<wire x1="-3.55" y1="-3.81" x2="-3.55" y2="0" width="0.127" layer="21"/>
+<wire x1="-3.55" y1="0" x2="-3.55" y2="2.755" width="0.127" layer="21"/>
+<wire x1="-3.55" y1="2.755" x2="-3.15" y2="2.755" width="0.127" layer="21"/>
+<wire x1="-3.15" y1="2.755" x2="-3.15" y2="0" width="0.127" layer="21"/>
+<wire x1="-3.15" y1="0" x2="3.15" y2="0" width="0.127" layer="21"/>
+<wire x1="3.15" y1="0" x2="3.15" y2="2.755" width="0.127" layer="21"/>
+<wire x1="3.15" y1="2.755" x2="3.55" y2="2.755" width="0.127" layer="21"/>
+<wire x1="3.55" y1="2.755" x2="3.55" y2="0" width="0.127" layer="21"/>
+<wire x1="-1.755" y1="-3.835" x2="1.755" y2="-3.835" width="0.127" layer="21"/>
+<wire x1="4.8" y1="-4.6" x2="-4.8" y2="-4.6" width="0.127" layer="39"/>
+<wire x1="-4.8" y1="-4.6" x2="-4.8" y2="3.1" width="0.127" layer="39"/>
+<wire x1="-4.8" y1="3.1" x2="-2.2" y2="3.1" width="0.127" layer="39"/>
+<wire x1="-2.2" y1="3.1" x2="-2.2" y2="0.4" width="0.127" layer="39"/>
+<wire x1="-2.2" y1="0.4" x2="2.2" y2="0.4" width="0.127" layer="39"/>
+<wire x1="2.2" y1="0.4" x2="2.2" y2="3.2" width="0.127" layer="39"/>
+<wire x1="2.2" y1="3.2" x2="4.8" y2="3.2" width="0.127" layer="39"/>
+<wire x1="4.8" y1="3.2" x2="4.8" y2="-4.6" width="0.127" layer="39"/>
+</package>
+<package name="10_PINES_2F5C_ANG">
+<pad name="8" x="0" y="1.27" drill="1"/>
+<pad name="3" x="0" y="-1.27" drill="1"/>
+<pad name="9" x="2.54" y="1.27" drill="1"/>
+<pad name="10" x="5.08" y="1.27" drill="1"/>
+<pad name="7" x="-2.54" y="1.27" drill="1"/>
+<pad name="6" x="-5.08" y="1.27" drill="1"/>
+<pad name="1" x="-5.08" y="-1.27" drill="1"/>
+<pad name="2" x="-2.54" y="-1.27" drill="1"/>
+<pad name="4" x="2.54" y="-1.27" drill="1"/>
+<pad name="5" x="5.08" y="-1.27" drill="1"/>
+<wire x1="-4.76" y1="-1.27" x2="-5.4" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-5.4" y1="-1.27" x2="-5.4" y2="10.92" width="0.127" layer="21"/>
+<wire x1="-5.4" y1="10.92" x2="-4.76" y2="10.92" width="0.127" layer="21"/>
+<wire x1="-4.76" y1="10.92" x2="-4.76" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-2.22" y1="-1.27" x2="-2.86" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-2.86" y1="-1.27" x2="-2.86" y2="10.92" width="0.127" layer="21"/>
+<wire x1="-2.86" y1="10.92" x2="-2.22" y2="10.92" width="0.127" layer="21"/>
+<wire x1="-2.22" y1="10.92" x2="-2.22" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="0.32" y1="-1.27" x2="-0.32" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-0.32" y1="-1.27" x2="-0.32" y2="10.92" width="0.127" layer="21"/>
+<wire x1="-0.32" y1="10.92" x2="0.32" y2="10.92" width="0.127" layer="21"/>
+<wire x1="0.32" y1="10.92" x2="0.32" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="2.86" y1="-1.27" x2="2.22" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="2.22" y1="-1.27" x2="2.22" y2="10.92" width="0.127" layer="21"/>
+<wire x1="2.22" y1="10.92" x2="2.86" y2="10.92" width="0.127" layer="21"/>
+<wire x1="2.86" y1="10.92" x2="2.86" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="5.4" y1="-1.27" x2="4.76" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="4.76" y1="-1.27" x2="4.76" y2="10.92" width="0.127" layer="21"/>
+<wire x1="4.76" y1="10.92" x2="5.4" y2="10.92" width="0.127" layer="21"/>
+<wire x1="5.4" y1="10.92" x2="5.4" y2="-1.27" width="0.127" layer="21"/>
+<polygon width="0.127" layer="21">
+<vertex x="-6.35" y="2.54"/>
+<vertex x="6.35" y="2.54"/>
+<vertex x="6.35" y="5.08"/>
+<vertex x="-6.35" y="5.08"/>
+</polygon>
+<wire x1="-6.985" y1="11.43" x2="6.985" y2="11.43" width="0.127" layer="39"/>
+<wire x1="6.985" y1="11.43" x2="6.985" y2="-2.54" width="0.127" layer="39"/>
+<wire x1="6.985" y1="-2.54" x2="-6.985" y2="-2.54" width="0.127" layer="39"/>
+<wire x1="-6.985" y1="-2.54" x2="-6.985" y2="11.43" width="0.127" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -30116,7 +30370,7 @@
 <text x="-2.54" y="-5.08" size="1.778" layer="95" rot="R90">&gt;NAME</text>
 <pin name="2" x="0" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 <pin name="1" x="0" y="7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<text x="2.54" y="-7.62" size="1.778" layer="96" rot="R90">&gt;L</text>
+<text x="2.54" y="-7.62" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 </symbol>
 <symbol name="SCHOTTKY">
 <wire x1="1.905" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
@@ -30156,7 +30410,7 @@
 <pin name="4" x="3.81" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
 <symbol name="CAPV">
-<text x="2.54" y="-4.9276" size="1.778" layer="96" ratio="10" rot="SR0">&gt;C</text>
+<text x="2.54" y="-4.9276" size="1.778" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
 <text x="2.54" y="0.8128" size="1.778" layer="95" ratio="10" rot="SR0">&gt;Name</text>
 <wire x1="0" y1="-2.54" x2="0" y2="-2.032" width="0.1524" layer="94"/>
 <wire x1="0" y1="0" x2="0" y2="-0.508" width="0.1524" layer="94"/>
@@ -30554,7 +30808,7 @@
 <pin name="VSS" x="-20.32" y="-21.59" length="middle" direction="pas"/>
 <pin name="PROG1" x="20.32" y="-16.51" length="middle" direction="pas" rot="R180"/>
 <pin name="PROG2" x="20.32" y="-7.62" length="middle" direction="pas" rot="R180"/>
-<pin name="!PG" x="-20.32" y="-12.7" length="middle" direction="pas"/>
+<pin name="!PG!/!TE!" x="-20.32" y="-12.7" length="middle" direction="pas"/>
 <pin name="THERM" x="20.32" y="0" length="middle" direction="pas" rot="R180"/>
 <pin name="VBAT" x="20.32" y="7.62" length="middle" direction="pas" rot="R180"/>
 <wire x1="-15.24" y1="12.7" x2="-15.24" y2="-24.13" width="0.1524" layer="94"/>
@@ -31338,7 +31592,7 @@
 <wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.2032" layer="94"/>
 <wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.2032" layer="94"/>
 <text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;R</text>
+<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
@@ -31720,6 +31974,7 @@
 <pin name="C-" x="8.89" y="3.81" length="middle" rot="R180"/>
 <pin name="A+" x="8.89" y="-3.81" length="middle" rot="R180"/>
 <text x="-10.16" y="5.08" size="1.27" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-7.62" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="LM3150">
 <wire x1="-12.7" y1="20.32" x2="12.7" y2="20.32" width="0.254" layer="94"/>
@@ -32329,7 +32584,7 @@
 <pin name="PG" x="20.32" y="-17.78" length="middle" rot="R180"/>
 <pin name="PGND" x="7.62" y="-30.48" length="middle" rot="R90"/>
 <pin name="GND" x="-7.62" y="-30.48" length="middle" rot="R90"/>
-<pin name="PS/SYNC" x="-20.32" y="-12.7" length="middle"/>
+<pin name="!PS!/SYNC" x="-20.32" y="-12.7" length="middle"/>
 <pin name="EN" x="-20.32" y="-10.16" length="middle"/>
 <pin name="VINA" x="-20.32" y="-7.62" length="middle"/>
 <text x="-12.7" y="2.54" size="1.6764" layer="95">&gt;NAME</text>
@@ -32368,7 +32623,7 @@
 <symbol name="X2Y_SYM">
 </symbol>
 <symbol name="C_X2Y_SYM">
-<text x="2.54" y="-4.9276" size="1.778" layer="96" ratio="10" rot="SR0">&gt;C</text>
+<text x="2.54" y="-4.9276" size="1.778" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
 <text x="2.54" y="0.8128" size="1.778" layer="95" ratio="10" rot="SR0">&gt;Name</text>
 <wire x1="0" y1="-3.81" x2="0" y2="-2.667" width="0.1524" layer="94"/>
 <wire x1="0" y1="1.27" x2="0" y2="0.127" width="0.1524" layer="94"/>
@@ -33131,8 +33386,8 @@
 <attribute name="DIGIKEY_PART_NUMBER" value="P17070CT-ND" constant="no"/>
 <attribute name="I" value="2.1 A" constant="no"/>
 <attribute name="I_SAT" value="3 A" constant="no"/>
-<attribute name="L" value="100 uH" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ETQ-P5M101YGK" constant="no"/>
+<attribute name="VALUE" value="100 uH" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -33192,7 +33447,7 @@
 <attribute name="DIGIKEY_PART_NUMBER" value="308-2494-1-ND" constant="no"/>
 <attribute name="I" value="7.5 A" constant="no"/>
 <attribute name="I_SAT" value="10 A" constant="no"/>
-<attribute name="L" value="10 uH" constant="no"/>
+<attribute name="VALUE" value="10 uH" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -33205,9 +33460,9 @@
 <technology name="">
 <attribute name="DCR" value="40 mOhm" constant="no"/>
 <attribute name="I_SAT" value="5.9 A" constant="no"/>
-<attribute name="L" value="4.7 uH" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="XAL5030-472MEB" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="994-XAL5030-472MEB" constant="no"/>
+<attribute name="VALUE" value="4.7 uH" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -33220,9 +33475,9 @@
 <technology name="">
 <attribute name="DCR" value="15.8 mOhm" constant="no"/>
 <attribute name="I_SAT" value="9.1 A" constant="no"/>
-<attribute name="L" value="1.5 uH" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="XFL4020-152MEC" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="994-XFL4020-152MEC" constant="no"/>
+<attribute name="VALUE" value="1.5 uH" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -33234,8 +33489,8 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_NUMBER" value="240-2402-1-ND" constant="no"/>
-<attribute name="L" value="Fe Bead" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LI1206H151R-10" constant="no"/>
+<attribute name="VALUE" value="Fe Bead" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -33248,9 +33503,9 @@
 <technology name="">
 <attribute name="DCR" value="9.42 mOhm" constant="no"/>
 <attribute name="I_SAT" value="15.1 A" constant="no"/>
-<attribute name="L" value="3.3 uH" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="XAL7070-332MEB" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="994-XAL7070-332MEB" constant="no"/>
+<attribute name="VALUE" value="3.3 uH" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -33263,9 +33518,9 @@
 <technology name="">
 <attribute name="DCR" value="8.36 mOhm" constant="no"/>
 <attribute name="I_SAT" value="11.2 A" constant="no"/>
-<attribute name="L" value="0.47 uH" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="XFL4015-471MEC" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="994-XFL4015-471MEC" constant="no"/>
+<attribute name="VALUE" value="0.47 uH" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -33277,8 +33532,8 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_NUMBER" value="NC/DNM" constant="no"/>
-<attribute name="L" value="NC/DNM" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="NC/DNM" constant="no"/>
+<attribute name="VALUE" value="NC/DNM" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -33291,9 +33546,9 @@
 <technology name="">
 <attribute name="DIGIKEY_PART_NUMBER" value="732-6269-1-ND" constant="no"/>
 <attribute name="I" value="400 mA" constant="no"/>
-<attribute name="L" value="33 nH" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="744786133A" constant="no"/>
 <attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="33 nH" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -33306,9 +33561,9 @@
 <technology name="">
 <attribute name="DIGIKEY_PART_NUMBER" value="712-1424-1-ND" constant="no"/>
 <attribute name="I" value="300 mA" constant="no"/>
-<attribute name="L" value="1 nH" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="L-14C1N0SV4T" constant="no"/>
 <attribute name="TOL" value="0.3 nH" constant="no"/>
+<attribute name="VALUE" value="1 nH" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -33323,9 +33578,9 @@
 <attribute name="DIGIKEY_PART_NUMBER" value="308-2569-1-ND" constant="no"/>
 <attribute name="I" value="17 A" constant="no"/>
 <attribute name="I_SAT" value="27 A" constant="no"/>
-<attribute name="L" value="3.3 uH" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="125CDMCCDS-3R3MC" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="851-125CDMCCDS3R3MC " constant="no"/>
+<attribute name="VALUE" value="3.3 uH" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -33340,9 +33595,9 @@
 <attribute name="DIGIKEY_PART_NUMBER" value="553-4041-1-ND" constant="no"/>
 <attribute name="I" value="14 A" constant="no"/>
 <attribute name="I_SAT" value="20.5 A" constant="no"/>
-<attribute name="L" value="3.3 uH" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="PA4346.332ANLT" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="673-PA4346.332ANLT " constant="no"/>
+<attribute name="VALUE" value="3.3 uH" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -33356,8 +33611,8 @@
 <attribute name="DCR" value="19.2 mOhm" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="490-10819-1-ND" constant="no"/>
 <attribute name="I" value="7.8 A" constant="no"/>
-<attribute name="L" value="2.2 uH" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="1264EY-2R2N=P3" constant="no"/>
+<attribute name="VALUE" value="2.2 uH" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -33372,8 +33627,8 @@
 <attribute name="DIGIKEY_PART_NUMBER" value="587-6102-1-ND" constant="no"/>
 <attribute name="I" value="3.1 A" constant="no"/>
 <attribute name="I_SAT" value="4.1 A" constant="no"/>
-<attribute name="L" value="2.2 uH" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="NRS5024T2R2NMGJ" constant="no"/>
+<attribute name="VALUE" value="2.2 uH" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -33388,9 +33643,9 @@
 <attribute name="DIGIKEY_PART_NUMBER" value="2184-BMRA000505301R0MA1CT-ND" constant="no"/>
 <attribute name="I" value="7 A" constant="no"/>
 <attribute name="I_SAT" value="11 A" constant="no"/>
-<attribute name="L" value="1 uH" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="BMRA000505301R0MA1" constant="no"/>
 <attribute name="SHIELDING" value="Shielded" constant="no"/>
+<attribute name="VALUE" value="1 uH" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -33404,8 +33659,8 @@
 <attribute name="DCR" value="6.8 mOhm" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="SRP1265A-3R3MCT-ND" constant="no"/>
 <attribute name="I_SAT" value="30 A" constant="no"/>
-<attribute name="L" value="3.3 uH" constant="no"/>
 <attribute name="MAFACTURER_PART_NUMBER" value="SRP1265A-3R3M" constant="no"/>
+<attribute name="VALUE" value="3.3 uH" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -33420,8 +33675,8 @@
 <attribute name="DIGIKEY_PART_NUMBER" value="P19788CT-ND" constant="no"/>
 <attribute name="I" value="12.6 A" constant="no"/>
 <attribute name="I_SAT" value="17.1 A" constant="no"/>
-<attribute name="L" value="3.3 uH" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ETQ-P4M3R3KVC" constant="no"/>
+<attribute name="VALUE" value="3.3 uH" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -33436,9 +33691,9 @@
 <attribute name="DIGIKEY_PART_NUMBER" value="10-ETQ-P5M3R3YFKCT-ND" constant="no"/>
 <attribute name="I" value="12.5 A" constant="no"/>
 <attribute name="I_SAT" value="17.9 A" constant="no"/>
-<attribute name="L" value="3.3 uH" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ETQ-P5M3R3YFK" constant="no"/>
 <attribute name="SHIELDING" value="Shielded" constant="no"/>
+<attribute name="VALUE" value="3.3 uH" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -33453,8 +33708,8 @@
 <attribute name="DIGIKEY_PART_NUMBER" value="SRR1210A-101MCT-ND" constant="no"/>
 <attribute name="I" value="2.5 A" constant="no"/>
 <attribute name="I_SAT" value="2.2 A" constant="no"/>
-<attribute name="L" value="100 uH" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="SRR1210A-101M" constant="no"/>
+<attribute name="VALUE" value="100 uH" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -33469,8 +33724,8 @@
 <attribute name="DIGIKEY_PART_NUMBER" value="10-ETQ-P5M680YFMCT-ND" constant="no"/>
 <attribute name="I" value="2.3 A" constant="no"/>
 <attribute name="I_SAT" value="3.9 A" constant="no"/>
-<attribute name="L" value="66 uH" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ETQ-P5M680YFM" constant="no"/>
+<attribute name="VALUE" value="66 uH" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -33485,9 +33740,9 @@
 <attribute name="DIGIKEY_PART_NUMBER" value="732-1151-1-ND" constant="no"/>
 <attribute name="I" value="9 A" constant="no"/>
 <attribute name="I_SAT" value="13 A" constant="no"/>
-<attribute name="L" value="2.2 uH" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="744311220" constant="no"/>
 <attribute name="SHIELDING" value="Shielded" constant="no"/>
+<attribute name="VALUE" value="2.2 uH" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -33501,10 +33756,25 @@
 <attribute name="DCR" value="32 mOhm" constant="no"/>
 <attribute name="I" value="4 A" constant="no"/>
 <attribute name="I_SAT" value="5 A" constant="no"/>
-<attribute name="L" value="1 uH" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="78438336010 " constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="710-78438336010 " constant="no"/>
 <attribute name="SHIELDING" value="Shielded" constant="no"/>
+<attribute name="VALUE" value="1 uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0402_47N_210MA" package="R0402">
+<connects>
+<connect gate="L" pin="1" pad="1"/>
+<connect gate="L" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="490-1154-1-ND" constant="no"/>
+<attribute name="I" value="210 mA" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LQW15AN47NJ00D" constant="no"/>
+<attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="47 nH" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -33525,7 +33795,7 @@
 <attribute name="DIGIKEY_PART_NUMBER" value="LSM115JE3/TR13CT-ND" constant="no"/>
 <attribute name="I_FWRD" value="1 A" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LSM115JE3/TR13" constant="no"/>
-<attribute name="V_RVRS" value="15 V" constant="no"/>
+<attribute name="VR" value="15 V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -33539,7 +33809,7 @@
 <attribute name="DIGIKEY_PART_NUMBER" value="VSSAF5N50-M3/6AGICT-ND" constant="no"/>
 <attribute name="I_FWRD" value="3 A" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="VSSAF5N50-M3/6A" constant="no"/>
-<attribute name="V_RVRS" value="50 V" constant="no"/>
+<attribute name="VR" value="50 V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -33633,6 +33903,22 @@
 </technology>
 </technologies>
 </device>
+<device name="_STPS3150UF" package="SMB_FLAT">
+<connects>
+<connect gate="G$1" pin="A" pad="A+"/>
+<connect gate="G$1" pin="C" pad="C-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="497-8034-1-ND" constant="no"/>
+<attribute name="IF" value="3 A" constant="no"/>
+<attribute name="IR" value="2 uA @ 150 V" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="STPS3150UF" constant="no"/>
+<attribute name="VF" value="0.82 V @ 3 A" constant="no"/>
+<attribute name="VR" value="150V" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="CAPACITOR_POLAR" prefix="C">
@@ -33648,11 +33934,11 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="47 uF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="PCE3816CT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="EEE-FK1H470XP" constant="no"/>
 <attribute name="TOL" value="20%" constant="no"/>
 <attribute name="V" value="50 V" constant="no"/>
+<attribute name="VALUE" value="47 uF" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -33663,12 +33949,12 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="68 uF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="399-3053-1-ND" constant="no"/>
 <attribute name="ESR" value="28 mOhm" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="A700V686M006ATE028" constant="no"/>
 <attribute name="TOL" value="20%" constant="no"/>
 <attribute name="V" value="6.3 V" constant="no"/>
+<attribute name="VALUE" value="68 uF" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -33679,10 +33965,10 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="220 uF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="P18999CT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="EEF-CX0J221R" constant="no"/>
 <attribute name="TOL" value="20%" constant="no"/>
+<attribute name="VALUE" value="220 uF" constant="no"/>
 <attribute name="VC" value="6.3 V" constant="no"/>
 </technology>
 </technologies>
@@ -33694,11 +33980,11 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="470uF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="478-1741-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="TAJD477K006RNJ" constant="no"/>
 <attribute name="TOL" value="10%" constant="no"/>
 <attribute name="V" value="6.3V" constant="no"/>
+<attribute name="VALUE" value="470uF" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -33709,12 +33995,12 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="68 uF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="399-3764-1-ND" constant="no"/>
 <attribute name="ESR" value="1.2 Ohm" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="T491C686K006AT" constant="no"/>
 <attribute name="TOL" value="10%" constant="no"/>
 <attribute name="V" value="6.3 V" constant="no"/>
+<attribute name="VALUE" value="68 uF" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -33725,10 +34011,10 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="100 uF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="732-8942-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="860020573008" constant="no"/>
 <attribute name="TOL" value="20%" constant="no"/>
+<attribute name="VALUE" value="100 uF" constant="no"/>
 <attribute name="VC" value="35 V" constant="no"/>
 </technology>
 </technologies>
@@ -33740,11 +34026,11 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="47 uF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="478-8644-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="F980J476MMA" constant="no"/>
 <attribute name="TOL" value="20%" constant="no"/>
 <attribute name="TYPE" value="Tantalum" constant="no"/>
+<attribute name="VALUE" value="47 uF" constant="no"/>
 <attribute name="VC" value="6.3 V" constant="no"/>
 </technology>
 </technologies>
@@ -33871,7 +34157,7 @@
 <attribute name="DIGIKEY_PART_NUMBER" value="296-37193-1-ND" constant="no"/>
 <attribute name="ID" value="22 A" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CSD17571Q2" constant="no"/>
-<attribute name="VDSS" value="30 V" constant="no"/>
+<attribute name="VDS" value="30 V" constant="no"/>
 <attribute name="VGS_TH" value="1.6 V" constant="no"/>
 </technology>
 </technologies>
@@ -33913,6 +34199,10 @@
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_NUMBER" value="1727-1289-1-ND" constant="no"/>
+<attribute name="ID" value="190 mA" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="NX7002AK,215" constant="no"/>
+<attribute name="VDS" value="60 V" constant="no"/>
+<attribute name="VGS_TH" value="1.1 V ~2.1 V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -34338,6 +34628,40 @@ portable devices</description>
 </technology>
 </technologies>
 </device>
+<device name="_WP934CB/GD" package="WP934CB">
+<connects>
+<connect gate="D" pin="A+" pad="2"/>
+<connect gate="D" pin="C-" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COLOR" value="Green" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="754-1297-ND" constant="no"/>
+<attribute name="IF" value="25 mA" constant="no"/>
+<attribute name="I_PK" value="140 mA" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="WP934CB/GD" constant="no"/>
+<attribute name="VF" value="2 V ~ 2.4 V" constant="no"/>
+<attribute name="V_REV" value="5 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_WP934CB/SRD" package="WP934CB">
+<connects>
+<connect gate="D" pin="A+" pad="2"/>
+<connect gate="D" pin="C-" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COLOR" value="Red" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="754-1299-ND" constant="no"/>
+<attribute name="IF" value="30 mA" constant="no"/>
+<attribute name="I_PK" value="155 mA" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="WP934CB/SRD" constant="no"/>
+<attribute name="VF" value="1.85 V ~ 2.5 V" constant="no"/>
+<attribute name="V_REV" value="5 V" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="2_PINES" prefix="H">
@@ -34357,7 +34681,7 @@ portable devices</description>
 </technology>
 </technologies>
 </device>
-<device name="_OSTVN" package="2_PINES_W_SCREW">
+<device name="_OSTVN" package="2_PINES_W_SCREW_254">
 <connects>
 <connect gate="A" pin="S" pad="1"/>
 <connect gate="B" pin="S" pad="2"/>
@@ -34543,14 +34867,14 @@ portable devices</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MCP73837T-FCI/UN" prefix="U">
+<deviceset name="MCP7383" prefix="U">
 <gates>
 <gate name="A" symbol="MCP73837-FCI/UN" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="10-MSOP-MC">
+<device name="7T-FCI/UN" package="10-MSOP-MC">
 <connects>
-<connect gate="A" pin="!PG" pad="8"/>
+<connect gate="A" pin="!PG!/!TE!" pad="8"/>
 <connect gate="A" pin="PROG1" pad="6"/>
 <connect gate="A" pin="PROG2" pad="7"/>
 <connect gate="A" pin="STAT1" pad="3"/>
@@ -34569,9 +34893,9 @@ portable devices</description>
 </technology>
 </technologies>
 </device>
-<device name="MSOP10_MC-M" package="10-MSOP-MC-M">
+<device name="8T-FCI/UN" package="10-MSOP-MC">
 <connects>
-<connect gate="A" pin="!PG" pad="8"/>
+<connect gate="A" pin="!PG!/!TE!" pad="8"/>
 <connect gate="A" pin="PROG1" pad="6"/>
 <connect gate="A" pin="PROG2" pad="7"/>
 <connect gate="A" pin="STAT1" pad="3"/>
@@ -34584,28 +34908,8 @@ portable devices</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MANUFACTURER_PART_NUMBER" value="MCP73837TFCIUN" constant="no"/>
-<attribute name="VENDOR" value="Microchip" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="MSOP10_MC-L" package="10-MSOP-MC-L">
-<connects>
-<connect gate="A" pin="!PG" pad="8"/>
-<connect gate="A" pin="PROG1" pad="6"/>
-<connect gate="A" pin="PROG2" pad="7"/>
-<connect gate="A" pin="STAT1" pad="3"/>
-<connect gate="A" pin="STAT2" pad="4"/>
-<connect gate="A" pin="THERM" pad="9"/>
-<connect gate="A" pin="VAC" pad="1"/>
-<connect gate="A" pin="VBAT" pad="10"/>
-<connect gate="A" pin="VSS" pad="5"/>
-<connect gate="A" pin="VUSB" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MANUFACTURER_PART_NUMBER" value="MCP73837TFCIUN" constant="no"/>
-<attribute name="VENDOR" value="Microchip" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="MCP73838T-FCI/UN-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MCP73838T-FCI/UN" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -35553,6 +35857,22 @@ portable devices</description>
 </technology>
 </technologies>
 </device>
+<device name="_OSTTA" package="3_PINES_W_SCREW_508">
+<connects>
+<connect gate="A" pin="S" pad="1"/>
+<connect gate="B" pin="S" pad="2"/>
+<connect gate="C" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="ED2581-ND" constant="no"/>
+<attribute name="I" value="15 A" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="OSTTA034163" constant="no"/>
+<attribute name="SCREW" value="M3" constant="no"/>
+<attribute name="V" value="300 V" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="SC16IS752" prefix="U">
@@ -35818,7 +36138,7 @@ portable devices</description>
 </technology>
 </technologies>
 </device>
-<device name="_OSTVN" package="4_PINES_W_SCREW">
+<device name="_OSTVN" package="4_PINES_W_SCREW_254">
 <connects>
 <connect gate="A" pin="S" pad="1"/>
 <connect gate="B" pin="S" pad="2"/>
@@ -35998,7 +36318,7 @@ portable devices</description>
 </technology>
 </technologies>
 </device>
-<device name="_OSTVN" package="5_PINES_W_SCREW">
+<device name="_OSTVN" package="5_PINES_W_SCREW_254">
 <connects>
 <connect gate="A" pin="S" pad="1"/>
 <connect gate="B" pin="S" pad="2"/>
@@ -36056,6 +36376,9 @@ portable devices</description>
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_NUMBER" value="732-5319-ND " constant="no"/>
+<attribute name="I" value="3 A" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="61300611121" constant="no"/>
+<attribute name="V" value="250 V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36089,8 +36412,10 @@ portable devices</description>
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_NUMBER" value="NC/DNM" constant="no"/>
+<attribute name="I" value="3 A" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="NC/DNM" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="NC/DNM" constant="no"/>
+<attribute name="V" value="250 V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36110,7 +36435,7 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="R" value="NC/DNM" constant="no"/>
+<attribute name="VALUE" value="NC/DNM" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36124,8 +36449,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-560KCCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0805560KFKEA" constant="no"/>
 <attribute name="P" value="1/8 W" constant="no"/>
-<attribute name="R" value="560 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="560 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36139,8 +36464,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-68.0KCCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW080568K0FKEA" constant="no"/>
 <attribute name="P" value="1/8 W" constant="no"/>
-<attribute name="R" value="68 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="68 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36154,8 +36479,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-9865-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="TNPW080568K0BEEA" constant="no"/>
 <attribute name="P" value="1/5 W" constant="no"/>
-<attribute name="R" value="68 KOhm" constant="no"/>
 <attribute name="TOL" value=" 1%" constant="no"/>
+<attribute name="VALUE" value="68 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36169,8 +36494,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-4151-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW080522R0FKEAC" constant="no"/>
 <attribute name="P" value="1/8 W" constant="no"/>
-<attribute name="R" value="22 Ohm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="22 Ohm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36184,8 +36509,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-22.0TCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW080522R0FKEAHP" constant="no"/>
 <attribute name="P" value="1/2 W" constant="no"/>
-<attribute name="R" value="22 Ohm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="22 Ohm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36199,8 +36524,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-10.0KCCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW080510K0FKEA" constant="no"/>
 <attribute name="P" value="1/8 W" constant="no"/>
-<attribute name="R" value="10 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="10 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36214,8 +36539,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-10.0KTCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW080510K0FKEAHP" constant="no"/>
 <attribute name="P" value="1/2 W" constant="no"/>
-<attribute name="R" value="10 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="10 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36229,8 +36554,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-2845-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RCS080510K0FKEA" constant="no"/>
 <attribute name="P" value="0.4 W" constant="no"/>
-<attribute name="R" value="10 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="10 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36244,8 +36569,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-5.10KCCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW08055K10FKEA" constant="no"/>
 <attribute name="P" value="1/8 W" constant="no"/>
-<attribute name="R" value="5.1 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="5.1 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36259,8 +36584,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-1.00KCCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW08051K00FKEA" constant="no"/>
 <attribute name="P" value="1/8 W" constant="no"/>
-<attribute name="R" value="1 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="1 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36274,8 +36599,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-3747-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="TNPW08051K00FEEA" constant="no"/>
 <attribute name="P" value="1/5 W" constant="no"/>
-<attribute name="R" value="1 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="1 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36289,8 +36614,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-1.00KTCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW08051K00FKEAHP" constant="no"/>
 <attribute name="P" value="1/2 W" constant="no"/>
-<attribute name="R" value="1 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="1 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36304,8 +36629,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-2838-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RCS08051K00FKEA" constant="no"/>
 <attribute name="P" value="0.4 W" constant="no"/>
-<attribute name="R" value="1 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="1 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36319,8 +36644,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-3.00KCCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW08053K00FKEA" constant="no"/>
 <attribute name="P" value="1/8 W" constant="no"/>
-<attribute name="R" value="3 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="3 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36334,8 +36659,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-3211-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="TNPW08053K00BEEA" constant="no"/>
 <attribute name="P" value="1/5 W" constant="no"/>
-<attribute name="R" value="3 KOhm" constant="no"/>
 <attribute name="TOL" value="0.1 %" constant="no"/>
+<attribute name="VALUE" value="3 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36349,8 +36674,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-3.00KTCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW08053K00FKEAHP" constant="no"/>
 <attribute name="P" value="1/2 W" constant="no"/>
-<attribute name="R" value="3 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="3 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36364,8 +36689,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-3.09KCCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW08053K09FKEA" constant="no"/>
 <attribute name="P" value="1/8 W" constant="no"/>
-<attribute name="R" value="3.09 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="3.09 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36379,8 +36704,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-3783-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="TNPW08053K09BEEN" constant="no"/>
 <attribute name="P" value="1/5 W" constant="no"/>
-<attribute name="R" value="3.09 KOhm" constant="no"/>
 <attribute name="TOL" value="0.1%" constant="no"/>
+<attribute name="VALUE" value="3.09 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36394,8 +36719,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-3978-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0805100KFKEAC" constant="no"/>
 <attribute name="P" value="1/8 W" constant="no"/>
-<attribute name="R" value="100 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="100 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36409,8 +36734,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-3912-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="TNPW0805100KFEEA" constant="no"/>
 <attribute name="P" value="1/5 W" constant="no"/>
-<attribute name="R" value="100 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="100 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36424,8 +36749,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-100KTCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0805100KFKEAHP" constant="no"/>
 <attribute name="P" value="1/2 W" constant="no"/>
-<attribute name="R" value="100 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="100 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36439,8 +36764,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-2850-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RCS0805100KFKEA" constant="no"/>
 <attribute name="P" value="0.4 W" constant="no"/>
-<attribute name="R" value="100 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="100 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36454,8 +36779,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-0.0GCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW06030000Z0EA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="0 Ohm" constant="no"/>
 <attribute name="TOL" value="5%" constant="no"/>
+<attribute name="VALUE" value="0 Ohm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36469,8 +36794,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-330UCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW1206330RFKEAHP" constant="no"/>
 <attribute name="P" value="3/4 W" constant="no"/>
-<attribute name="R" value="330 Ohm" constant="no"/>
 <attribute name="TOL" value="1 %" constant="no"/>
+<attribute name="VALUE" value="330 Ohm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36484,8 +36809,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-100KHCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0603100KFKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="100 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="100 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36499,8 +36824,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-22.0SCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW060322R0FKEAHP" constant="no"/>
 <attribute name="P" value="1/4 W" constant="no"/>
-<attribute name="R" value="22 Ohm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="22 Ohm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36514,8 +36839,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-165HCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0603165RFKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="165 Ohm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="165 Ohm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36529,8 +36854,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-330SCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0603330RFKEAHP" constant="no"/>
 <attribute name="P" value="1/4 W" constant="no"/>
-<attribute name="R" value="330 Ohm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="330 Ohm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36544,8 +36869,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-470SCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0603470RFKEAHP" constant="no"/>
 <attribute name="P" value="1/4 W" constant="no"/>
-<attribute name="R" value="470 Ohm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="470 Ohm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36559,8 +36884,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-510SCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0603510RFKEAHP" constant="no"/>
 <attribute name="P" value="1/4 W" constant="no"/>
-<attribute name="R" value="510 Ohm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="510 Ohm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36574,8 +36899,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-1.00KSCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW06031K00FKEAHP" constant="no"/>
 <attribute name="P" value="1/4 W" constant="no"/>
-<attribute name="R" value="1 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="1 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36589,8 +36914,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="P20285CT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-PB3D1051V" constant="no"/>
 <attribute name="P" value="1/5 W" constant="no"/>
-<attribute name="R" value="1.05 KOhm" constant="no"/>
 <attribute name="TOL" value="0.5%" constant="no"/>
+<attribute name="VALUE" value="1.05 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36604,8 +36929,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="749-1618-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="MCT06030C2211FP500" constant="no"/>
 <attribute name="P" value="1/8 W" constant="no"/>
-<attribute name="R" value="2.21 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="2.21 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36619,8 +36944,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-2.61KHCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW06032K61FKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="2.61 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="2.61 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36634,8 +36959,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-2792-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RCS06034K70FKEA" constant="no"/>
 <attribute name="P" value="1/4 W" constant="no"/>
-<attribute name="R" value="4.7 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="4.7 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36649,8 +36974,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-5.49KHCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW06035K49FKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="5.49 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="5.49 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36664,8 +36989,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-2795-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RCS060310K0FKEA" constant="no"/>
 <attribute name="P" value="1/4 W" constant="no"/>
-<attribute name="R" value="10 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="10 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36679,8 +37004,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-2797-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RCS060320K0FKEA" constant="no"/>
 <attribute name="P" value="1/4 W" constant="no"/>
-<attribute name="R" value="20 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="20 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36694,8 +37019,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-22.1KSCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW060322K1FKEAHP" constant="no"/>
 <attribute name="P" value="1/4 W" constant="no"/>
-<attribute name="R" value="22.1 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="22.1 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36709,8 +37034,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-47.5KHCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW060347K5FKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="47.5 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="47.5 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36724,8 +37049,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-49.9KSCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW060349K9FKEAHP" constant="no"/>
 <attribute name="P" value="1/4 W" constant="no"/>
-<attribute name="R" value="49.9 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="49.9 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36739,8 +37064,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-51.0KHCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW060351K0FKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="51 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="51 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36754,8 +37079,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-57.6KSCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW060357K6FKEAHP" constant="no"/>
 <attribute name="P" value="1/4 W" constant="no"/>
-<attribute name="R" value="57.6 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="57.6 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36769,8 +37094,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-150KHCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0603150KFKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="150 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="150 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36784,8 +37109,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="749-1763-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="MCT06030C1803FP500" constant="no"/>
 <attribute name="P" value="1/8 W" constant="no"/>
-<attribute name="R" value="180 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="180 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36799,8 +37124,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="MCT0603-470K-CFCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="MCT06030C4703FP500" constant="no"/>
 <attribute name="P" value="1/8 W" constant="no"/>
-<attribute name="R" value="470 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="470 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36814,8 +37139,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-2802-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RCS0603499KFKEA" constant="no"/>
 <attribute name="P" value="1/4 W" constant="no"/>
-<attribute name="R" value="499 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="499 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36829,8 +37154,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-562KHCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0603562KFKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="562 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="562 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36844,8 +37169,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-732KHCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0603732KFKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="732 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="732 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36859,8 +37184,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-2790-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RCS06032K00FKEA" constant="no"/>
 <attribute name="P" value="1/4 W" constant="no"/>
-<attribute name="R" value="2 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="2 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36874,8 +37199,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-499KFCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW1206499KFKEA" constant="no"/>
 <attribute name="P" value="1/4 W" constant="no"/>
-<attribute name="R" value="499 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="499 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36886,7 +37211,7 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="R" value="NC/DNM" constant="no"/>
+<attribute name="VALUE" value="NC/DNM" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36900,8 +37225,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-26.7KCCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW080526K7FKEA" constant="no"/>
 <attribute name="P" value="1/8 W" constant="no"/>
-<attribute name="R" value="26.7 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="26.7 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36915,8 +37240,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-976KCCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0805976KFKEA" constant="no"/>
 <attribute name="P" value="1/8 W" constant="no"/>
-<attribute name="R" value="976 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="976 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36930,8 +37255,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-1.18KCCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW08051K18FKEA" constant="no"/>
 <attribute name="P" value="1/8 W" constant="no"/>
-<attribute name="R" value="1.18 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="1.18 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36945,8 +37270,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-73.2KCCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW080573K2FKEA" constant="no"/>
 <attribute name="P" value="1/8 W" constant="no"/>
-<attribute name="R" value="73.2 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="73.2 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36960,8 +37285,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-84.5KCCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW080584K5FKEA" constant="no"/>
 <attribute name="P" value="1/8 W" constant="no"/>
-<attribute name="R" value="84.5 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="84.5 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36975,8 +37300,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="749-1750-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="MCT06030C9102FP500" constant="no"/>
 <attribute name="P" value="1/8 W" constant="no"/>
-<attribute name="R" value="91 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="91 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36990,8 +37315,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-634KHCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0603634KFKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="634 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="634 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37005,8 +37330,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-3.90MHCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW06033M90FKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="3.9 MOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="3.9 MOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37020,8 +37345,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-7.32MHCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW06037M32FKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="7.32 MOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="7.32 MOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37035,8 +37360,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-511KHCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0603511KFKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="511 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="511 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37050,8 +37375,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-66.5HCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW060366R5FKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="66.5 Ohm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="66.5 Ohm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37065,8 +37390,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-187KHCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0603187KFKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="187 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="187 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37080,8 +37405,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-10481-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RCS06035K10FKEA" constant="no"/>
 <attribute name="P" value="1/4 W" constant="no"/>
-<attribute name="R" value="5.1 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="5.1 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37095,8 +37420,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-1.30MHCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW06031M30FKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="1.3 MOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="1.3 MOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37110,8 +37435,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-4023-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0603150RFKEAC" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="150 Ohm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="150 Ohm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37125,8 +37450,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-309KHCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0603309KFKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="309 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="309 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37140,8 +37465,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-4137-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW080547K0FKEAC" constant="no"/>
 <attribute name="P" value="1/8 W" constant="no"/>
-<attribute name="R" value="47 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="47 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37155,8 +37480,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-4021-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW060347K0FKEAC" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="47 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="47 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37170,8 +37495,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="749-1609-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="MCT06030C1473FP500" constant="no"/>
 <attribute name="P" value="1/8 W" constant="no"/>
-<attribute name="R" value="147 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="147 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37185,8 +37510,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="749-1652-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="MCT06030C4301FP500" constant="no"/>
 <attribute name="P" value="1/8 W" constant="no"/>
-<attribute name="R" value="4.3 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="4.3 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37200,8 +37525,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-4317-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0603200KFKEB" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="200 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="200 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37215,8 +37540,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-4181-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW12062K00FKEAC" constant="no"/>
 <attribute name="P" value="1/4 W" constant="no"/>
-<attribute name="R" value="2 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="2 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37230,8 +37555,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-178KHCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0603178KFKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="178 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="178 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37245,8 +37570,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-0.0ECT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW12060000Z0EA" constant="no"/>
 <attribute name="P" value="1/4 W" constant="no"/>
-<attribute name="R" value="0 Ohm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="0 Ohm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37260,8 +37585,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-301KHCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0603301KFKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="301 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="301 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37275,8 +37600,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-1.05MHCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW06031M05FKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="1.05 MOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="1.05 MOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37290,8 +37615,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-36.5KHCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW060336K5FKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="36.5 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="36.5 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37305,8 +37630,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-118KHCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0603118KFKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="118 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="118 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37320,8 +37645,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-124KHCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0603124KFKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="124 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="124 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37335,8 +37660,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-4.87MHCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW06034M87FKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="4.87 MOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="4.87 MOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37350,8 +37675,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-4047-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0603220RFKEAC" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="220 Ohm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="220 Ohm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37365,8 +37690,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-680HCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0603680RFKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="680 Ohm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="680 Ohm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37380,8 +37705,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-1.60MHCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW06031M60FKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="1.6 MOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="1.6 MOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37395,8 +37720,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-649KHCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0603649KFKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="649 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="649 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37411,8 +37736,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW08054K00FKTA" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="71-CRCW0805-4K" constant="no"/>
 <attribute name="P" value="1/8 W" constant="no"/>
-<attribute name="R" value="4 kOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="4 kOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37426,8 +37751,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-200HCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0603200RFKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="200 Ohm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="200 Ohm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37441,8 +37766,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-10437-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RCS0603200RFKEA" constant="no"/>
 <attribute name="P" value="1/4 W" constant="no"/>
-<attribute name="R" value="200 Ohm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="200 Ohm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37456,8 +37781,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-6.04KHCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW06036K04FKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="6.04 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="6.04 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37471,8 +37796,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-750SCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0603750RFKEAHP" constant="no"/>
 <attribute name="P" value="1/3 W" constant="no"/>
-<attribute name="R" value="750 Ohm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="750 Ohm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37486,8 +37811,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="311-1.65KHRCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR-071K65L" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="1.65 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="1.65 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37501,8 +37826,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="311-16.5KHRCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR-0716K5L" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="16.5 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="16.5 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37516,8 +37841,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-120KHCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0603120KFKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="120 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="120 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37531,8 +37856,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-120KSCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0603120KFKEAHP" constant="no"/>
 <attribute name="P" value="1/4 W" constant="no"/>
-<attribute name="R" value="120 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="120 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37546,8 +37871,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-2803-2-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RCS06031M00FKEA" constant="no"/>
 <attribute name="P" value="1/4 W" constant="no"/>
-<attribute name="R" value="1 MOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="1 MOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37561,8 +37886,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="P17462CT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-3BWFR022V" constant="no"/>
 <attribute name="P" value="1/3 W" constant="no"/>
-<attribute name="R" value="0.022 Ohm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="0.022 Ohm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37576,8 +37901,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-80.6KHCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW060380K6FKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="80.6 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="80.6 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37591,8 +37916,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-1.13MHCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW06031M13FKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="1.13 MOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="1.13 MOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37606,8 +37931,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-2.32MHCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW06032M32FKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="2.32 MOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="2.32 MOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37621,8 +37946,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-619KHCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0603619KFKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="619 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="619 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37636,8 +37961,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-120HCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0603120RFKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="120 Ohm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="120 Ohm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37651,8 +37976,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-6.20KHCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW06036K20FKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="6.2 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="6.2 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37666,8 +37991,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-71.5KHCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW060371K5FKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="71.5 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="71.5 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37681,8 +38006,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-2804-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RCS060310M0FKEA" constant="no"/>
 <attribute name="P" value="1/4 W" constant="no"/>
-<attribute name="R" value="10 MOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="10 MOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37696,8 +38021,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="311-127KHRCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR-07127KL" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="127 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="127 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37711,8 +38036,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="311-17.4KHRCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR-0717K4L" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="17.4 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="17.4 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37726,8 +38051,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-107KHCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0603107KFKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="107 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="107 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37741,8 +38066,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-681KHCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0603681KFKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="681 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="681 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37756,8 +38081,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RT0603DRD071K93L" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="603-RT0603DRD071K93L" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="1.93 KOhm" constant="no"/>
 <attribute name="TOL" value="0.5%" constant="no"/>
+<attribute name="VALUE" value="1.93 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37769,10 +38094,10 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_NUMBER" value="541-3.90KHCT-ND" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUBER" value="CRCW06033K90FKEA" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW06033K90FKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="3.9 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="3.9 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37786,8 +38111,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-15.0KHCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW060315K0FKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="15 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="15 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37801,8 +38126,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-1.07MHCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW06031M07FKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="1.07 MOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="1.07 MOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37816,8 +38141,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-162KHCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0603162KFKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="162 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="162 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37831,8 +38156,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-1.20MCCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW08051M20FKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="1.2 MOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="1.2 MOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37846,8 +38171,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-806KHCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0603806KFKEA" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="806 KOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="806 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37861,8 +38186,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="YAG1539CT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RT0603BRD07160KL" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="160 KOhm" constant="no"/>
 <attribute name="TOL" value="0.1%" constant="no"/>
+<attribute name="VALUE" value="160 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37876,8 +38201,83 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="MCS0402-249-MBCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="MCS0402MD2490BE100" constant="no"/>
 <attribute name="P" value="1/10 W" constant="no"/>
-<attribute name="R" value="249 Ohm" constant="no"/>
 <attribute name="TOL" value="0.1%" constant="no"/>
+<attribute name="VALUE" value="249 Ohm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0402_412R" package="R0402">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="541-412LCT-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0402412RFKED" constant="no"/>
+<attribute name="P" value="1/16 W" constant="no"/>
+<attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="412 Ohm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0402_75R" package="R0402">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="541-3999-1-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW040275R0FKEDC" constant="no"/>
+<attribute name="P" value="1/16 W" constant="no"/>
+<attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="75 Ohm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0402_10R" package="R0402">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="541-3964-1-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW040210R0FKEDC" constant="no"/>
+<attribute name="P" value="1/16 W" constant="no"/>
+<attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="10 Ohm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0402_383R" package="R0402">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="541-383LCT-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0402383RFKED" constant="no"/>
+<attribute name="P" value="1/16 W" constant="no"/>
+<attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="383 Ohm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0603_280K" package="R0603">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="YAG1608TR-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RT0603BRD07280KL" constant="no"/>
+<attribute name="P" value="1/10 W" constant="no"/>
+<attribute name="TOL" value="0.1%" constant="no"/>
+<attribute name="VALUE" value="280 KOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -37937,7 +38337,9 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <connect gate="G$1" pin="W_DISABLE#" pad="18"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MANUFACTURER_PART_NUMBER" value="BG96MA-128-SGN" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -37992,6 +38394,9 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_NUMBER" value="732-5321-ND" constant="no"/>
+<attribute name="I" value="3 A" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="61300811121" constant="no"/>
+<attribute name="V" value="250 V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -38621,8 +39026,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-3127-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="WSLF25123L000FEA" constant="no"/>
 <attribute name="P" value="4 W" constant="no"/>
-<attribute name="R" value="3 mOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="3 mOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -38636,8 +39041,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="CRE2512-FZ-R003E-3CT-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRE2512-FZ-R003E-3" constant="no"/>
 <attribute name="P" value="3 W" constant="no"/>
-<attribute name="R" value="3 mOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="3 mOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -38651,8 +39056,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-3126-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="WSLF25122L000FEA" constant="no"/>
 <attribute name="P" value="5 W" constant="no"/>
-<attribute name="R" value="2 mOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="2 mOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -38666,8 +39071,8 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="541-3125-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="WSLF25121L000FEA" constant="no"/>
 <attribute name="P" value="5 W" constant="no"/>
-<attribute name="R" value="1 mOhm" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="1 mOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -38804,11 +39209,11 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="0.1 uF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="311-1779-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CC0603JRX7R9BB104" constant="no"/>
 <attribute name="TOL" value="5%" constant="no"/>
 <attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VALUE" value="0.1 uF" constant="no"/>
 <attribute name="VC" value="50 V" constant="no"/>
 </technology>
 </technologies>
@@ -38820,7 +39225,7 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="NC/DNM" constant="no"/>
+<attribute name="VALUE" value="NC/DNM" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -38831,11 +39236,11 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="10 nF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="399-1092-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="C0603C103J5RACTU" constant="no"/>
 <attribute name="TOL" value="5%" constant="no"/>
 <attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VALUE" value="10 nF" constant="no"/>
 <attribute name="VC" value="50 V" constant="no"/>
 </technology>
 </technologies>
@@ -38847,11 +39252,11 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="10 uF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="490-18214-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="GRM188R61E106KA73D" constant="no"/>
 <attribute name="TOL" value="10%" constant="no"/>
 <attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VALUE" value="10 uF" constant="no"/>
 <attribute name="VC" value="25 V" constant="no"/>
 </technology>
 </technologies>
@@ -38863,11 +39268,11 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="10 uF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="490-14372-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="GRM188R61A106KE69J" constant="no"/>
 <attribute name="TOL" value="10%" constant="no"/>
 <attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VALUE" value="10 uF" constant="no"/>
 <attribute name="VC" value="10 V" constant="no"/>
 </technology>
 </technologies>
@@ -38879,11 +39284,11 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="4.7 uF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="1276-1044-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL10A475KP8NNNC" constant="no"/>
 <attribute name="TOL" value="10%" constant="no"/>
 <attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VALUE" value="4.7 uF" constant="no"/>
 <attribute name="VC" value="10 V" constant="no"/>
 </technology>
 </technologies>
@@ -38895,11 +39300,11 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="33 nF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="732-12156-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="885342208015" constant="no"/>
 <attribute name="TOL" value="10%" constant="no"/>
 <attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VALUE" value="33 nF" constant="no"/>
 <attribute name="VC" value="630 V" constant="no"/>
 </technology>
 </technologies>
@@ -38911,11 +39316,11 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="18 pF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="399-1052-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="C0603C180J5GACTU" constant="no"/>
 <attribute name="TOL" value="5%" constant="no"/>
 <attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VALUE" value="18 pF" constant="no"/>
 <attribute name="VC" value="50 V" constant="no"/>
 </technology>
 </technologies>
@@ -38927,11 +39332,11 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="22 nF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="1276-1996-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL10B223JB8NNNC" constant="no"/>
 <attribute name="TOL" value="5%" constant="no"/>
 <attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VALUE" value="22 nF" constant="no"/>
 <attribute name="VC" value="50 V" constant="no"/>
 </technology>
 </technologies>
@@ -38943,11 +39348,11 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="2.2 uF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="490-7204-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="GRM188R6YA225KA12D" constant="no"/>
 <attribute name="TOL" value="10%" constant="no"/>
 <attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VALUE" value="2.2 uF" constant="no"/>
 <attribute name="VC" value="35 V" constant="no"/>
 </technology>
 </technologies>
@@ -38959,11 +39364,11 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="1 uF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="1276-1102-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL10A105KA8NNNC" constant="no"/>
 <attribute name="TOL" value="10%" constant="no"/>
 <attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VALUE" value="1 uF" constant="no"/>
 <attribute name="VC" value="25 V" constant="no"/>
 </technology>
 </technologies>
@@ -38975,11 +39380,11 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="100 uF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="490-13982-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="GRM31CR60J107KE39L" constant="no"/>
 <attribute name="TOL" value="10%" constant="no"/>
 <attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VALUE" value="100 uF" constant="no"/>
 <attribute name="VC" value="6.3 V" constant="no"/>
 </technology>
 </technologies>
@@ -38991,11 +39396,11 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="22 uF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="490-7611-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="GRM188R60J226MEA0D" constant="no"/>
 <attribute name="TOL" value="20%" constant="no"/>
 <attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VALUE" value="22 uF" constant="no"/>
 <attribute name="VC" value="6.3 V" constant="no"/>
 </technology>
 </technologies>
@@ -39007,11 +39412,11 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="22 uF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="445-14428-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="C2012X5R1V226M125AC" constant="no"/>
 <attribute name="TOL" value="20%" constant="no"/>
 <attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VALUE" value="22 uF" constant="no"/>
 <attribute name="VC" value="35 V" constant="no"/>
 </technology>
 </technologies>
@@ -39023,11 +39428,11 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="180 pF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="399-1064-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="C0603C181J5GACTU" constant="no"/>
 <attribute name="TOL" value="5%" constant="no"/>
 <attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VALUE" value="180 pF" constant="no"/>
 <attribute name="VC" value="50 V" constant="no"/>
 </technology>
 </technologies>
@@ -39039,11 +39444,11 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="470 nF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="1276-2082-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL10B474KA8NFNC" constant="no"/>
 <attribute name="TOL" value="10%" constant="no"/>
 <attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VALUE" value="470 nF" constant="no"/>
 <attribute name="VC" value="25 V" constant="no"/>
 </technology>
 </technologies>
@@ -39055,11 +39460,11 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="15 nF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="311-1430-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX7R9BB153" constant="no"/>
 <attribute name="TOL" value="10%" constant="no"/>
 <attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VALUE" value="15 nF" constant="no"/>
 <attribute name="VC" value="50 V" constant="no"/>
 </technology>
 </technologies>
@@ -39071,11 +39476,11 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="220 uF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="490-13970-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="GRM31CR60J227ME11L" constant="no"/>
 <attribute name="TOL" value="20%" constant="no"/>
 <attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VALUE" value="220 uF" constant="no"/>
 <attribute name="VC" value="6.3 V" constant="no"/>
 </technology>
 </technologies>
@@ -39087,11 +39492,11 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="1 uF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="1276-6524-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL10B105MO8NNWC" constant="no"/>
 <attribute name="TOL" value="20%" constant="no"/>
 <attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VALUE" value="1 uF" constant="no"/>
 <attribute name="VC" value="16 V" constant="no"/>
 </technology>
 </technologies>
@@ -39103,11 +39508,11 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="22 pF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="311-1652-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CC0402GRNPO9BN220" constant="no"/>
 <attribute name="TOL" value="2%" constant="no"/>
 <attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VALUE" value="22 pF" constant="no"/>
 <attribute name="VC" value="50 V" constant="no"/>
 </technology>
 </technologies>
@@ -39119,11 +39524,11 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="33 pF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="311-1654-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CC0402GRNPO9BN330" constant="no"/>
 <attribute name="TOL" value="2%" constant="no"/>
 <attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VALUE" value="33 pF" constant="no"/>
 <attribute name="VC" value="50 V" constant="no"/>
 </technology>
 </technologies>
@@ -39135,11 +39540,11 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="10 pF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="311-3651-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CC0402DRNPO9BN100" constant="no"/>
 <attribute name="TOL" value="5%" constant="no"/>
 <attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VALUE" value="10 pF" constant="no"/>
 <attribute name="VC" value="50 V" constant="no"/>
 </technology>
 </technologies>
@@ -39151,11 +39556,11 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="100 pF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="311-3329-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CC0402FRNPO9BN101" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
 <attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VALUE" value="100 pF" constant="no"/>
 <attribute name="VC" value="50 V" constant="no"/>
 </technology>
 </technologies>
@@ -39167,11 +39572,11 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="10 uF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="490-13233-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="GRM155C80J106ME11D" constant="no"/>
 <attribute name="TOL" value="20%" constant="no"/>
 <attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VALUE" value="10 uF" constant="no"/>
 <attribute name="VC" value="6.3 V" constant="no"/>
 </technology>
 </technologies>
@@ -39183,11 +39588,11 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="47 uF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="1276-3064-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL31A476MQHNNWE" constant="no"/>
 <attribute name="TOL" value="20%" constant="no"/>
 <attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VALUE" value="47 uF" constant="no"/>
 <attribute name="VC" value="6.3 V" constant="no"/>
 </technology>
 </technologies>
@@ -39199,11 +39604,11 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="33 nF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="311-1429-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX7R9BB333" constant="no"/>
 <attribute name="TOL" value="10%" constant="no"/>
 <attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VALUE" value="33 nF" constant="no"/>
 <attribute name="VC" value="50 V" constant="no"/>
 </technology>
 </technologies>
@@ -39215,11 +39620,11 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="22 uF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="399-7444-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="C1206C226M8RACTU" constant="no"/>
 <attribute name="TOL" value="20%" constant="no"/>
 <attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VALUE" value="22 uF" constant="no"/>
 <attribute name="VC" value="10 V" constant="no"/>
 </technology>
 </technologies>
@@ -39231,11 +39636,11 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="47 uF" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="GRM188R60J476ME15J" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="81-GRM188R60J476ME5J " constant="no"/>
 <attribute name="TOL" value="20%" constant="no"/>
 <attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VALUE" value="47 uF" constant="no"/>
 <attribute name="VC" value="6.3 V" constant="no"/>
 </technology>
 </technologies>
@@ -39247,11 +39652,11 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="22 uF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="1276-6504-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL10A226MPCNUBE" constant="no"/>
 <attribute name="TOL" value="20%" constant="no"/>
 <attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VALUE" value="22 uF" constant="no"/>
 <attribute name="VC" value="10 V" constant="no"/>
 </technology>
 </technologies>
@@ -39263,11 +39668,11 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="22 uF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="1276-7076-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL10A226MO7JZNC" constant="no"/>
 <attribute name="TOL" value="20%" constant="no"/>
 <attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VALUE" value="22 uF" constant="no"/>
 <attribute name="VC" value="16 V" constant="no"/>
 </technology>
 </technologies>
@@ -39279,11 +39684,11 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="47 nF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="399-7933-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="C0603C473K5RACTU" constant="no"/>
 <attribute name="TOL" value="10%" constant="no"/>
 <attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VALUE" value="47 nF" constant="no"/>
 <attribute name="VC" value="50 V" constant="no"/>
 </technology>
 </technologies>
@@ -39295,11 +39700,11 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="22 nF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="399-3476-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="C0603C223K1RACTU" constant="no"/>
 <attribute name="TOL" value="10%" constant="no"/>
 <attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VALUE" value="22 nF" constant="no"/>
 <attribute name="VC" value="100 V" constant="no"/>
 </technology>
 </technologies>
@@ -39311,11 +39716,11 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="12 nF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="399-7852-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="C0603C123K5RACTU" constant="no"/>
 <attribute name="TOL" value="10%" constant="no"/>
 <attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VALUE" value="12 nF" constant="no"/>
 <attribute name="VC" value="50 V" constant="no"/>
 </technology>
 </technologies>
@@ -39327,11 +39732,11 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="220 pF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="720-1623-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="VJ0603Y221KXACW1BC" constant="no"/>
 <attribute name="TOL" value="10%" constant="no"/>
 <attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VALUE" value="220 pF" constant="no"/>
 <attribute name="VC" value="50 V" constant="no"/>
 </technology>
 </technologies>
@@ -39343,11 +39748,11 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="1 nF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="720-1949-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="VJ0603Y102JXBAC" constant="no"/>
 <attribute name="TOL" value="5%" constant="no"/>
 <attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VALUE" value="1 nF" constant="no"/>
 <attribute name="VC" value="100 V" constant="no"/>
 </technology>
 </technologies>
@@ -39359,11 +39764,11 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="4.7 nF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="720-1530-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="VJ0603Y472KXACW1BC" constant="no"/>
 <attribute name="TOL" value="10%" constant="no"/>
 <attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VALUE" value="4.7 nF" constant="no"/>
 <attribute name="VC" value="50 V" constant="no"/>
 </technology>
 </technologies>
@@ -39375,12 +39780,28 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="56 pF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="720-1619-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="VJ0603A560JXACW1BC" constant="no"/>
 <attribute name="TOL" value="5%" constant="no"/>
 <attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VALUE" value="56 pF" constant="no"/>
 <attribute name="VC" value="50 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0402_0U1_25V" package="C0402">
+<connects>
+<connect gate="C" pin="A" pad="1"/>
+<connect gate="C" pin="B" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-6720-1-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL05B104KA5NNNC" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VALUE" value="0.1 uF" constant="no"/>
+<attribute name="VC" value="25 V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -39419,6 +39840,24 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="AQY210SX" constant="no"/>
 <attribute name="VF" value="1.25 V" constant="no"/>
 <attribute name="V_LOAD" value="350 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_TLP172GM" package="SOP-4">
+<connects>
+<connect gate="G$1" pin="A+" pad="1"/>
+<connect gate="G$1" pin="C-" pad="2"/>
+<connect gate="G$1" pin="T1" pad="3"/>
+<connect gate="G$1" pin="T2" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="TLP172GM(TPRECT-ND" constant="no"/>
+<attribute name="IF" value="5 ~ 19.5 mA" constant="no"/>
+<attribute name="I_LOAD" value="110 mA" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TLP172GM(TPR,E" constant="no"/>
+<attribute name="VF" value="1.1 ~ 1.4 V" constant="no"/>
+<attribute name="V_LOAD" value="0 ~ 350 V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -39610,6 +40049,18 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <technology name="">
 <attribute name="DIGIKEY_PART_NUMBER" value="CKN12216-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="PTS815 SJK 250 SMTR LFS" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1825027-2" package="FSMRA5J">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="B" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="450-1656-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1825027-2" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -40018,6 +40469,50 @@ Typical Applications&lt;br&gt;
 <attribute name="I" value="3 A" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="PPPC101LFBN-RC" constant="no"/>
 <attribute name="V" value="250 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SCS_F_2" package="10_PINES_2F1C_F">
+<connects>
+<connect gate="A" pin="S" pad="1"/>
+<connect gate="B" pin="S" pad="2"/>
+<connect gate="C" pin="S" pad="3"/>
+<connect gate="D" pin="S" pad="4"/>
+<connect gate="E" pin="S" pad="5"/>
+<connect gate="F" pin="S" pad="6"/>
+<connect gate="G" pin="S" pad="7"/>
+<connect gate="H" pin="S" pad="8"/>
+<connect gate="I" pin="S" pad="9"/>
+<connect gate="J" pin="S" pad="10"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="S7108-ND" constant="no"/>
+<attribute name="I" value="3 A" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PPPC052LFBN-RC" constant="no"/>
+<attribute name="V" value="250 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_AMPHENOL" package="10_PINES_2F5C_ANG">
+<connects>
+<connect gate="A" pin="S" pad="1"/>
+<connect gate="B" pin="S" pad="2"/>
+<connect gate="C" pin="S" pad="3"/>
+<connect gate="D" pin="S" pad="4"/>
+<connect gate="E" pin="S" pad="5"/>
+<connect gate="F" pin="S" pad="6"/>
+<connect gate="G" pin="S" pad="7"/>
+<connect gate="H" pin="S" pad="8"/>
+<connect gate="I" pin="S" pad="9"/>
+<connect gate="J" pin="S" pad="10"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="609-3410-ND" constant="no"/>
+<attribute name="I" value="3 A" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="68021-210HLF" constant="no"/>
+<attribute name="V" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -40489,7 +40984,7 @@ Typical Applications&lt;br&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="POWER_MODULE_TEMPLATE">
+<deviceset name="POWER_MODULE_TEMPLATE" prefix="SRY">
 <gates>
 <gate name="G$1" symbol="POWER_MODULE_SYMBOL" x="0" y="0"/>
 </gates>
@@ -40617,9 +41112,9 @@ Typical Applications&lt;br&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="EXT_MODULE_TEMPLATE">
+<deviceset name="EXT_MODULE_TEMPLATE" prefix="SRY">
 <gates>
-<gate name="G$1" symbol="EXT_MODULE_SYMBOL" x="2.54" y="-2.54"/>
+<gate name="G$1" symbol="EXT_MODULE_SYMBOL" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SERI_EXT_MODULE">
@@ -40629,7 +41124,7 @@ Typical Applications&lt;br&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="MODEM_MODULE_TEMPLATE">
+<deviceset name="MODEM_MODULE_TEMPLATE" prefix="SRY">
 <gates>
 <gate name="G$1" symbol="MODEM_MODULE_SYMBOL" x="0" y="0"/>
 </gates>
@@ -40767,6 +41262,7 @@ Typical Applications&lt;br&gt;
 <devices>
 <device name="0" package="14_VSON">
 <connects>
+<connect gate="G$1" pin="!PS!/SYNC" pad="13"/>
 <connect gate="G$1" pin="EN" pad="12"/>
 <connect gate="G$1" pin="FB" pad="3"/>
 <connect gate="G$1" pin="GND" pad="2"/>
@@ -40774,13 +41270,15 @@ Typical Applications&lt;br&gt;
 <connect gate="G$1" pin="L2" pad="6 7"/>
 <connect gate="G$1" pin="PG" pad="14"/>
 <connect gate="G$1" pin="PGND" pad="EP"/>
-<connect gate="G$1" pin="PS/SYNC" pad="13"/>
 <connect gate="G$1" pin="VIN" pad="10 11"/>
 <connect gate="G$1" pin="VINA" pad="1"/>
 <connect gate="G$1" pin="VOUT" pad="4 5"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="296-36491-1-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TPS63020DSJR" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -40882,10 +41380,10 @@ Typical Applications&lt;br&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="C" value="47 nF" constant="no"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="709-1088-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="160X14W473MV4T" constant="no"/>
 <attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VALUE" value="47 nF" constant="no"/>
 <attribute name="VC" value="16 V" constant="no"/>
 </technology>
 </technologies>
