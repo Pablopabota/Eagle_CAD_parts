@@ -12549,14 +12549,22 @@
 <wire x1="2.963334375" y1="0.846665625" x2="4.656665625" y2="0.846665625" width="0.0635" layer="21"/>
 </package>
 <package name="SERI_POWER_MODULE">
-<wire x1="0" y1="27.2" x2="33.2" y2="27.2" width="0.063" layer="21"/>
-<wire x1="33.2" y1="27.2" x2="33.2" y2="0" width="0.063" layer="21"/>
-<wire x1="33.2" y1="0" x2="0" y2="0" width="0.063" layer="21"/>
+<wire x1="0" y1="27.2" x2="33.7" y2="27.2" width="0.063" layer="21"/>
+<wire x1="33.7" y1="27.2" x2="33.7" y2="0" width="0.063" layer="21"/>
+<wire x1="33.7" y1="0" x2="0" y2="0" width="0.063" layer="21"/>
 <wire x1="0" y1="0" x2="0" y2="27.2" width="0.063" layer="21"/>
-<wire x1="1.6" y1="5.1" x2="1.6" y2="4.9" width="0" layer="21"/>
-<wire x1="1.5" y1="5" x2="1.7" y2="5" width="0" layer="21"/>
-<wire x1="31.6" y1="19.4" x2="31.6" y2="19.2" width="0" layer="21"/>
-<wire x1="31.5" y1="19.3" x2="31.7" y2="19.3" width="0" layer="21"/>
+<wire x1="2.1" y1="5.1" x2="2.1" y2="4.9" width="0" layer="21"/>
+<wire x1="2" y1="5" x2="2.2" y2="5" width="0" layer="21"/>
+<wire x1="32.1" y1="19.4" x2="32.1" y2="19.2" width="0" layer="21"/>
+<wire x1="32" y1="19.3" x2="32.2" y2="19.3" width="0" layer="21"/>
+<wire x1="3.5" y1="20.1" x2="3.5" y2="20.6" width="0" layer="21"/>
+<wire x1="3.5" y1="20.6" x2="3.5" y2="21.1" width="0" layer="21"/>
+<wire x1="3" y1="20.6" x2="3.5" y2="20.6" width="0" layer="21"/>
+<wire x1="3.5" y1="20.6" x2="4" y2="20.6" width="0" layer="21"/>
+<wire x1="3.5" y1="20.6" x2="3.4" y2="20.7" width="0" layer="21"/>
+<wire x1="3.5" y1="20.6" x2="3.6" y2="20.7" width="0" layer="21"/>
+<wire x1="3.5" y1="20.6" x2="3.6" y2="20.5" width="0" layer="21"/>
+<wire x1="3.5" y1="20.6" x2="3.4" y2="20.5" width="0" layer="21"/>
 </package>
 <package name="TSOT-23">
 <smd name="6" x="-0.95" y="1.31" dx="1.22" dy="0.62" layer="1" rot="R90"/>
@@ -12704,22 +12712,22 @@
 <wire x1="-2.921" y1="-1.878" x2="-2.921" y2="1.878" width="0.0635" layer="39"/>
 </package>
 <package name="SERI_EXT_MODULE">
-<wire x1="0" y1="40" x2="31.5" y2="40" width="0.063" layer="21"/>
-<wire x1="31.5" y1="40" x2="31.5" y2="0" width="0.063" layer="21"/>
-<wire x1="31.5" y1="0" x2="0" y2="0" width="0.063" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="40" width="0.063" layer="21"/>
-<wire x1="14.13" y1="38.3" x2="14.13" y2="38.4" width="0" layer="21"/>
-<wire x1="14.13" y1="38.2" x2="14.13" y2="38.3" width="0" layer="21"/>
-<wire x1="14.13" y1="38.3" x2="14.03" y2="38.3" width="0" layer="21"/>
-<wire x1="14.13" y1="38.3" x2="14.23" y2="38.3" width="0" layer="21"/>
-<wire x1="21.75" y1="35.56" x2="21.75" y2="35.66" width="0" layer="21"/>
-<wire x1="21.75" y1="35.46" x2="21.75" y2="35.56" width="0" layer="21"/>
-<wire x1="21.75" y1="35.56" x2="21.65" y2="35.56" width="0" layer="21"/>
-<wire x1="21.75" y1="35.56" x2="21.85" y2="35.56" width="0" layer="21"/>
-<wire x1="25.38" y1="2.71" x2="25.38" y2="2.81" width="0" layer="21"/>
-<wire x1="25.38" y1="2.61" x2="25.38" y2="2.71" width="0" layer="21"/>
-<wire x1="25.38" y1="2.71" x2="25.28" y2="2.71" width="0" layer="21"/>
-<wire x1="25.38" y1="2.71" x2="25.48" y2="2.71" width="0" layer="21"/>
+<wire x1="0" y1="39" x2="29.9" y2="39" width="0.063" layer="21"/>
+<wire x1="29.9" y1="39" x2="29.9" y2="0" width="0.063" layer="21"/>
+<wire x1="29.9" y1="0" x2="0" y2="0" width="0.063" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="39" width="0.063" layer="21"/>
+<wire x1="13.13" y1="37.3" x2="13.13" y2="37.4" width="0" layer="21"/>
+<wire x1="13.13" y1="37.2" x2="13.13" y2="37.3" width="0" layer="21"/>
+<wire x1="13.13" y1="37.3" x2="13.03" y2="37.3" width="0" layer="21"/>
+<wire x1="13.13" y1="37.3" x2="13.23" y2="37.3" width="0" layer="21"/>
+<wire x1="20.75" y1="34.56" x2="20.75" y2="34.66" width="0" layer="21"/>
+<wire x1="20.75" y1="34.46" x2="20.75" y2="34.56" width="0" layer="21"/>
+<wire x1="20.75" y1="34.56" x2="20.65" y2="34.56" width="0" layer="21"/>
+<wire x1="20.75" y1="34.56" x2="20.85" y2="34.56" width="0" layer="21"/>
+<wire x1="24.38" y1="1.71" x2="24.38" y2="1.81" width="0" layer="21"/>
+<wire x1="24.38" y1="1.61" x2="24.38" y2="1.71" width="0" layer="21"/>
+<wire x1="24.38" y1="1.71" x2="24.28" y2="1.71" width="0" layer="21"/>
+<wire x1="24.38" y1="1.71" x2="24.48" y2="1.71" width="0" layer="21"/>
 </package>
 <package name="SERI_MODEM_MODULE">
 <wire x1="0" y1="0" x2="35" y2="0" width="0.127" layer="21"/>
@@ -13021,8 +13029,20 @@
 </polygon>
 <wire x1="-6.5" y1="6.9" x2="6.5" y2="6.9" width="0.127" layer="21"/>
 <wire x1="6.5" y1="6.9" x2="6.5" y2="-6.8" width="0.127" layer="21"/>
-<wire x1="6.5" y1="-6.8" x2="-6.5" y2="-6.8" width="0.127" layer="21"/>
+<wire x1="6.5" y1="-6.8" x2="2.5" y2="-6.8" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-6.8" x2="-6" y2="-6.8" width="0.127" layer="21"/>
+<wire x1="-6" y1="-6.8" x2="-6.5" y2="-6.8" width="0.127" layer="21"/>
 <wire x1="-6.5" y1="-6.8" x2="-6.5" y2="6.9" width="0.127" layer="21"/>
+<wire x1="-6" y1="-6.8" x2="-6" y2="-7.45" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-6" y1="-7.45" x2="-6" y2="-8.3" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-6" y1="-8.3" x2="-6" y2="-11" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-6" y1="-11" x2="2.5" y2="-11" width="0.127" layer="21" style="shortdash"/>
+<wire x1="2.5" y1="-11" x2="2.5" y2="-8.3" width="0.127" layer="21" style="shortdash"/>
+<wire x1="2.5" y1="-8.3" x2="2.5" y2="-7.45" width="0.127" layer="21" style="shortdash"/>
+<wire x1="2.5" y1="-7.45" x2="2.5" y2="-6.8" width="0.127" layer="21" style="shortdash"/>
+<wire x1="2.5" y1="-6.8" x2="-6" y2="-6.8" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-6" y1="-7.45" x2="2.5" y2="-7.45" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-6" y1="-8.3" x2="2.5" y2="-8.3" width="0.127" layer="21" style="shortdash"/>
 </package>
 <package name="8_PINES_8F1C_F_SMD_C">
 <wire x1="-10.16" y1="1.27" x2="0" y2="1.27" width="0.1524" layer="21"/>
@@ -13695,6 +13715,63 @@
 <wire x1="6.985" y1="11.43" x2="6.985" y2="-2.54" width="0.127" layer="39"/>
 <wire x1="6.985" y1="-2.54" x2="-6.985" y2="-2.54" width="0.127" layer="39"/>
 <wire x1="-6.985" y1="-2.54" x2="-6.985" y2="11.43" width="0.127" layer="39"/>
+</package>
+<package name="6_PINES_6F1C_F">
+<wire x1="-7.62" y1="1.27" x2="7.62" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="-1.27" x2="-7.62" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="1.27" x2="7.62" y2="-1.27" width="0.1524" layer="21"/>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="21"/>
+<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="21"/>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="21"/>
+<wire x1="-7.62" y1="1.27" x2="-7.62" y2="-1.27" width="0.1524" layer="21"/>
+<text x="-8.89" y="-0.635" size="1.27" layer="21" ratio="10">1</text>
+<rectangle x1="-6.604" y1="-0.254" x2="-6.096" y2="0.254" layer="21"/>
+<pad name="1" x="-6.35" y="0" drill="1.1"/>
+<pad name="2" x="-3.81" y="0" drill="1.1"/>
+<pad name="3" x="-1.27" y="0" drill="1.1"/>
+<pad name="4" x="1.27" y="0" drill="1.1"/>
+<wire x1="-7.196665625" y1="0.846665625" x2="-5.503334375" y2="0.846665625" width="0.0635" layer="21"/>
+<wire x1="-5.503334375" y1="0.846665625" x2="-5.503334375" y2="-0.846665625" width="0.0635" layer="21"/>
+<wire x1="-5.503334375" y1="-0.846665625" x2="-7.196665625" y2="-0.846665625" width="0.0635" layer="21"/>
+<wire x1="-7.196665625" y1="-0.846665625" x2="-7.196665625" y2="0.846665625" width="0.0635" layer="21"/>
+<wire x1="-4.656665625" y1="0.846665625" x2="-2.963334375" y2="0.846665625" width="0.0635" layer="21"/>
+<wire x1="-2.963334375" y1="0.846665625" x2="-2.963334375" y2="-0.846665625" width="0.0635" layer="21"/>
+<wire x1="-2.963334375" y1="-0.846665625" x2="-4.656665625" y2="-0.846665625" width="0.0635" layer="21"/>
+<wire x1="-4.656665625" y1="-0.846665625" x2="-4.656665625" y2="0.846665625" width="0.0635" layer="21"/>
+<wire x1="-2.116665625" y1="0.846665625" x2="-0.423334375" y2="0.846665625" width="0.0635" layer="21"/>
+<wire x1="-0.423334375" y1="0.846665625" x2="-0.423334375" y2="-0.846665625" width="0.0635" layer="21"/>
+<wire x1="-0.423334375" y1="-0.846665625" x2="-2.116665625" y2="-0.846665625" width="0.0635" layer="21"/>
+<wire x1="-2.116665625" y1="-0.846665625" x2="-2.116665625" y2="0.846665625" width="0.0635" layer="21"/>
+<wire x1="0.423334375" y1="0.846665625" x2="2.116665625" y2="0.846665625" width="0.0635" layer="21"/>
+<wire x1="2.116665625" y1="0.846665625" x2="2.116665625" y2="-0.846665625" width="0.0635" layer="21"/>
+<wire x1="2.116665625" y1="-0.846665625" x2="0.423334375" y2="-0.846665625" width="0.0635" layer="21"/>
+<wire x1="0.423334375" y1="-0.846665625" x2="0.423334375" y2="0.846665625" width="0.0635" layer="21"/>
+<text x="-7.3025" y="1.5875" size="0.6096" layer="25">&gt;NAME</text>
+<pad name="5" x="3.81" y="0" drill="1.1"/>
+<pad name="6" x="6.35" y="0" drill="1.1"/>
+<wire x1="2.963334375" y1="0.846665625" x2="4.656665625" y2="0.846665625" width="0.0635" layer="21"/>
+<wire x1="4.656665625" y1="0.846665625" x2="4.656665625" y2="-0.846665625" width="0.0635" layer="21"/>
+<wire x1="4.656665625" y1="-0.846665625" x2="2.963334375" y2="-0.846665625" width="0.0635" layer="21"/>
+<wire x1="2.963334375" y1="-0.846665625" x2="2.963334375" y2="0.846665625" width="0.0635" layer="21"/>
+<wire x1="5.503334375" y1="0.846665625" x2="7.196665625" y2="0.846665625" width="0.0635" layer="21"/>
+<wire x1="7.196665625" y1="0.846665625" x2="7.196665625" y2="-0.846665625" width="0.0635" layer="21"/>
+<wire x1="7.196665625" y1="-0.846665625" x2="5.503334375" y2="-0.846665625" width="0.0635" layer="21"/>
+<wire x1="5.503334375" y1="-0.846665625" x2="5.503334375" y2="0.846665625" width="0.0635" layer="21"/>
+<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="21"/>
+<rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="21"/>
+</package>
+<package name="SOD80C">
+<smd name="C-" x="-1.6" y="0" dx="1.6" dy="0.9" layer="1" rot="R90"/>
+<smd name="A+" x="1.6" y="0" dx="1.6" dy="0.9" layer="1" rot="R90"/>
+<wire x1="-2.275" y1="1.125" x2="2.275" y2="1.125" width="0.0635" layer="39"/>
+<wire x1="2.275" y1="1.125" x2="2.275" y2="-1.125" width="0.0635" layer="39"/>
+<wire x1="2.275" y1="-1.125" x2="-2.275" y2="-1.125" width="0.0635" layer="39"/>
+<wire x1="-2.275" y1="-1.125" x2="-2.275" y2="1.125" width="0.0635" layer="39"/>
+<wire x1="-2.15" y1="0.8" x2="2.15" y2="0.8" width="0.0635" layer="21"/>
+<wire x1="2.15" y1="0.8" x2="2.15" y2="-0.8" width="0.0635" layer="21"/>
+<wire x1="2.15" y1="-0.8" x2="-2.15" y2="-0.8" width="0.0635" layer="21"/>
+<wire x1="-2.15" y1="-0.8" x2="-2.15" y2="0.8" width="0.0635" layer="21"/>
+<rectangle x1="-1" y1="-0.8" x2="-0.7" y2="0.8" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -34845,7 +34922,7 @@ portable devices</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="1727-2319-1-ND" constant="no"/>
 <attribute name="ID" value="1A" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="PMZ320UPEYL" constant="no"/>
-<attribute name="VDSS" value="30V" constant="no"/>
+<attribute name="VDS" value="30V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -34861,6 +34938,38 @@ portable devices</description>
 <attribute name="ID" value="-7.6 A" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="SI2369DS-T1-GE3" constant="no"/>
 <attribute name="VDS" value="-30 V" constant="no"/>
+<attribute name="VGS_TH" value="-1.2 V ~ -2.5 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_DMP4051LK3" package="TO252">
+<connects>
+<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="DMP4051LK3-13DITR-ND" constant="no"/>
+<attribute name="ID" value="7.2 A" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="DMP4051LK3-13" constant="no"/>
+<attribute name="VDS" value="-40 V" constant="no"/>
+<attribute name="VGS_TH" value="-1 V ~ -3 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SI2319CDS" package="SOT-23-3">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="SI2319CDS-T1-GE3TR-ND" constant="no"/>
+<attribute name="ID" value="4.4 A" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SI2319CDS-T1-GE3" constant="no"/>
+<attribute name="VDS" value="-40 V" constant="no"/>
 <attribute name="VGS_TH" value="-1.2 V ~ -2.5 V" constant="no"/>
 </technology>
 </technologies>
@@ -36415,6 +36524,24 @@ portable devices</description>
 <attribute name="I" value="3 A" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="NC/DNM" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="NC/DNM" constant="no"/>
+<attribute name="V" value="250 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SCS_F" package="6_PINES_6F1C_F">
+<connects>
+<connect gate="A" pin="S" pad="1"/>
+<connect gate="B" pin="S" pad="2"/>
+<connect gate="C" pin="S" pad="3"/>
+<connect gate="D" pin="S" pad="4"/>
+<connect gate="E" pin="S" pad="5"/>
+<connect gate="F" pin="S" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="S7039-ND" constant="no"/>
+<attribute name="I" value="3 A" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PPPC061LFBN-RC" constant="no"/>
 <attribute name="V" value="250 V" constant="no"/>
 </technology>
 </technologies>
@@ -38281,6 +38408,66 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </technology>
 </technologies>
 </device>
+<device name="_0402_475K" package="R0402">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="311-475KLRTR-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RC0402FR-07475KL" constant="no"/>
+<attribute name="P" value="1/16 W" constant="no"/>
+<attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="475 kOhm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0402_2M2" package="R0402">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="541-2.20MLTR-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW04022M20FKED" constant="no"/>
+<attribute name="P" value="1/16 W" constant="no"/>
+<attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="2.2 MOhm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0603_562K_2" package="R0603">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="13-RT0603BRD07562KLTR-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RT0603BRD07562KL" constant="no"/>
+<attribute name="P" value="1/10 W" constant="no"/>
+<attribute name="TOL" value="0.1%" constant="no"/>
+<attribute name="VALUE" value="562 kOhm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0402_100R" package="R0402">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="YAG4328TR-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RT0402BRE07100RL" constant="no"/>
+<attribute name="P" value="1/16 W" constant="no"/>
+<attribute name="TOL" value="0.1%" constant="no"/>
+<attribute name="VALUE" value="100 Ohm" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="QUECTEL_BG" prefix="U">
@@ -39926,6 +40113,20 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </technology>
 </technologies>
 </device>
+<device name="_BZV55-C12" package="SOD80C">
+<connects>
+<connect gate="G$1" pin="A+" pad="A+"/>
+<connect gate="G$1" pin="C-" pad="C-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="1727-4321-2-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="BZV55-C12,115" constant="no"/>
+<attribute name="P" value="500 mW" constant="no"/>
+<attribute name="VZ" value="12 V" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="PTC_FUSE" prefix="F">
@@ -40229,6 +40430,16 @@ Typical Applications&lt;br&gt;
 <attribute name="MANUFACTURER_PART_NUMBER" value="LMV321SQ3T2G" constant="no"/>
 <attribute name="OUT_TYPE" value="Rail-to-Rail" constant="no"/>
 <attribute name="V_SUPP" value="2.7V - 5.5V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_TLV521DCKR" package="SC-70-5">
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="296-47441-2-ND" constant="no"/>
+<attribute name="I_OUT" value="12 mA" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TLV521DCKR" constant="no"/>
+<attribute name="OUT_TYPE" value="Rail-to-Rail" constant="no"/>
 </technology>
 </technologies>
 </device>
