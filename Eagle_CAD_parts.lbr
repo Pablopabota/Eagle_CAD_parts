@@ -14257,6 +14257,46 @@
 <wire x1="-2.2" y1="-1.6" x2="-2.2" y2="1.6" width="0.0635" layer="39"/>
 <text x="-1.8" y="1.7" size="0.254" layer="25">&gt;NAME</text>
 </package>
+<package name="12-DFN-3X3">
+<wire x1="-1.55" y1="1.55" x2="1.55" y2="1.55" width="0.127" layer="21"/>
+<wire x1="1.55" y1="1.55" x2="1.55" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="1.55" y1="-1.55" x2="-1.55" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="-1.55" y1="-1.55" x2="-1.55" y2="1.55" width="0.127" layer="21"/>
+<smd name="1" x="-1.125" y="-1.375" dx="0.3" dy="0.75" layer="1"/>
+<smd name="2" x="-0.675" y="-1.375" dx="0.3" dy="0.75" layer="1"/>
+<smd name="3" x="-0.225" y="-1.375" dx="0.3" dy="0.75" layer="1"/>
+<smd name="4" x="0.225" y="-1.375" dx="0.3" dy="0.75" layer="1"/>
+<smd name="5" x="0.675" y="-1.375" dx="0.3" dy="0.75" layer="1"/>
+<smd name="6" x="1.125" y="-1.375" dx="0.3" dy="0.75" layer="1"/>
+<smd name="7" x="1.125" y="1.375" dx="0.3" dy="0.75" layer="1"/>
+<smd name="8" x="0.675" y="1.375" dx="0.3" dy="0.75" layer="1"/>
+<smd name="9" x="0.225" y="1.375" dx="0.3" dy="0.75" layer="1"/>
+<smd name="10" x="-0.225" y="1.375" dx="0.3" dy="0.75" layer="1"/>
+<smd name="11" x="-0.675" y="1.375" dx="0.3" dy="0.75" layer="1"/>
+<smd name="12" x="-1.125" y="1.375" dx="0.3" dy="0.75" layer="1"/>
+<smd name="13" x="0" y="0" dx="2.43" dy="1.7" layer="1"/>
+<circle x="-0.9" y="-0.9" radius="0.2" width="0" layer="21"/>
+<wire x1="-1.7" y1="2" x2="1.7" y2="2" width="0.127" layer="39"/>
+<wire x1="1.7" y1="2" x2="1.7" y2="-2" width="0.127" layer="39"/>
+<wire x1="1.7" y1="-2" x2="-1.7" y2="-2" width="0.127" layer="39"/>
+<wire x1="-1.7" y1="-2" x2="-1.7" y2="2" width="0.127" layer="39"/>
+<text x="-2.54" y="2.54" size="0.8128" layer="25">&gt;NAME</text>
+</package>
+<package name="IHLP_INDUCTOR">
+<smd name="1" x="-2.921" y="0" dx="2.413" dy="3.429" layer="1"/>
+<smd name="2" x="2.921" y="0" dx="2.413" dy="3.429" layer="1"/>
+<wire x1="-3.397" y1="3.397" x2="3.397" y2="3.397" width="0.127" layer="21"/>
+<wire x1="3.397" y1="3.397" x2="3.397" y2="-3.397" width="0.127" layer="21"/>
+<wire x1="3.397" y1="-3.397" x2="-3.397" y2="-3.397" width="0.127" layer="21"/>
+<wire x1="-3.397" y1="-3.397" x2="-3.397" y2="3.397" width="0.127" layer="21"/>
+<circle x="0" y="-0.01" radius="2.9" width="0.127" layer="21"/>
+<circle x="0.01" y="0.01" radius="2.5" width="0.127" layer="21"/>
+<wire x1="-4.5" y1="3.6" x2="4.5" y2="3.6" width="0.127" layer="39"/>
+<wire x1="4.5" y1="3.6" x2="4.5" y2="-3.6" width="0.127" layer="39"/>
+<wire x1="4.5" y1="-3.6" x2="-4.5" y2="-3.6" width="0.127" layer="39"/>
+<wire x1="-4.5" y1="-3.6" x2="-4.5" y2="3.6" width="0.127" layer="39"/>
+<text x="-3.6" y="3.8" size="0.6096" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="PUENTE-H">
@@ -30935,8 +30975,7 @@
 </symbol>
 <symbol name="SCHOTTKY">
 <wire x1="1.905" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="1.905" y1="1.27" x2="1.905" y2="1.016" width="0.254" layer="94"/>
 <wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="0.635" y1="-1.016" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
@@ -30948,6 +30987,7 @@
 <vertex x="1.27" y="0"/>
 <vertex x="-1.27" y="-1.27"/>
 </polygon>
+<text x="-7.62" y="-3.81" size="1.27" layer="96">&gt;MANUFACTURER_PART_NUMBER</text>
 </symbol>
 <symbol name="CAPACITOR_POLAR_SYM">
 <wire x1="0" y1="0" x2="0" y2="-0.508" width="0.1524" layer="94"/>
@@ -33559,7 +33599,7 @@
 <wire x1="15.24" y1="20.32" x2="15.24" y2="-55.88" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-55.88" x2="-15.24" y2="-55.88" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="-55.88" x2="-15.24" y2="20.32" width="0.254" layer="94"/>
-<text x="-5.08" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-12.7" y="0" size="1.778" layer="95">&gt;NAME</text>
 <pin name="BST1" x="-20.32" y="10.16" length="middle"/>
 <pin name="PVIN" x="-20.32" y="7.62" length="middle"/>
 <pin name="VIN" x="-20.32" y="5.08" length="middle"/>
@@ -33580,6 +33620,28 @@
 <pin name="BST2" x="20.32" y="10.16" length="middle" rot="R180"/>
 <pin name="SW2" x="10.16" y="25.4" length="middle" rot="R270"/>
 <pin name="SW1" x="-10.16" y="25.4" length="middle" rot="R270"/>
+<text x="-12.7" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="LT3652_SYM">
+<wire x1="-17.78" y1="25.4" x2="17.78" y2="25.4" width="0.254" layer="94"/>
+<wire x1="17.78" y1="25.4" x2="17.78" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-27.94" x2="-17.78" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-27.94" x2="-17.78" y2="25.4" width="0.254" layer="94"/>
+<pin name="VIN" x="-22.86" y="12.7" length="middle"/>
+<pin name="VIN_REG" x="-22.86" y="7.62" length="middle"/>
+<pin name="!SHDN" x="-22.86" y="2.54" length="middle"/>
+<pin name="!CHRG" x="-22.86" y="-2.54" length="middle"/>
+<pin name="!FAULT" x="-22.86" y="-7.62" length="middle"/>
+<pin name="TIMER" x="-22.86" y="-15.24" length="middle"/>
+<pin name="VFB" x="22.86" y="-20.32" length="middle" rot="R180"/>
+<pin name="NTC" x="22.86" y="-25.4" length="middle" rot="R180"/>
+<pin name="BAT" x="22.86" y="-5.08" length="middle" rot="R180"/>
+<pin name="SENSE" x="22.86" y="0" length="middle" rot="R180"/>
+<pin name="BOOST" x="22.86" y="5.08" length="middle" rot="R180"/>
+<pin name="SW" x="22.86" y="20.32" length="middle" rot="R180"/>
+<text x="-15.24" y="20.32" size="1.778" layer="95">&gt;NAME</text>
+<pin name="GND" x="-22.86" y="-25.4" length="middle"/>
+<text x="-15.24" y="17.78" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -34704,6 +34766,23 @@
 </technology>
 </technologies>
 </device>
+<device name="_IHLP2525CZER8R2M11" package="IHLP_INDUCTOR">
+<connects>
+<connect gate="L" pin="1" pad="1"/>
+<connect gate="L" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DCR" value="54.9 mOhm" constant="no"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="541-IHLP2525CZER8R2M11CT-ND" constant="no"/>
+<attribute name="I" value="5 A" constant="no"/>
+<attribute name="I_SAT" value="4 A" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="IHLP2525CZER8R2M11" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="70-IHLP2525CZR8R2M11 " constant="no"/>
+<attribute name="VALUE" value="8.2 uH" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="DIODO_SCHOTTKY" prefix="D" uservalue="yes">
@@ -34895,6 +34974,38 @@
 </technology>
 </technologies>
 </device>
+<device name="_PDS4200HQ-13" package="POWER_DI_5">
+<connects>
+<connect gate="G$1" pin="A" pad="A+1 A+2"/>
+<connect gate="G$1" pin="C" pad="C-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="PDS4200HQ-13DICT-ND" constant="no"/>
+<attribute name="IF" value="4 A" constant="no"/>
+<attribute name="IR" value="1 uA @ 200 V" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PDS4200HQ-13" constant="no"/>
+<attribute name="VF" value="840 mV @ 4 A" constant="no"/>
+<attribute name="VR" value="200 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_RB751V40115" package="SOD-323F">
+<connects>
+<connect gate="G$1" pin="A" pad="A+"/>
+<connect gate="G$1" pin="C" pad="C-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="1727-6301-1-ND" constant="no"/>
+<attribute name="IF" value="120 mA" constant="no"/>
+<attribute name="IR" value="500 nA @ 30 V" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RB751V40,115" constant="no"/>
+<attribute name="VF" value="370 mV @ 1 mA" constant="no"/>
+<attribute name="VR" value="40 V" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="CAPACITOR_POLAR" prefix="C">
@@ -35026,7 +35137,7 @@
 </technology>
 </technologies>
 </device>
-<device name="_220U_6V3" package="C1411">
+<device name="_1411_220U_6V3" package="C1411">
 <connects>
 <connect gate="C" pin="NEG" pad="C-"/>
 <connect gate="C" pin="POS" pad="A+"/>
@@ -35038,6 +35149,21 @@
 <attribute name="TOL" value="20%" constant="no"/>
 <attribute name="TYPE" value="Tantalum-Polymer" constant="no"/>
 <attribute name="VALUE" value="220 uF" constant="no"/>
+<attribute name="VC" value="6.3 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1411_100U_6V3" package="C1411">
+<connects>
+<connect gate="C" pin="NEG" pad="C-"/>
+<connect gate="C" pin="POS" pad="A+"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="478-3080-1-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TPSB107K006R0250" constant="no"/>
+<attribute name="TOL" value="10%" constant="no"/>
+<attribute name="VALUE" value="100 uF" constant="no"/>
 <attribute name="VC" value="6.3 V" constant="no"/>
 </technology>
 </technologies>
@@ -39702,6 +39828,81 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </technology>
 </technologies>
 </device>
+<device name="_0402_R05" package="R0402">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="P17367CT-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-2BWFR050X" constant="no"/>
+<attribute name="P" value="1/4 W" constant="no"/>
+<attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="0.05 Ohm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0402_1M2" package="R0402">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="541-1.20MLCT-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW04021M20FKED" constant="no"/>
+<attribute name="P" value="1/16 W" constant="no"/>
+<attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="1.2 MOhm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0402_316K" package="R0402">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="YAG3113CT-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RC0402FR-07316KL" constant="no"/>
+<attribute name="P" value="1/16 W" constant="no"/>
+<attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="316 kOhm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0402_820K" package="R0402">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="YAG3240CT-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RC0402FR-07820KL" constant="no"/>
+<attribute name="P" value="1/16 W" constant="no"/>
+<attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="820 kOhm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0402_150K" package="R0402">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="541-10389-1-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RCS0402150KFKED" constant="no"/>
+<attribute name="P" value="1/5 W" constant="no"/>
+<attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="150 kOhm" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="QUECTEL_BG" prefix="U">
@@ -41387,6 +41588,38 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="TOL" value="5%" constant="no"/>
 <attribute name="TYPE" value="Ceramic" constant="no"/>
 <attribute name="VALUE" value="5600 pF" constant="no"/>
+<attribute name="VC" value="50 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1206_10U_50V" package="C1206">
+<connects>
+<connect gate="C" pin="A" pad="1"/>
+<connect gate="C" pin="B" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-6736-1-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL31A106MBHNNNE" constant="no"/>
+<attribute name="TOL" value="20%" constant="no"/>
+<attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VALUE" value="10 uF" constant="no"/>
+<attribute name="VC" value="50 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0402_1U_50V" package="C0402">
+<connects>
+<connect gate="C" pin="A" pad="1"/>
+<connect gate="C" pin="B" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="587-6278-1-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="UMK105CBJ105MV-F" constant="no"/>
+<attribute name="TOL" value="20%" constant="no"/>
+<attribute name="TYPE" value="Ceramic" constant="no"/>
+<attribute name="VALUE" value="1 uF" constant="no"/>
 <attribute name="VC" value="50 V" constant="no"/>
 </technology>
 </technologies>
@@ -43467,6 +43700,36 @@ Typical Applications&lt;br&gt;
 <technologies>
 <technology name="">
 <attribute name="MANUFACTURER_PART_NUMBER" value="LT3120JV#PBF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LT3652" prefix="U">
+<gates>
+<gate name="G$1" symbol="LT3652_SYM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="EDD#TRPBF" package="12-DFN-3X3">
+<connects>
+<connect gate="G$1" pin="!CHRG" pad="4"/>
+<connect gate="G$1" pin="!FAULT" pad="5"/>
+<connect gate="G$1" pin="!SHDN" pad="3"/>
+<connect gate="G$1" pin="BAT" pad="9"/>
+<connect gate="G$1" pin="BOOST" pad="11"/>
+<connect gate="G$1" pin="GND" pad="13"/>
+<connect gate="G$1" pin="NTC" pad="8"/>
+<connect gate="G$1" pin="SENSE" pad="10"/>
+<connect gate="G$1" pin="SW" pad="12"/>
+<connect gate="G$1" pin="TIMER" pad="6"/>
+<connect gate="G$1" pin="VFB" pad="7"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+<connect gate="G$1" pin="VIN_REG" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="LT3652EDD#TRPBFCT-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LT3652EDD#TRPBF" constant="no"/>
 </technology>
 </technologies>
 </device>
