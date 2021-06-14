@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="10" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="17" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -11204,6 +11204,7 @@
 <wire x1="3.386665625" y1="0.846665625" x2="3.386665625" y2="-0.846665625" width="0.0635" layer="21"/>
 <wire x1="3.386665625" y1="-0.846665625" x2="1.693334375" y2="-0.846665625" width="0.0635" layer="21"/>
 <wire x1="1.693334375" y1="-0.846665625" x2="1.693334375" y2="0.846665625" width="0.0635" layer="21"/>
+<text x="3.81" y="1.27" size="0.8128" layer="25">&gt;NAME</text>
 </package>
 <package name="SOT-666">
 <wire x1="-0.8" y1="1" x2="0.8" y2="1" width="0.127" layer="21"/>
@@ -40008,6 +40009,51 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="P" value="1/5 W" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
 <attribute name="VALUE" value="150 kOhm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0402_330K" package="R0402">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="P330KLCT-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-2RKF3303X" constant="no"/>
+<attribute name="P" value="1/10 W" constant="no"/>
+<attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="330 kOhm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0402_47K" package="R0402">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="10-ERJ-U02F4702XCT-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-U02F4702X" constant="no"/>
+<attribute name="P" value="1/10 W" constant="no"/>
+<attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="47 kOhm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0402_51K" package="R0402">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="10-ERJ-U02F5102XCT-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-U02F5102X" constant="no"/>
+<attribute name="P" value="1/10 W" constant="no"/>
+<attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="51 kOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
