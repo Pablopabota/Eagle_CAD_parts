@@ -34975,6 +34975,21 @@
 </technology>
 </technologies>
 </device>
+<device name="_XAL4020-102MEC" package="IND_XFL4020">
+<connects>
+<connect gate="L" pin="1" pad="1"/>
+<connect gate="L" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DCR" value="14.6 mOhm" constant="no"/>
+<attribute name="I_SAT" value="8.7 A" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="XAL4020-102MEC" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="994-XAL4020-102MEC " constant="no"/>
+<attribute name="VALUE" value="1 uH" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="DIODO_SCHOTTKY" prefix="D" uservalue="yes">
@@ -40169,6 +40184,21 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="P" value="1/10 W" constant="no"/>
 <attribute name="TOL" value="1%" constant="no"/>
 <attribute name="VALUE" value="51 kOhm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0402_2M" package="R0402">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="541-4066-1-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW04022M00FKEDC" constant="no"/>
+<attribute name="P" value="1/16 W" constant="no"/>
+<attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="2 MOhm" constant="no"/>
 </technology>
 </technologies>
 </device>
