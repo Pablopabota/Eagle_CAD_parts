@@ -9133,6 +9133,11 @@
 <smd name="7" x="-0.4665" y="0" dx="0.613" dy="0.95" layer="1" rot="R180"/>
 <smd name="8" x="0.4665" y="0" dx="0.613" dy="0.95" layer="1" rot="R180"/>
 <circle x="-0.81" y="-0.81" radius="0.058309375" width="0.3048" layer="21"/>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="39"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="39"/>
+<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="39"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.127" layer="39"/>
+<text x="-1.3" y="1.5" size="0.3048" layer="25">&gt;NAME</text>
 </package>
 <package name="POWERPAK_CHIPFET_DUAL">
 <wire x1="-1.35" y1="0.95" x2="1.35" y2="0.95" width="0.127" layer="21"/>
@@ -40202,6 +40207,51 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </technology>
 </technologies>
 </device>
+<device name="_0603_560K" package="R0603">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="541-5477-1-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0603560KFKEAC" constant="no"/>
+<attribute name="P" value="1/10 W" constant="no"/>
+<attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="560 kOHm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0402_560K" package="R0402">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="541-CRCW0402560KFKEDHPCT-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW0402560KFKEDHP" constant="no"/>
+<attribute name="P" value="1/5 W" constant="no"/>
+<attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="560 kOhm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0603_261K" package="R0603">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="P261KDBCT-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERA-3AEB2613V" constant="no"/>
+<attribute name="P" value="1/10 W" constant="no"/>
+<attribute name="TOL" value="0.1%" constant="no"/>
+<attribute name="VALUE" value="261 KOhm" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="QUECTEL_BG" prefix="U">
@@ -40917,6 +40967,25 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 <attribute name="ID" value="500 mA" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="DMG1029SV-7" constant="no"/>
 <attribute name="VDSS" value="60V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SIA519EDJ" package="SC70-6L_DUAL">
+<connects>
+<connect gate="A" pin="D" pad="6 7"/>
+<connect gate="A" pin="G" pad="2"/>
+<connect gate="A" pin="S" pad="1"/>
+<connect gate="B" pin="D" pad="3 8"/>
+<connect gate="B" pin="G" pad="5"/>
+<connect gate="B" pin="S" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="SIA519EDJ-T1-GE3CT-ND" constant="no"/>
+<attribute name="ID" value="4.5 A" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SIA519EDJ-T1-GE3" constant="no"/>
+<attribute name="VDS" value="20 V" constant="no"/>
+<attribute name="VGS_TH" value="0.6V ~ 1.4V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -44214,6 +44283,74 @@ Typical Applications&lt;br&gt;
 <attribute name="DIGIKEY_PART_NUMBER" value="296-40854-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="TPS630242YFFT" constant="no"/>
 <attribute name="VOUT" value="3.3V (Fix)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AD8279" prefix="U">
+<description>Dual, Low Power, Single-Supply DIFFERENCE AMPLIFIER</description>
+<gates>
+<gate name="A" symbol="OPAMP-DIFF" x="-12.7" y="0"/>
+<gate name="B" symbol="OPAMP-DIFF" x="20.32" y="0"/>
+<gate name="SUP" symbol="ALIMENTACION" x="-38.1" y="0"/>
+</gates>
+<devices>
+<device name="ARZ" package="SO-14">
+<connects>
+<connect gate="A" pin="+IN" pad="3"/>
+<connect gate="A" pin="-IN" pad="2"/>
+<connect gate="A" pin="OUT" pad="13"/>
+<connect gate="A" pin="REF" pad="14"/>
+<connect gate="A" pin="SENSE" pad="12"/>
+<connect gate="B" pin="+IN" pad="5"/>
+<connect gate="B" pin="-IN" pad="6"/>
+<connect gate="B" pin="OUT" pad="9"/>
+<connect gate="B" pin="REF" pad="8"/>
+<connect gate="B" pin="SENSE" pad="10"/>
+<connect gate="SUP" pin="V+" pad="11"/>
+<connect gate="SUP" pin="V-" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="AD8279ARZ-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="AD8279ARZ" constant="no"/>
+<attribute name="R1" value="40 KOhm" constant="no"/>
+<attribute name="R2" value="20 KOhm" constant="no"/>
+<attribute name="R3" value="40 KOhm" constant="no"/>
+<attribute name="R4" value="20 KOhm" constant="no"/>
+<attribute name="V_SUP" value="2 ~ 36 V" constant="no"/>
+<attribute name="V_SUP_DUAL" value="2 ~ 18 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AD8278">
+<gates>
+<gate name="A" symbol="OPAMP-DIFF" x="2.54" y="0"/>
+<gate name="G$1" symbol="ALIMENTACION" x="20.32" y="0"/>
+</gates>
+<devices>
+<device name="ARZ" package="8-SO">
+<connects>
+<connect gate="A" pin="+IN" pad="3"/>
+<connect gate="A" pin="-IN" pad="2"/>
+<connect gate="A" pin="OUT" pad="6"/>
+<connect gate="A" pin="REF" pad="1"/>
+<connect gate="A" pin="SENSE" pad="5"/>
+<connect gate="G$1" pin="V+" pad="7"/>
+<connect gate="G$1" pin="V-" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="AD8278ARZ-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="AD8278ARZ" constant="no"/>
+<attribute name="R1" value="40 kOhm" constant="no"/>
+<attribute name="R2" value="20 kOhm" constant="no"/>
+<attribute name="R3" value="40 kOhm" constant="no"/>
+<attribute name="R4" value="20 kOhm" constant="no"/>
+<attribute name="V_SUP" value="2.7 V ~ 36V" constant="no"/>
 </technology>
 </technologies>
 </device>
