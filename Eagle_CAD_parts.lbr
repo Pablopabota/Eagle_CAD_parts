@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="10" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="17" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -12579,26 +12579,26 @@
 <wire x1="2.963334375" y1="0.846665625" x2="4.656665625" y2="0.846665625" width="0.0635" layer="21"/>
 </package>
 <package name="SERI_POWER_MODULE">
-<wire x1="0" y1="27.2" x2="35.5" y2="27.2" width="0.063" layer="21"/>
-<wire x1="35.5" y1="27.2" x2="35.5" y2="0" width="0.063" layer="21"/>
+<wire x1="0" y1="25.7" x2="35.5" y2="25.7" width="0.063" layer="21"/>
+<wire x1="35.5" y1="25.7" x2="35.5" y2="0" width="0.063" layer="21"/>
 <wire x1="35.5" y1="0" x2="0" y2="0" width="0.063" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="27.2" width="0.063" layer="21"/>
-<wire x1="3.1" y1="5.1" x2="3.1" y2="4.9" width="0" layer="21"/>
-<wire x1="3" y1="5" x2="3.2" y2="5" width="0" layer="21"/>
-<wire x1="32.3" y1="18.13" x2="32.3" y2="17.93" width="0" layer="21"/>
-<wire x1="32.2" y1="18.03" x2="32.4" y2="18.03" width="0" layer="21"/>
-<wire x1="3.1" y1="20.5" x2="3.1" y2="20.6" width="0" layer="21"/>
-<wire x1="3.1" y1="20.6" x2="3.1" y2="20.7" width="0" layer="21"/>
-<wire x1="3" y1="20.6" x2="3.1" y2="20.6" width="0" layer="21"/>
-<wire x1="3.1" y1="20.6" x2="3.2" y2="20.6" width="0" layer="21"/>
-<wire x1="3.1" y1="20.6" x2="3" y2="20.7" width="0" layer="21"/>
-<wire x1="3.1" y1="20.6" x2="3.2" y2="20.7" width="0" layer="21"/>
-<wire x1="3.1" y1="20.6" x2="3.2" y2="20.5" width="0" layer="21"/>
-<wire x1="3.1" y1="20.6" x2="3" y2="20.5" width="0" layer="21"/>
-<wire x1="3.0292875" y1="5.070709375" x2="3.170709375" y2="4.9292875" width="0" layer="21"/>
-<wire x1="3.0292875" y1="4.9292875" x2="3.170709375" y2="5.070709375" width="0" layer="21"/>
-<wire x1="32.2292875" y1="18.100709375" x2="32.370709375" y2="17.9592875" width="0" layer="21"/>
-<wire x1="32.2292875" y1="17.9592875" x2="32.370709375" y2="18.100709375" width="0" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="25.7" width="0.063" layer="21"/>
+<wire x1="3.1" y1="3.6" x2="3.1" y2="3.4" width="0" layer="21"/>
+<wire x1="3" y1="3.5" x2="3.2" y2="3.5" width="0" layer="21"/>
+<wire x1="32.3" y1="16.63" x2="32.3" y2="16.43" width="0" layer="21"/>
+<wire x1="32.2" y1="16.53" x2="32.4" y2="16.53" width="0" layer="21"/>
+<wire x1="3.1" y1="19" x2="3.1" y2="19.1" width="0" layer="21"/>
+<wire x1="3.1" y1="19.1" x2="3.1" y2="19.2" width="0" layer="21"/>
+<wire x1="3" y1="19.1" x2="3.1" y2="19.1" width="0" layer="21"/>
+<wire x1="3.1" y1="19.1" x2="3.2" y2="19.1" width="0" layer="21"/>
+<wire x1="3.1" y1="19.1" x2="3" y2="19.2" width="0" layer="21"/>
+<wire x1="3.1" y1="19.1" x2="3.2" y2="19.2" width="0" layer="21"/>
+<wire x1="3.1" y1="19.1" x2="3.2" y2="19" width="0" layer="21"/>
+<wire x1="3.1" y1="19.1" x2="3" y2="19" width="0" layer="21"/>
+<wire x1="3.0292875" y1="3.570709375" x2="3.170709375" y2="3.4292875" width="0" layer="21"/>
+<wire x1="3.0292875" y1="3.4292875" x2="3.170709375" y2="3.570709375" width="0" layer="21"/>
+<wire x1="32.2292875" y1="16.600709375" x2="32.370709375" y2="16.4592875" width="0" layer="21"/>
+<wire x1="32.2292875" y1="16.4592875" x2="32.370709375" y2="16.600709375" width="0" layer="21"/>
 </package>
 <package name="TSOT-23">
 <smd name="6" x="-0.95" y="1.31" dx="1.22" dy="0.62" layer="1" rot="R90"/>
