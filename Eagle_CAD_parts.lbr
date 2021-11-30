@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="10" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="17" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -14875,6 +14875,52 @@
 <wire x1="1.9" y1="1.26" x2="1.9" y2="-1.28" width="0.127" layer="21"/>
 <wire x1="1.9" y1="-1.28" x2="-1.83" y2="-1.28" width="0.127" layer="21"/>
 <wire x1="-1.83" y1="-1.28" x2="-1.83" y2="1.26" width="0.127" layer="21"/>
+</package>
+<package name="28-QFN-4X4">
+<wire x1="-1.975" y1="1.975" x2="1.975" y2="1.975" width="0.127" layer="21"/>
+<wire x1="1.975" y1="1.975" x2="1.975" y2="-1.975" width="0.127" layer="21"/>
+<wire x1="1.975" y1="-1.975" x2="-1.975" y2="-1.975" width="0.127" layer="21"/>
+<wire x1="-1.975" y1="-1.975" x2="-1.975" y2="1.975" width="0.127" layer="21"/>
+<wire x1="-3.12" y1="3.12" x2="3.12" y2="3.12" width="0.05" layer="39"/>
+<wire x1="3.12" y1="3.12" x2="3.12" y2="-3.12" width="0.05" layer="39"/>
+<wire x1="3.12" y1="-3.12" x2="-3.12" y2="-3.12" width="0.05" layer="39"/>
+<wire x1="-3.12" y1="-3.12" x2="-3.12" y2="3.12" width="0.05" layer="39"/>
+<circle x="-1.43" y="1.43" radius="0.07" width="0.2" layer="21"/>
+<text x="-3.5002" y="3.450109375" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-3.35426875" y="-4.680709375" size="0.8128" layer="27">&gt;VALUE</text>
+<rectangle x1="0.1800875" y1="0.1800875" x2="1.33" y2="1.33" layer="31"/>
+<rectangle x1="-1.33181875" y1="0.180246875" x2="-0.18" y2="1.329996875" layer="31" rot="R90"/>
+<rectangle x1="-1.3314" y1="-1.3314" x2="-0.18" y2="-0.18" layer="31" rot="R180"/>
+<rectangle x1="0.18026875" y1="-1.33198125" x2="1.33" y2="-0.18" layer="31" rot="R270"/>
+<smd name="1" x="-2.36" y="1.2" dx="0.85" dy="0.2" layer="1"/>
+<smd name="2" x="-2.36" y="0.8" dx="0.85" dy="0.2" layer="1"/>
+<smd name="3" x="-2.37" y="0.4" dx="0.85" dy="0.2" layer="1"/>
+<smd name="4" x="-2.36" y="0" dx="0.85" dy="0.2" layer="1"/>
+<smd name="5" x="-2.38" y="-0.4" dx="0.85" dy="0.2" layer="1"/>
+<smd name="6" x="-2.36" y="-0.8" dx="0.85" dy="0.2" layer="1"/>
+<smd name="7" x="-2.36" y="-1.2" dx="0.85" dy="0.2" layer="1"/>
+<smd name="8" x="-1.2" y="-2.43" dx="0.85" dy="0.2" layer="1" rot="R90"/>
+<smd name="9" x="-0.8" y="-2.43" dx="0.85" dy="0.2" layer="1" rot="R90"/>
+<smd name="10" x="-0.4" y="-2.48" dx="0.85" dy="0.2" layer="1" rot="R90"/>
+<smd name="11" x="0" y="-2.42" dx="0.85" dy="0.2" layer="1" rot="R90"/>
+<smd name="29" x="0" y="0" dx="2.65" dy="2.65" layer="1"/>
+<smd name="12" x="0.4" y="-2.46" dx="0.85" dy="0.2" layer="1" rot="R90"/>
+<smd name="13" x="0.8" y="-2.42" dx="0.85" dy="0.2" layer="1" rot="R90"/>
+<smd name="14" x="1.2" y="-2.4" dx="0.85" dy="0.2" layer="1" rot="R90"/>
+<smd name="15" x="2.28" y="-1.2" dx="0.85" dy="0.2" layer="1" rot="R180"/>
+<smd name="16" x="2.31" y="-0.8" dx="0.85" dy="0.2" layer="1" rot="R180"/>
+<smd name="17" x="2.22" y="-0.4" dx="0.85" dy="0.2" layer="1" rot="R180"/>
+<smd name="18" x="2.24" y="0" dx="0.85" dy="0.2" layer="1" rot="R180"/>
+<smd name="19" x="2.23" y="0.4" dx="0.85" dy="0.2" layer="1" rot="R180"/>
+<smd name="20" x="2.15" y="0.8" dx="0.85" dy="0.2" layer="1" rot="R180"/>
+<smd name="21" x="2.2" y="1.2" dx="0.85" dy="0.2" layer="1" rot="R180"/>
+<smd name="22" x="1.2" y="2.51" dx="0.85" dy="0.2" layer="1" rot="R270"/>
+<smd name="23" x="0.8" y="2.47" dx="0.85" dy="0.2" layer="1" rot="R270"/>
+<smd name="24" x="0.4" y="2.47" dx="0.85" dy="0.2" layer="1" rot="R270"/>
+<smd name="25" x="0" y="2.5" dx="0.85" dy="0.2" layer="1" rot="R270"/>
+<smd name="26" x="-0.4" y="2.55" dx="0.85" dy="0.2" layer="1" rot="R270"/>
+<smd name="27" x="-0.8" y="2.54" dx="0.85" dy="0.2" layer="1" rot="R270"/>
+<smd name="28" x="-1.2" y="2.47" dx="0.85" dy="0.2" layer="1" rot="R270"/>
 </package>
 </packages>
 <symbols>
