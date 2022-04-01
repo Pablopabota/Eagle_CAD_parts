@@ -249,52 +249,51 @@
 <smd name="7" x="2.1844" y="0.3302" dx="1.4224" dy="0.4318" layer="1"/>
 <smd name="8" x="2.1844" y="0.9652" dx="1.4224" dy="0.4318" layer="1"/>
 <wire x1="-1.5494" y1="0.7874" x2="-1.5494" y2="1.1684" width="0" layer="21"/>
-<wire x1="-1.5494" y1="1.1684" x2="-2.5146" y2="1.1684" width="0" layer="21"/>
-<wire x1="-2.5146" y1="1.1684" x2="-2.5146" y2="0.7874" width="0" layer="21"/>
-<wire x1="-2.5146" y1="0.7874" x2="-1.5494" y2="0.7874" width="0" layer="21"/>
+<wire x1="-1.5494" y1="1.1684" x2="-2.5146" y2="1.1684" width="0.127" layer="21"/>
+<wire x1="-2.5146" y1="1.1684" x2="-2.5146" y2="0.7874" width="0.127" layer="21"/>
+<wire x1="-2.5146" y1="0.7874" x2="-1.5494" y2="0.7874" width="0.127" layer="21"/>
 <wire x1="-1.5494" y1="0.127" x2="-1.5494" y2="0.508" width="0" layer="21"/>
-<wire x1="-1.5494" y1="0.508" x2="-2.5146" y2="0.508" width="0" layer="21"/>
-<wire x1="-2.5146" y1="0.508" x2="-2.5146" y2="0.127" width="0" layer="21"/>
-<wire x1="-2.5146" y1="0.127" x2="-1.5494" y2="0.127" width="0" layer="21"/>
+<wire x1="-1.5494" y1="0.508" x2="-2.5146" y2="0.508" width="0.127" layer="21"/>
+<wire x1="-2.5146" y1="0.508" x2="-2.5146" y2="0.127" width="0.127" layer="21"/>
+<wire x1="-2.5146" y1="0.127" x2="-1.5494" y2="0.127" width="0.127" layer="21"/>
 <wire x1="-1.5494" y1="-0.508" x2="-1.5494" y2="-0.127" width="0" layer="21"/>
-<wire x1="-1.5494" y1="-0.127" x2="-2.5146" y2="-0.127" width="0" layer="21"/>
-<wire x1="-2.5146" y1="-0.127" x2="-2.5146" y2="-0.508" width="0" layer="21"/>
-<wire x1="-2.5146" y1="-0.508" x2="-1.5494" y2="-0.508" width="0" layer="21"/>
+<wire x1="-1.5494" y1="-0.127" x2="-2.5146" y2="-0.127" width="0.127" layer="21"/>
+<wire x1="-2.5146" y1="-0.127" x2="-2.5146" y2="-0.508" width="0.127" layer="21"/>
+<wire x1="-2.5146" y1="-0.508" x2="-1.5494" y2="-0.508" width="0.127" layer="21"/>
 <wire x1="-1.5494" y1="-1.1684" x2="-1.5494" y2="-0.7874" width="0" layer="21"/>
-<wire x1="-1.5494" y1="-0.7874" x2="-2.5146" y2="-0.7874" width="0" layer="21"/>
-<wire x1="-2.5146" y1="-0.7874" x2="-2.5146" y2="-1.1684" width="0" layer="21"/>
-<wire x1="-2.5146" y1="-1.1684" x2="-1.5494" y2="-1.1684" width="0" layer="21"/>
+<wire x1="-1.5494" y1="-0.7874" x2="-2.5146" y2="-0.7874" width="0.127" layer="21"/>
+<wire x1="-2.5146" y1="-0.7874" x2="-2.5146" y2="-1.1684" width="0.127" layer="21"/>
+<wire x1="-2.5146" y1="-1.1684" x2="-1.5494" y2="-1.1684" width="0.127" layer="21"/>
 <wire x1="1.5494" y1="-0.7874" x2="1.5494" y2="-1.1684" width="0" layer="21"/>
-<wire x1="1.5494" y1="-1.1684" x2="2.5146" y2="-1.1684" width="0" layer="21"/>
-<wire x1="2.5146" y1="-1.1684" x2="2.5146" y2="-0.7874" width="0" layer="21"/>
-<wire x1="2.5146" y1="-0.7874" x2="1.5494" y2="-0.7874" width="0" layer="21"/>
+<wire x1="1.5494" y1="-1.1684" x2="2.5146" y2="-1.1684" width="0.127" layer="21"/>
+<wire x1="2.5146" y1="-1.1684" x2="2.5146" y2="-0.7874" width="0.127" layer="21"/>
+<wire x1="2.5146" y1="-0.7874" x2="1.5494" y2="-0.7874" width="0.127" layer="21"/>
 <wire x1="1.5494" y1="-0.127" x2="1.5494" y2="-0.508" width="0" layer="21"/>
-<wire x1="1.5494" y1="-0.508" x2="2.5146" y2="-0.508" width="0" layer="21"/>
-<wire x1="2.5146" y1="-0.508" x2="2.5146" y2="-0.127" width="0" layer="21"/>
-<wire x1="2.5146" y1="-0.127" x2="1.5494" y2="-0.127" width="0" layer="21"/>
+<wire x1="1.5494" y1="-0.508" x2="2.5146" y2="-0.508" width="0.127" layer="21"/>
+<wire x1="2.5146" y1="-0.508" x2="2.5146" y2="-0.127" width="0.127" layer="21"/>
+<wire x1="2.5146" y1="-0.127" x2="1.5494" y2="-0.127" width="0.127" layer="21"/>
 <wire x1="1.5494" y1="0.508" x2="1.5494" y2="0.127" width="0" layer="21"/>
-<wire x1="1.5494" y1="0.127" x2="2.5146" y2="0.127" width="0" layer="21"/>
-<wire x1="2.5146" y1="0.127" x2="2.5146" y2="0.508" width="0" layer="21"/>
-<wire x1="2.5146" y1="0.508" x2="1.5494" y2="0.508" width="0" layer="21"/>
+<wire x1="1.5494" y1="0.127" x2="2.5146" y2="0.127" width="0.127" layer="21"/>
+<wire x1="2.5146" y1="0.127" x2="2.5146" y2="0.508" width="0.127" layer="21"/>
+<wire x1="2.5146" y1="0.508" x2="1.5494" y2="0.508" width="0.127" layer="21"/>
 <wire x1="1.5494" y1="1.1684" x2="1.5494" y2="0.7874" width="0" layer="21"/>
-<wire x1="1.5494" y1="0.7874" x2="2.5146" y2="0.7874" width="0" layer="21"/>
-<wire x1="2.5146" y1="0.7874" x2="2.5146" y2="1.1684" width="0" layer="21"/>
-<wire x1="2.5146" y1="1.1684" x2="1.5494" y2="1.1684" width="0" layer="21"/>
-<wire x1="-1.5494" y1="-1.5494" x2="1.5494" y2="-1.5494" width="0" layer="21"/>
-<wire x1="1.5494" y1="-1.5494" x2="1.5494" y2="1.5494" width="0" layer="21"/>
-<wire x1="1.5494" y1="1.5494" x2="0.3048" y2="1.5494" width="0" layer="21"/>
-<wire x1="0.3048" y1="1.5494" x2="-0.3048" y2="1.5494" width="0" layer="21"/>
-<wire x1="-0.3048" y1="1.5494" x2="-1.5494" y2="1.5494" width="0" layer="21"/>
-<wire x1="-1.5494" y1="1.5494" x2="-1.5494" y2="-1.5494" width="0" layer="21"/>
+<wire x1="1.5494" y1="0.7874" x2="2.5146" y2="0.7874" width="0.127" layer="21"/>
+<wire x1="2.5146" y1="0.7874" x2="2.5146" y2="1.1684" width="0.127" layer="21"/>
+<wire x1="2.5146" y1="1.1684" x2="1.5494" y2="1.1684" width="0.127" layer="21"/>
+<wire x1="1.5494" y1="-1.5494" x2="1.5494" y2="1.5494" width="0.127" layer="21"/>
+<wire x1="-1.5494" y1="1.5494" x2="-1.5494" y2="-1.5494" width="0.127" layer="21"/>
 <wire x1="0.3048" y1="1.5494" x2="-0.3048" y2="1.5494" width="0" layer="21" curve="-180"/>
-<text x="-1.4732" y="-0.127" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<text x="-2.6" y="1" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
 <wire x1="-1.5494" y1="-1.5494" x2="1.5494" y2="-1.5494" width="0.1524" layer="21"/>
 <wire x1="1.5494" y1="1.5494" x2="0.3048" y2="1.5494" width="0.1524" layer="21"/>
 <wire x1="0.3048" y1="1.5494" x2="-0.3048" y2="1.5494" width="0.1524" layer="21"/>
 <wire x1="-0.3048" y1="1.5494" x2="-1.5494" y2="1.5494" width="0.1524" layer="21"/>
 <wire x1="0.3048" y1="1.5494" x2="-0.3048" y2="1.5494" width="0.1524" layer="21" curve="-180"/>
-<text x="-1.4732" y="-0.127" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
-<text x="-3.4544" y="2.54" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-1.7" y="1.7" size="0.6096" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<wire x1="-3.2" y1="1.8" x2="3.2" y2="1.8" width="0.127" layer="39"/>
+<wire x1="3.2" y1="1.8" x2="3.2" y2="-1.8" width="0.127" layer="39"/>
+<wire x1="3.2" y1="-1.8" x2="-3.2" y2="-1.8" width="0.127" layer="39"/>
+<wire x1="-3.2" y1="-1.8" x2="-3.2" y2="1.8" width="0.127" layer="39"/>
 </package>
 <package name="14-TSSOP">
 <smd name="1" x="-2.921" y="1.9558" dx="1.4732" dy="0.3556" layer="1"/>
@@ -3640,7 +3639,7 @@
 <wire x1="1.6002" y1="1.1938" x2="0.889" y2="1.1938" width="0.1524" layer="21"/>
 <wire x1="0.3048" y1="1.5494" x2="-0.3048" y2="1.5494" width="0.1524" layer="21" curve="-180"/>
 <text x="-1.2192" y="0.4064" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
-<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-3.2766" y="1.905" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 <wire x1="1.1684" y1="1.8034" x2="-1.1684" y2="1.8034" width="0.1524" layer="39"/>
 <wire x1="1.1684" y1="0.4318" x2="2.2098" y2="0.4318" width="0.1524" layer="39"/>
 <wire x1="1.1684" y1="-0.4318" x2="2.2098" y2="-0.4318" width="0.1524" layer="39"/>
@@ -4022,6 +4021,11 @@
 <wire x1="0" y1="0" x2="0" y2="-0.4" width="0.1" layer="21"/>
 <wire x1="0" y1="0.6" x2="0" y2="0.9" width="0.1" layer="21"/>
 <rectangle x1="-0.94" y1="-1" x2="0.96" y2="-0.8" layer="21"/>
+<wire x1="-1.27" y1="2.54" x2="1.27" y2="2.54" width="0.0635" layer="39"/>
+<wire x1="1.27" y1="2.54" x2="1.27" y2="-2.54" width="0.0635" layer="39"/>
+<wire x1="1.27" y1="-2.54" x2="-1.27" y2="-2.54" width="0.0635" layer="39"/>
+<wire x1="-1.27" y1="-2.54" x2="-1.27" y2="2.54" width="0.0635" layer="39"/>
+<text x="-1.27" y="-1.27" size="0.4064" layer="25" rot="R90">&gt;NAME</text>
 </package>
 <package name="SOT-23-3">
 <smd name="3" x="0" y="1.608" dx="0.559" dy="0.724" layer="1"/>
@@ -15125,6 +15129,87 @@
 <wire x1="1.7" y1="-1.8" x2="-1.7" y2="-1.8" width="0.0635" layer="39"/>
 <wire x1="-1.7" y1="-1.8" x2="-1.7" y2="1.8" width="0.0635" layer="39"/>
 <text x="-1.5" y="1.8" size="0.254" layer="25">&gt;NAME</text>
+</package>
+<package name="SOT505-2">
+<smd name="1" x="-1.8" y="1.025" dx="0.75" dy="0.4" layer="1"/>
+<smd name="2" x="-1.8" y="0.325" dx="0.75" dy="0.3" layer="1"/>
+<smd name="8" x="1.8" y="1.025" dx="0.75" dy="0.4" layer="1"/>
+<smd name="7" x="1.8" y="0.325" dx="0.75" dy="0.3" layer="1"/>
+<smd name="5" x="1.8" y="-1.025" dx="0.75" dy="0.4" layer="1"/>
+<smd name="6" x="1.8" y="-0.325" dx="0.75" dy="0.3" layer="1"/>
+<smd name="3" x="-1.8" y="-0.325" dx="0.75" dy="0.3" layer="1"/>
+<smd name="4" x="-1.8" y="-1.025" dx="0.75" dy="0.4" layer="1"/>
+<wire x1="-1.55" y1="-1.55" x2="1.55" y2="-1.55" width="0.2032" layer="21"/>
+<wire x1="1.55" y1="-1.55" x2="1.55" y2="1.55" width="0.2032" layer="21"/>
+<wire x1="1.55" y1="1.55" x2="-1.55" y2="1.55" width="0.2032" layer="21"/>
+<wire x1="-1.55" y1="1.55" x2="-1.55" y2="-1.55" width="0.2032" layer="21"/>
+<circle x="-0.925" y="0.96" radius="0.225" width="0" layer="21"/>
+<wire x1="-2.5" y1="1.8" x2="2.5" y2="1.8" width="0.127" layer="39"/>
+<wire x1="2.5" y1="1.8" x2="2.5" y2="-1.8" width="0.127" layer="39"/>
+<wire x1="2.5" y1="-1.8" x2="-2.5" y2="-1.8" width="0.127" layer="39"/>
+<wire x1="-2.5" y1="-1.8" x2="-2.5" y2="1.8" width="0.127" layer="39"/>
+<text x="-1.6" y="1.7" size="0.4064" layer="25">&gt;NAME</text>
+</package>
+<package name="SOT994-1">
+<smd name="1" x="-1.975" y="1.25" dx="0.85" dy="0.27" layer="1"/>
+<smd name="2" x="-1.975" y="0.75" dx="0.85" dy="0.27" layer="1"/>
+<smd name="3" x="-1.975" y="0.25" dx="0.85" dy="0.27" layer="1"/>
+<smd name="4" x="-1.975" y="-0.25" dx="0.85" dy="0.27" layer="1"/>
+<smd name="5" x="-1.975" y="-0.75" dx="0.85" dy="0.27" layer="1"/>
+<smd name="6" x="-1.975" y="-1.25" dx="0.85" dy="0.27" layer="1"/>
+<smd name="7" x="-1.25" y="-1.975" dx="0.85" dy="0.27" layer="1" rot="R90"/>
+<smd name="8" x="-0.75" y="-1.975" dx="0.85" dy="0.27" layer="1" rot="R90"/>
+<smd name="9" x="-0.25" y="-1.975" dx="0.85" dy="0.27" layer="1" rot="R90"/>
+<smd name="10" x="0.25" y="-1.975" dx="0.85" dy="0.27" layer="1" rot="R90"/>
+<smd name="11" x="0.75" y="-1.975" dx="0.85" dy="0.27" layer="1" rot="R90"/>
+<smd name="12" x="1.25" y="-1.975" dx="0.85" dy="0.27" layer="1" rot="R90"/>
+<smd name="13" x="1.975" y="-1.25" dx="0.85" dy="0.27" layer="1" rot="R180"/>
+<smd name="14" x="1.975" y="-0.75" dx="0.85" dy="0.27" layer="1" rot="R180"/>
+<smd name="15" x="1.975" y="-0.25" dx="0.85" dy="0.27" layer="1" rot="R180"/>
+<smd name="16" x="1.975" y="0.25" dx="0.85" dy="0.27" layer="1" rot="R180"/>
+<smd name="17" x="1.975" y="0.75" dx="0.85" dy="0.27" layer="1" rot="R180"/>
+<smd name="18" x="1.975" y="1.25" dx="0.85" dy="0.27" layer="1" rot="R180"/>
+<smd name="19" x="1.25" y="1.975" dx="0.85" dy="0.27" layer="1" rot="R270"/>
+<smd name="20" x="0.75" y="1.975" dx="0.85" dy="0.27" layer="1" rot="R270"/>
+<smd name="21" x="0.25" y="1.975" dx="0.85" dy="0.27" layer="1" rot="R270"/>
+<smd name="22" x="-0.25" y="1.975" dx="0.85" dy="0.27" layer="1" rot="R270"/>
+<smd name="23" x="-0.75" y="1.975" dx="0.85" dy="0.27" layer="1" rot="R270"/>
+<smd name="24" x="-1.25" y="1.975" dx="0.85" dy="0.27" layer="1" rot="R270"/>
+<smd name="25" x="0" y="0" dx="2.1" dy="2.1" layer="1"/>
+<wire x1="-2.15" y1="2.15" x2="2.15" y2="2.15" width="0.127" layer="21"/>
+<wire x1="2.15" y1="2.15" x2="2.15" y2="-2.15" width="0.127" layer="21"/>
+<wire x1="2.15" y1="-2.15" x2="-2.15" y2="-2.15" width="0.127" layer="21"/>
+<wire x1="-2.15" y1="-2.15" x2="-2.15" y2="2.15" width="0.127" layer="21"/>
+<circle x="-1.47" y="1.47" radius="0.13038125" width="0.3048" layer="21"/>
+<wire x1="-2.9" y1="2.74" x2="2.67" y2="2.74" width="0.127" layer="39"/>
+<wire x1="2.67" y1="2.74" x2="2.67" y2="-2.81" width="0.127" layer="39"/>
+<wire x1="2.67" y1="-2.81" x2="-2.9" y2="-2.81" width="0.127" layer="39"/>
+<wire x1="-2.9" y1="-2.81" x2="-2.9" y2="2.74" width="0.127" layer="39"/>
+<text x="-2.1" y="2.9" size="0.4064" layer="25">&gt;NAME</text>
+</package>
+<package name="11-QFN-2X3">
+<smd name="1" x="-0.85" y="1.25" dx="0.9" dy="0.25" layer="1"/>
+<smd name="2" x="-0.9" y="0.75" dx="0.8" dy="0.25" layer="1"/>
+<smd name="3" x="-0.9" y="0.25" dx="0.8" dy="0.25" layer="1"/>
+<smd name="4" x="-0.9" y="-0.25" dx="0.8" dy="0.25" layer="1"/>
+<smd name="5" x="-0.9" y="-0.75" dx="0.8" dy="0.25" layer="1"/>
+<smd name="6" x="-0.9" y="-1.25" dx="0.8" dy="0.25" layer="1"/>
+<smd name="7A" x="0.9" y="-1" dx="0.8" dy="0.25" layer="1"/>
+<smd name="8" x="0.9" y="-0.5" dx="0.8" dy="0.25" layer="1"/>
+<smd name="9" x="0.9" y="0" dx="0.8" dy="0.25" layer="1"/>
+<smd name="10" x="0.9" y="0.5" dx="0.8" dy="0.25" layer="1"/>
+<smd name="11A" x="0.9" y="1" dx="0.8" dy="0.25" layer="1"/>
+<wire x1="-1.05" y1="1.55" x2="1.05" y2="1.55" width="0.127" layer="21"/>
+<wire x1="1.05" y1="1.55" x2="1.05" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="1.05" y1="-1.55" x2="-1.05" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="-1.05" y1="-1.55" x2="-1.05" y2="1.55" width="0.127" layer="21"/>
+<circle x="-1.4" y="1.9" radius="0.05" width="0.3048" layer="21"/>
+<wire x1="-1.5" y1="1.8" x2="1.5" y2="1.8" width="0.0635" layer="39"/>
+<wire x1="1.5" y1="1.8" x2="1.5" y2="-1.8" width="0.0635" layer="39"/>
+<wire x1="1.5" y1="-1.8" x2="-1.5" y2="-1.8" width="0.0635" layer="39"/>
+<wire x1="-1.5" y1="-1.8" x2="-1.5" y2="1.8" width="0.0635" layer="39"/>
+<smd name="11B" x="0.69" y="1.25" dx="0.375" dy="0.25" layer="1"/>
+<smd name="7B" x="0.69" y="-1.25" dx="0.38" dy="0.25" layer="1"/>
 </package>
 </packages>
 <symbols>
@@ -34593,6 +34678,94 @@
 <text x="-10.16" y="25.4" size="1.778" layer="94">&gt;NAME</text>
 <pin name="!INT" x="-15.24" y="-2.54" length="middle"/>
 </symbol>
+<symbol name="LSF0102_SYM">
+<pin name="REFA" x="-15.24" y="12.7" length="middle" direction="pwr"/>
+<pin name="A1" x="-15.24" y="5.08" length="middle"/>
+<pin name="A2" x="-15.24" y="2.54" length="middle"/>
+<pin name="GND" x="15.24" y="-2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="B2" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="B1" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="REFB" x="15.24" y="12.7" length="middle" direction="pwr" rot="R180"/>
+<pin name="EN" x="-15.24" y="10.16" length="middle" direction="out"/>
+<wire x1="-10.16" y1="15.24" x2="-10.16" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="15.24" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="15.24" x2="-10.16" y2="15.24" width="0.1524" layer="94"/>
+<text x="-8.89" y="-6.35" size="2.0828" layer="96" ratio="6">&gt;VALUE</text>
+<text x="-1.27" y="11.43" size="2.1844" layer="94">&lt;</text>
+</symbol>
+<symbol name="PCAL9535_SYM">
+<wire x1="-10.16" y1="22.86" x2="10.16" y2="22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="22.86" x2="10.16" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-25.4" x2="-10.16" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-25.4" x2="-10.16" y2="22.86" width="0.254" layer="94"/>
+<pin name="GPA0" x="15.24" y="20.32" length="middle" rot="R180"/>
+<pin name="GPA1" x="15.24" y="17.78" length="middle" rot="R180"/>
+<pin name="GPA2" x="15.24" y="15.24" length="middle" rot="R180"/>
+<pin name="GPA3" x="15.24" y="12.7" length="middle" rot="R180"/>
+<pin name="GPA4" x="15.24" y="10.16" length="middle" rot="R180"/>
+<pin name="GPA5" x="15.24" y="7.62" length="middle" rot="R180"/>
+<pin name="GPA6" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="GPA7" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="!INT" x="-15.24" y="-2.54" length="middle"/>
+<pin name="VCC" x="-15.24" y="20.32" length="middle" direction="pwr"/>
+<pin name="A0" x="-15.24" y="-12.7" length="middle"/>
+<pin name="SCL" x="-15.24" y="7.62" length="middle"/>
+<pin name="SDA" x="-15.24" y="5.08" length="middle"/>
+<text x="-10.16" y="24.13" size="1.27" layer="94">&gt;NAME</text>
+<pin name="GND" x="-15.24" y="-22.86" length="middle" direction="pwr"/>
+<pin name="GPB0" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="GPB1" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="GPB2" x="15.24" y="-7.62" length="middle" rot="R180"/>
+<pin name="GPB3" x="15.24" y="-10.16" length="middle" rot="R180"/>
+<pin name="GPB4" x="15.24" y="-12.7" length="middle" rot="R180"/>
+<pin name="GPB5" x="15.24" y="-15.24" length="middle" rot="R180"/>
+<pin name="GPB6" x="15.24" y="-17.78" length="middle" rot="R180"/>
+<pin name="GPB7" x="15.24" y="-20.32" length="middle" rot="R180"/>
+<pin name="A1" x="-15.24" y="-15.24" length="middle"/>
+<pin name="A2" x="-15.24" y="-17.78" length="middle"/>
+</symbol>
+<symbol name="MP28164_SYM">
+<wire x1="-15.24" y1="25.4" x2="15.24" y2="25.4" width="0.254" layer="94"/>
+<wire x1="15.24" y1="25.4" x2="15.24" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-27.94" x2="-15.24" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-27.94" x2="-15.24" y2="25.4" width="0.254" layer="94"/>
+<pin name="VIN" x="-20.32" y="12.7" length="middle"/>
+<pin name="EN" x="-20.32" y="0" length="middle"/>
+<pin name="VCC" x="-20.32" y="-7.62" length="middle"/>
+<pin name="MODE/SYNC" x="-20.32" y="-17.78" length="middle"/>
+<pin name="AGND" x="-7.62" y="-33.02" length="middle" rot="R90"/>
+<pin name="PGND" x="7.62" y="-33.02" length="middle" rot="R90"/>
+<pin name="PG" x="20.32" y="-22.86" length="middle" rot="R180"/>
+<pin name="FB" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="VOUT" x="20.32" y="12.7" length="middle" rot="R180"/>
+<pin name="SW2" x="10.16" y="30.48" length="middle" rot="R270"/>
+<pin name="SW1" x="-10.16" y="30.48" length="middle" rot="R270"/>
+<text x="-12.7" y="15.24" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="LM4121_SYM">
+<wire x1="-15.24" y1="12.7" x2="15.24" y2="12.7" width="0.254" layer="94"/>
+<wire x1="15.24" y1="12.7" x2="15.24" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-12.7" x2="-15.24" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-12.7" x2="-15.24" y2="12.7" width="0.254" layer="94"/>
+<pin name="VIN" x="-20.32" y="7.62" length="middle"/>
+<pin name="EN" x="-20.32" y="-2.54" length="middle"/>
+<pin name="VOUT" x="20.32" y="7.62" length="middle" rot="R180"/>
+<pin name="REF/ADJ" x="20.32" y="-5.08" length="middle" rot="R180"/>
+<pin name="GND" x="0" y="-17.78" length="middle" rot="R90"/>
+<text x="-12.7" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="MAX6037_SYM">
+<wire x1="-15.24" y1="15.24" x2="15.24" y2="15.24" width="0.254" layer="94"/>
+<wire x1="15.24" y1="15.24" x2="15.24" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-15.24" x2="-15.24" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-15.24" x2="-15.24" y2="15.24" width="0.254" layer="94"/>
+<pin name="VIN" x="-20.32" y="10.16" length="middle"/>
+<pin name="!SHDN" x="-20.32" y="0" length="middle"/>
+<pin name="VOUT" x="20.32" y="10.16" length="middle" rot="R180"/>
+<pin name="IC/ADJ" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="GND" x="0" y="-20.32" length="middle" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LA6681MC">
@@ -36425,6 +36598,91 @@
 </technology>
 </technologies>
 </device>
+<device name="_2N7002K" package="SOT-23-3">
+<connects>
+<connect gate="A" pin="D" pad="3"/>
+<connect gate="A" pin="G" pad="1"/>
+<connect gate="A" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="3372-2N7002KTR-ND" constant="no"/>
+<attribute name="ID" value="0.6A" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="2N7002K" constant="no"/>
+<attribute name="VDS" value="60V" constant="no"/>
+<attribute name="VGS" value="20V" constant="no"/>
+<attribute name="VGS_TH" value="1V ~ 2.5V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_ZXM61N03FTA" package="SOT-23-3">
+<connects>
+<connect gate="A" pin="D" pad="3"/>
+<connect gate="A" pin="G" pad="1"/>
+<connect gate="A" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="ZXM61N03FCT-ND" constant="no"/>
+<attribute name="ID" value="1.4A" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ZXM61N03FTA" constant="no"/>
+<attribute name="VDS" value="30V" constant="no"/>
+<attribute name="VGS" value="20V" constant="no"/>
+<attribute name="VGS_TH" value="1V ~ 20V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_BSS169H6327XTSA1" package="SOT-23-3">
+<connects>
+<connect gate="A" pin="D" pad="3"/>
+<connect gate="A" pin="G" pad="1"/>
+<connect gate="A" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="BSS169H6327XTSA1CT-ND" constant="no"/>
+<attribute name="ID" value="170 mA" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="BSS169H6327XTSA1" constant="no"/>
+<attribute name="VDS" value="100V" constant="no"/>
+<attribute name="VGS" value="20V" constant="no"/>
+<attribute name="VGS_TH" value="-2.9V ~ -1.8V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_RUC002N05T116" package="SOT-23-3">
+<connects>
+<connect gate="A" pin="D" pad="3"/>
+<connect gate="A" pin="G" pad="1"/>
+<connect gate="A" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="RUC002N05T116CT-ND" constant="no"/>
+<attribute name="ID" value="200 mA" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RUC002N05T116" constant="no"/>
+<attribute name="VDS" value="50V" constant="no"/>
+<attribute name="VGS" value="8V" constant="no"/>
+<attribute name="VGS_TH" value="0.3V ~ 1V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_AOSS62934" package="SOT-23-3">
+<connects>
+<connect gate="A" pin="D" pad="3"/>
+<connect gate="A" pin="G" pad="1"/>
+<connect gate="A" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="785-1830-1-ND" constant="no"/>
+<attribute name="ID" value="2A" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="AOSS62934" constant="no"/>
+<attribute name="VDS" value="100V" constant="no"/>
+<attribute name="VGS" value="20V" constant="no"/>
+<attribute name="VGS_TH" value="1.7V ~ 2.7V" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="SRP1270-100M" prefix="L">
@@ -37211,6 +37469,108 @@ portable devices</description>
 <attribute name="VDS" value="-20V" constant="no"/>
 <attribute name="VGS" value="12 V" constant="no"/>
 <attribute name="VGS_TH" value="-0.3V ~ -1V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_CPH3355" package="SOT-23-3">
+<connects>
+<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="2156-CPH3355-TL-H-488-ND" constant="no"/>
+<attribute name="ID" value="-2.5A" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CPH3355-TL-H" constant="no"/>
+<attribute name="VDS" value="-30V" constant="no"/>
+<attribute name="VGS" value="20V" constant="no"/>
+<attribute name="VGS_TH" value="-1.2V ~ -2.6V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_MMFTP84" package="SOT-23-3">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="2796-MMFTP84TR-ND" constant="no"/>
+<attribute name="ID" value="-130 mA" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MMFTP84" constant="no"/>
+<attribute name="VDS" value="-60V" constant="no"/>
+<attribute name="VGS" value="20V" constant="no"/>
+<attribute name="VGS_TH" value="-0.8v ~ -2V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_DMP31D0U-7" package="SOT-23-3">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="DMP31D0U-7DICT-ND" constant="no"/>
+<attribute name="ID" value="-0.67A" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="DMP31D0U-7" constant="no"/>
+<attribute name="VDS" value="-30V" constant="no"/>
+<attribute name="VGS" value="8V" constant="no"/>
+<attribute name="VGS_TH" value="-0.5V ~ -1.1V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_IRLML5103TRPBF" package="SOT-23-3">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="IRLML5103PBFCT-ND" constant="no"/>
+<attribute name="ID" value="-0.75A" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="IRLML5103TRPBF" constant="no"/>
+<attribute name="VDS" value="-30V" constant="no"/>
+<attribute name="VGS" value="20V" constant="no"/>
+<attribute name="VGS_TH" value="-1V ~ -20V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_TP0610K-T1-E3" package="SOT-23-3">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="TP0610K-T1-E3CT-ND" constant="no"/>
+<attribute name="ID" value="-185 mA" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TP0610K-T1-E3" constant="no"/>
+<attribute name="VDS" value="-60V" constant="no"/>
+<attribute name="VGS" value="20V" constant="no"/>
+<attribute name="VGS_TH" value="-1V ~ -3V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_BSH203,215" package="SOT-23-3">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="1727-6216-1-ND" constant="no"/>
+<attribute name="ID" value="-0.47A" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="BSH203,215" constant="no"/>
+<attribute name="VDS" value="-30V" constant="no"/>
+<attribute name="VGS" value="8V" constant="no"/>
+<attribute name="VGS_TH" value="-0.4V ~ -8V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -43192,6 +43552,62 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </technology>
 </technologies>
 </device>
+<device name="_BZT52C15-7-F" package="SOD-123">
+<connects>
+<connect gate="G$1" pin="A+" pad="A+"/>
+<connect gate="G$1" pin="C-" pad="C-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="BZT52C15-FDICT-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="BZT52C15-7-F" constant="no"/>
+<attribute name="P" value="500 mW" constant="no"/>
+<attribute name="VZ" value="15 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_MMSZ4702" package="SOD-123">
+<connects>
+<connect gate="G$1" pin="A+" pad="A+"/>
+<connect gate="G$1" pin="C-" pad="C-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="2156-MMSZ4702-600039-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MMSZ4702" constant="no"/>
+<attribute name="P" value="500 mW" constant="no"/>
+<attribute name="VZ" value="15 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_MMSZ4702_2" package="SOD-123">
+<connects>
+<connect gate="G$1" pin="A+" pad="A+"/>
+<connect gate="G$1" pin="C-" pad="C-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="2156-MMSZ4702-488-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MMSZ4702" constant="no"/>
+<attribute name="P" value="500 mW" constant="no"/>
+<attribute name="VZ" value="15 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_MMSZ5245A_R1_00001" package="SOD-123">
+<connects>
+<connect gate="G$1" pin="A+" pad="A+"/>
+<connect gate="G$1" pin="C-" pad="C-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="3757-MMSZ5245A_R1_00001CT-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MMSZ5245A_R1_00001" constant="no"/>
+<attribute name="P" value="500 mW" constant="no"/>
+<attribute name="VZ" value="15 V" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="PTC_FUSE" prefix="F">
@@ -43499,12 +43915,110 @@ Typical Applications&lt;br&gt;
 </technologies>
 </device>
 <device name="_TLV521DCKR" package="SC-70-5">
+<connects>
+<connect gate="A" pin="+IN" pad="3"/>
+<connect gate="A" pin="-IN" pad="4"/>
+<connect gate="A" pin="OUT" pad="1"/>
+<connect gate="A_SUPP" pin="V+" pad="5"/>
+<connect gate="A_SUPP" pin="V-" pad="2"/>
+</connects>
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY_PART_NUMBER" value="296-47441-2-ND" constant="no"/>
 <attribute name="I_OUT" value="12 mA" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="TLV521DCKR" constant="no"/>
 <attribute name="OUT_TYPE" value="Rail-to-Rail" constant="no"/>
+<attribute name="V_SUPP" value="1.7 V ~ 5.5 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_LT6202" package="SOT-23-5">
+<connects>
+<connect gate="A" pin="+IN" pad="3"/>
+<connect gate="A" pin="-IN" pad="4"/>
+<connect gate="A" pin="OUT" pad="1"/>
+<connect gate="A_SUPP" pin="V+" pad="5"/>
+<connect gate="A_SUPP" pin="V-" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="LT6202IS5#TRMPBFCT-ND" constant="no"/>
+<attribute name="I_OUT" value="30 mA" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LT6202IS5#TRMPBF" constant="no"/>
+<attribute name="OUT_TYPE" value="Rail-to-Rail" constant="no"/>
+<attribute name="V_SUPP" value="2.5V ~ 12.6V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_LT1803" package="SOT-23-5">
+<connects>
+<connect gate="A" pin="+IN" pad="3"/>
+<connect gate="A" pin="-IN" pad="4"/>
+<connect gate="A" pin="OUT" pad="1"/>
+<connect gate="A_SUPP" pin="V+" pad="5"/>
+<connect gate="A_SUPP" pin="V-" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="505-LT1803CS5#TRMPBFCT-ND" constant="no"/>
+<attribute name="I_OUT" value="50 mA" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LT1803CS5#TRMPBF" constant="no"/>
+<attribute name="OUT_TYPE" value="Rail-to-Rail" constant="no"/>
+<attribute name="V_SUPP" value="2.3V ~ 12.6V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_AD8691" package="SOT-23-5">
+<connects>
+<connect gate="A" pin="+IN" pad="3"/>
+<connect gate="A" pin="-IN" pad="4"/>
+<connect gate="A" pin="OUT" pad="1"/>
+<connect gate="A_SUPP" pin="V+" pad="5"/>
+<connect gate="A_SUPP" pin="V-" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="505-AD8691WAUJZ-R7CT-ND" constant="no"/>
+<attribute name="I_OUT" value="80 mA" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="AD8691WAUJZ-R7" constant="no"/>
+<attribute name="OUT_TYPE" value="Rail-to-Rail" constant="no"/>
+<attribute name="V_SUPP" value="2.7V ~ 6V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_LTC2063" package="SOT-23-5">
+<connects>
+<connect gate="A" pin="+IN" pad="3"/>
+<connect gate="A" pin="-IN" pad="4"/>
+<connect gate="A" pin="OUT" pad="1"/>
+<connect gate="A_SUPP" pin="V+" pad="5"/>
+<connect gate="A_SUPP" pin="V-" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="505-LTC2063IS5#TRMPBFCT-ND" constant="no"/>
+<attribute name="I_OUT" value="51 mA" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LTC2063IS5#TRMPBF" constant="no"/>
+<attribute name="OUT_TYPE" value="Rail-to-Rail" constant="no"/>
+<attribute name="V_SUPP" value="1.7V ~ 5.25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_LT1783" package="SOT-23-5">
+<connects>
+<connect gate="A" pin="+IN" pad="3"/>
+<connect gate="A" pin="-IN" pad="4"/>
+<connect gate="A" pin="OUT" pad="1"/>
+<connect gate="A_SUPP" pin="V+" pad="5"/>
+<connect gate="A_SUPP" pin="V-" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="LT1783IS5#TRMPBFCT-ND" constant="no"/>
+<attribute name="I_OUT" value="30 mA" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LT1783IS5#TRMPBF" constant="no"/>
+<attribute name="OUT_TYPE" value="Rail-to-Rail" constant="no"/>
+<attribute name="V_SUPP" value="2.5V ~ 18V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -45418,7 +45932,7 @@ Typical Applications&lt;br&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="AD8279" prefix="U">
+<deviceset name="AD827" prefix="U">
 <description>Dual, Low Power, Single-Supply DIFFERENCE AMPLIFIER</description>
 <gates>
 <gate name="A" symbol="OPAMP-DIFF" x="-12.7" y="0"/>
@@ -45426,7 +45940,7 @@ Typical Applications&lt;br&gt;
 <gate name="SUP" symbol="ALIMENTACION" x="-38.1" y="0"/>
 </gates>
 <devices>
-<device name="ARZ" package="SO-14">
+<device name="9ARZ" package="SO-14">
 <connects>
 <connect gate="A" pin="+IN" pad="3"/>
 <connect gate="A" pin="-IN" pad="2"/>
@@ -45451,6 +45965,19 @@ Typical Applications&lt;br&gt;
 <attribute name="R4" value="20 KOhm" constant="no"/>
 <attribute name="V_SUP" value="2 ~ 36 V" constant="no"/>
 <attribute name="V_SUP_DUAL" value="2 ~ 18 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="3ARZ" package="SO-14">
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="AD8273ARZ-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="AD8273ARZ" constant="no"/>
+<attribute name="R1" value="12 KOhm" constant="no"/>
+<attribute name="R2" value="6 KOhm" constant="no"/>
+<attribute name="R3" value="12 KOhm" constant="no"/>
+<attribute name="R4" value="6 KOhm" constant="no"/>
+<attribute name="V_SUPP" value="36 V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -45699,6 +46226,454 @@ used</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="296-40854-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="TPS630242YFFT" constant="no"/>
 <attribute name="VOUT" value="3.3V (Fix)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LSF0102" prefix="U">
+<gates>
+<gate name="G$1" symbol="LSF0102_SYM" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="DP" package="SOT505-2">
+<connects>
+<connect gate="G$1" pin="A1" pad="3"/>
+<connect gate="G$1" pin="A2" pad="4"/>
+<connect gate="G$1" pin="B1" pad="6"/>
+<connect gate="G$1" pin="B2" pad="5"/>
+<connect gate="G$1" pin="EN" pad="8"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="REFA" pad="2"/>
+<connect gate="G$1" pin="REFB" pad="7"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="1727-LSF0102DPHCT-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LSF0102DPH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ADM3485E">
+<description>IC TRANSCEIVER HALF 1/1 RS422, RS485</description>
+<gates>
+<gate name="A" symbol="ST3485EBDR_SYM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="ARZ" package="8-SO">
+<connects>
+<connect gate="A" pin="!RE" pad="2"/>
+<connect gate="A" pin="A" pad="6"/>
+<connect gate="A" pin="B" pad="7"/>
+<connect gate="A" pin="DE" pad="3"/>
+<connect gate="A" pin="DI" pad="4"/>
+<connect gate="A" pin="GND" pad="5"/>
+<connect gate="A" pin="RO" pad="1"/>
+<connect gate="A" pin="VCC" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="505-ADM3485EARZ-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ADM3485EARZ" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SP3485">
+<description>IC TRANSCEIVER HALF 1/1 RS422, RS485</description>
+<gates>
+<gate name="A" symbol="ST3485EBDR_SYM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="EN-L/TR" package="8-SO">
+<connects>
+<connect gate="A" pin="!RE" pad="2"/>
+<connect gate="A" pin="A" pad="6"/>
+<connect gate="A" pin="B" pad="7"/>
+<connect gate="A" pin="DE" pad="3"/>
+<connect gate="A" pin="DI" pad="4"/>
+<connect gate="A" pin="GND" pad="5"/>
+<connect gate="A" pin="RO" pad="1"/>
+<connect gate="A" pin="VCC" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="1016-1817-1-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SP3485EN-L/TR" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MAX3485">
+<description>IC TRANSCEIVER HALF 1/1 RS422, RS485</description>
+<gates>
+<gate name="A" symbol="ST3485EBDR_SYM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="ESA+T" package="8-SO">
+<connects>
+<connect gate="A" pin="!RE" pad="2"/>
+<connect gate="A" pin="A" pad="6"/>
+<connect gate="A" pin="B" pad="7"/>
+<connect gate="A" pin="DE" pad="3"/>
+<connect gate="A" pin="DI" pad="4"/>
+<connect gate="A" pin="GND" pad="5"/>
+<connect gate="A" pin="RO" pad="1"/>
+<connect gate="A" pin="VCC" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="MAX3485ESA+TCT-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MAX3485ESA+T" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PCAL9535" prefix="U">
+<gates>
+<gate name="G$1" symbol="PCAL9535_SYM" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="AHF,128" package="SOT994-1">
+<connects>
+<connect gate="G$1" pin="!INT" pad="22"/>
+<connect gate="G$1" pin="A0" pad="18"/>
+<connect gate="G$1" pin="A1" pad="23"/>
+<connect gate="G$1" pin="A2" pad="24"/>
+<connect gate="G$1" pin="GND" pad="9 25"/>
+<connect gate="G$1" pin="GPA0" pad="1"/>
+<connect gate="G$1" pin="GPA1" pad="2"/>
+<connect gate="G$1" pin="GPA2" pad="3"/>
+<connect gate="G$1" pin="GPA3" pad="4"/>
+<connect gate="G$1" pin="GPA4" pad="5"/>
+<connect gate="G$1" pin="GPA5" pad="6"/>
+<connect gate="G$1" pin="GPA6" pad="7"/>
+<connect gate="G$1" pin="GPA7" pad="8"/>
+<connect gate="G$1" pin="GPB0" pad="10"/>
+<connect gate="G$1" pin="GPB1" pad="11"/>
+<connect gate="G$1" pin="GPB2" pad="12"/>
+<connect gate="G$1" pin="GPB3" pad="13"/>
+<connect gate="G$1" pin="GPB4" pad="14"/>
+<connect gate="G$1" pin="GPB5" pad="15"/>
+<connect gate="G$1" pin="GPB6" pad="16"/>
+<connect gate="G$1" pin="GPB7" pad="17"/>
+<connect gate="G$1" pin="SCL" pad="19"/>
+<connect gate="G$1" pin="SDA" pad="20"/>
+<connect gate="G$1" pin="VCC" pad="21"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="568-9947-1-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PCAL9535AHF,128" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MP2816" prefix="U">
+<description>The MP28164 is a high-efficiency, low-
+quiescent current, buck-boost converter.&lt;br&gt;&lt;br&gt;
+FEATURES&lt;br&gt;
+ 1.8V Minimum Start-Up Input Voltage&lt;br&gt;
+ 1.2V to 5.5V Input Work Range&lt;br&gt;
+ 1.5V to 5V Output Range&lt;br&gt;
+ 4.2A Switching Current Limit&lt;br&gt;
+ 3.3V/2A Load Capability from a 2.5V-to-
+5.5V Input Supply&lt;br&gt;
+ 2MHz Fixed or External Synchronous
+Switching Frequency&lt;br&gt;
+ Selectable PSM/PWM Mode&lt;br&gt;
+ Typical 25μA Quiescent Current&lt;br&gt;
+ High Efficiency up to 95%&lt;br&gt;
+ Load Disconnect during Shutdown&lt;br&gt;
+ Internal Soft Start and Compensation&lt;br&gt;
+ Power Good Indicator&lt;br&gt;
+ Hiccup Mode for Short-Circuit Protection
+(SCP)&lt;br&gt;
+ Over-Temperature Protection (OTP)&lt;br&gt;
+ Available in a Small QFN-11 (2mmx3mm)
+Package&lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="MP28164_SYM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="4" package="11-QFN-2X3">
+<connects>
+<connect gate="G$1" pin="AGND" pad="5"/>
+<connect gate="G$1" pin="EN" pad="1"/>
+<connect gate="G$1" pin="FB" pad="6"/>
+<connect gate="G$1" pin="MODE/SYNC" pad="2"/>
+<connect gate="G$1" pin="PG" pad="3"/>
+<connect gate="G$1" pin="PGND" pad="9"/>
+<connect gate="G$1" pin="SW1" pad="10"/>
+<connect gate="G$1" pin="SW2" pad="8"/>
+<connect gate="G$1" pin="VCC" pad="4"/>
+<connect gate="G$1" pin="VIN" pad="11A 11B"/>
+<connect gate="G$1" pin="VOUT" pad="7A 7B"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="1589-MPQ28164GD-PCT-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MPQ28164GD-P" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM4121" prefix="U">
+<description>The LM4121 is a precision bandgap voltage
+reference available in a fixed 1.25V and adjustable
+version with up to 5 mA current source and sink
+capability.&lt;br&gt;&lt;br&gt;
+FEATURES (LM4121-1.2)&lt;br&gt;
+• Small SOT23-5 Package&lt;br&gt;
+• Low Voltage Operation &lt;br&gt;
+• High Output Voltage Accuracy: 0.2% &lt;br&gt;
+• Source and Sink Current Output: ±5 mA&lt;br&gt;
+• Supply current: 160 μA Typ. &lt;br&gt;
+• Low Temperature Coefficient: 50 ppm/°C &lt;br&gt;
+• Enable Pin &lt;br&gt;
+• Output Voltages: 1.25V and Adjustable &lt;br&gt;
+• Industrial Temperature Range: −40°C to +85°C &lt;br&gt;
+• (For Extended Temperature Range, −40°C to 125°C, Contact Texas Instruments) &lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="LM4121_SYM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="IM5X-ADJ/NOPB" package="SOT-23-5">
+<connects>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="REF/ADJ" pad="1"/>
+<connect gate="G$1" pin="VIN" pad="4"/>
+<connect gate="G$1" pin="VOUT" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="296-37378-1-ND" constant="no"/>
+<attribute name="I_OUT" value="5 mA" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LM4121IM5X-ADJ/NOPB" constant="no"/>
+<attribute name="TOL" value="0.5%" constant="no"/>
+<attribute name="VOUT" value="1.216V ~ 12V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MAX6037">
+<description>The MAX6037 family of low-dropout, micropower volt-
+age references offer fixed and adjustable output volt-
+age options ranging from 1.184V to 5V.&lt;br&gt;&lt;br&gt;
+Features&lt;br&gt;
+♦ Adjustable V OUT : 1.184V to 5V&lt;br&gt;
+♦ Fixed Outputs: 1.25V, 2.048V, 2.5V, 3.0V, 3.3V,
+and 4.096V&lt;br&gt;
+♦ Shutdown Current &amp;lt; 500nA (max)&lt;br&gt;
+♦ 25ppm/°C (max) Temperature Coefficient (A Grade)&lt;br&gt;
+♦ ±0.2% (max) Initial Accuracy (A Grade)&lt;br&gt;
+♦ Low 100mV (max) Dropout Voltage at 1mA Load
+Current&lt;br&gt;
+♦ 2.5V to 5.5V Input Voltage Range&lt;br&gt;
+♦ 5mA Sink and Source Current Capability&lt;br&gt;
+♦ Available in 5-Pin SOT23 Package&lt;br&gt;
+♦ Operates Over the Automotive Temperature
+Range: -40°C to +125°C&lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="MAX6037_SYM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="CAUKADJ+T" package="SOT-23-5">
+<connects>
+<connect gate="G$1" pin="!SHDN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IC/ADJ" pad="1"/>
+<connect gate="G$1" pin="VIN" pad="4"/>
+<connect gate="G$1" pin="VOUT" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="I_OUT" value="5 mA" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MAX6037CAUKADJ+T" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="700-MAX6037CAUKADJT" constant="no"/>
+<attribute name="TOL" value="0.5%" constant="no"/>
+<attribute name="VIN" value="2.5V ~ 5.5V" constant="no"/>
+<attribute name="VOUT" value="1.184V ~ 5V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="OPA2" prefix="U">
+<gates>
+<gate name="A" symbol="OPAMP-COMUN" x="-12.7" y="0"/>
+<gate name="B" symbol="OPAMP-COMUN" x="7.62" y="0"/>
+<gate name="SUP" symbol="ALIMENTACION" x="-25.4" y="0"/>
+</gates>
+<devices>
+<device name="333AIDGKR" package="8-VSSOP">
+<connects>
+<connect gate="A" pin="+IN" pad="3"/>
+<connect gate="A" pin="-IN" pad="2"/>
+<connect gate="A" pin="OUT" pad="1"/>
+<connect gate="B" pin="+IN" pad="5"/>
+<connect gate="B" pin="-IN" pad="6"/>
+<connect gate="B" pin="OUT" pad="7"/>
+<connect gate="SUP" pin="V+" pad="8"/>
+<connect gate="SUP" pin="V-" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="296-32182-1-ND" constant="no"/>
+<attribute name="I_OUT" value="5 mA" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="OPA2333AIDGKT" constant="no"/>
+<attribute name="OUT_TYPE" value="Rail-to-Rail" constant="no"/>
+<attribute name="V_SUPP" value="1.8V ~ 5.5V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="830IDGKR" package="8-VSSOP">
+<connects>
+<connect gate="A" pin="+IN" pad="3"/>
+<connect gate="A" pin="-IN" pad="2"/>
+<connect gate="A" pin="OUT" pad="1"/>
+<connect gate="B" pin="+IN" pad="5"/>
+<connect gate="B" pin="-IN" pad="6"/>
+<connect gate="B" pin="OUT" pad="7"/>
+<connect gate="SUP" pin="V+" pad="8"/>
+<connect gate="SUP" pin="V-" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="296-46158-1-ND" constant="no"/>
+<attribute name="I_OUT" value="82 mA" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="OPA2830IDGKR" constant="no"/>
+<attribute name="OUT_TYPE" value="Rail-to-Rail" constant="no"/>
+<attribute name="V_SUPP" value="2.8V ~ 11V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TLV2772" prefix="U">
+<gates>
+<gate name="A" symbol="OPAMP-COMUN" x="-12.7" y="0"/>
+<gate name="B" symbol="OPAMP-COMUN" x="7.62" y="0"/>
+<gate name="SUP" symbol="ALIMENTACION" x="-25.4" y="0"/>
+</gates>
+<devices>
+<device name="CDGKR" package="8-VSSOP">
+<connects>
+<connect gate="A" pin="+IN" pad="3"/>
+<connect gate="A" pin="-IN" pad="2"/>
+<connect gate="A" pin="OUT" pad="1"/>
+<connect gate="B" pin="+IN" pad="5"/>
+<connect gate="B" pin="-IN" pad="6"/>
+<connect gate="B" pin="OUT" pad="7"/>
+<connect gate="SUP" pin="V+" pad="8"/>
+<connect gate="SUP" pin="V-" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="296-29492-1-ND" constant="no"/>
+<attribute name="I_OUT" value="50 mA" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TLV2772CDGKR" constant="no"/>
+<attribute name="OUT_TYPE" value="Rail-to-Rail" constant="no"/>
+<attribute name="V_SUPP" value="2.5V ~ 5.5V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LMV358" prefix="U">
+<gates>
+<gate name="A" symbol="OPAMP-COMUN" x="-12.7" y="0"/>
+<gate name="B" symbol="OPAMP-COMUN" x="7.62" y="0"/>
+<gate name="SUP" symbol="ALIMENTACION" x="-25.4" y="0"/>
+</gates>
+<devices>
+<device name="IDDUR" package="8-VSSOP">
+<connects>
+<connect gate="A" pin="+IN" pad="3"/>
+<connect gate="A" pin="-IN" pad="2"/>
+<connect gate="A" pin="OUT" pad="1"/>
+<connect gate="B" pin="+IN" pad="5"/>
+<connect gate="B" pin="-IN" pad="6"/>
+<connect gate="B" pin="OUT" pad="7"/>
+<connect gate="SUP" pin="V+" pad="8"/>
+<connect gate="SUP" pin="V-" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="296-16705-1-ND" constant="no"/>
+<attribute name="I_OUT" value="40 mA" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LMV358IDDUR" constant="no"/>
+<attribute name="OUT_TYPE" value="Rail-to-Rail" constant="no"/>
+<attribute name="V_SUPP" value="2.7V ~ 5.5V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LMH6643" prefix="U">
+<gates>
+<gate name="A" symbol="OPAMP-COMUN" x="-12.7" y="0"/>
+<gate name="B" symbol="OPAMP-COMUN" x="7.62" y="0"/>
+<gate name="SUP" symbol="ALIMENTACION" x="-25.4" y="0"/>
+</gates>
+<devices>
+<device name="MM-NS" package="8-VSSOP">
+<connects>
+<connect gate="A" pin="+IN" pad="3"/>
+<connect gate="A" pin="-IN" pad="2"/>
+<connect gate="A" pin="OUT" pad="1"/>
+<connect gate="B" pin="+IN" pad="5"/>
+<connect gate="B" pin="-IN" pad="6"/>
+<connect gate="B" pin="OUT" pad="7"/>
+<connect gate="SUP" pin="V+" pad="8"/>
+<connect gate="SUP" pin="V-" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="2156-LMH6643MM-NS-ND" constant="no"/>
+<attribute name="I_OUT" value="75 mA" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LMH6643MM-NS" constant="no"/>
+<attribute name="OUT_TYPE" value="Rail-to-Rail" constant="no"/>
+<attribute name="V_SUPP" value="2.7V ~ 12.8V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LMV932" prefix="U">
+<gates>
+<gate name="A" symbol="OPAMP-COMUN" x="-12.7" y="0"/>
+<gate name="B" symbol="OPAMP-COMUN" x="7.62" y="0"/>
+<gate name="SUP" symbol="ALIMENTACION" x="-25.4" y="0"/>
+</gates>
+<devices>
+<device name="MMX/NOPB" package="8-VSSOP">
+<connects>
+<connect gate="A" pin="+IN" pad="3"/>
+<connect gate="A" pin="-IN" pad="2"/>
+<connect gate="A" pin="OUT" pad="1"/>
+<connect gate="B" pin="+IN" pad="5"/>
+<connect gate="B" pin="-IN" pad="6"/>
+<connect gate="B" pin="OUT" pad="7"/>
+<connect gate="SUP" pin="V+" pad="8"/>
+<connect gate="SUP" pin="V-" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="2156-LMV932MMX/NOPB-ND" constant="no"/>
+<attribute name="I_OUT" value="100 mA" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LMV932MMX/NOPB" constant="no"/>
+<attribute name="OUT_TYPE" value="Rail-to-Rail" constant="no"/>
+<attribute name="V_SUPP" value="1.8V ~ 5.5V" constant="no"/>
 </technology>
 </technologies>
 </device>
