@@ -41608,6 +41608,81 @@ RESISTOR_PACKAGE_VALUE(_VERSION)</description>
 </technology>
 </technologies>
 </device>
+<device name="_0603_20K_2" package="R0603">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="P20KDBCT-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERA-3AEB203V" constant="no"/>
+<attribute name="P" value="1/10 W" constant="no"/>
+<attribute name="TOL" value="0.1%" constant="no"/>
+<attribute name="VALUE" value="20 KOhm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0603_300K" package="R0603">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="RG16P300KBCT-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RG1608P-304-B-T5" constant="no"/>
+<attribute name="P" value="1/10 W" constant="no"/>
+<attribute name="TOL" value="0.1%" constant="no"/>
+<attribute name="VALUE" value="300 KOhm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0603_301K_2" package="R0603">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="541-TNPW0603301KBEEACT-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TNPW0603301KBEEA" constant="no"/>
+<attribute name="P" value="1/10 W" constant="no"/>
+<attribute name="TOL" value="0.1%" constant="no"/>
+<attribute name="VALUE" value="301 KOhm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0402_267K" package="R0402">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="P267KLCT-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-2RKF2673X" constant="no"/>
+<attribute name="P" value="1/10 W" constant="no"/>
+<attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="267 KOhm" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0402_732K" package="R0402">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="P732KLCT-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-2RKF7323X" constant="no"/>
+<attribute name="P" value="1/10 W" constant="no"/>
+<attribute name="TOL" value="1%" constant="no"/>
+<attribute name="VALUE" value="732 KOhm" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="QUECTEL_BG" prefix="U">
@@ -46674,6 +46749,46 @@ Range: -40°C to +125°C&lt;br&gt;</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LMV932MMX/NOPB" constant="no"/>
 <attribute name="OUT_TYPE" value="Rail-to-Rail" constant="no"/>
 <attribute name="V_SUPP" value="1.8V ~ 5.5V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AD8224" prefix="U">
+<description>Amplificadores de Instrumentación: 2 circuitos rail-to-rail</description>
+<gates>
+<gate name="A" symbol="OPAMP-INSTR" x="-17.78" y="0"/>
+<gate name="B" symbol="OPAMP-INSTR" x="7.62" y="0"/>
+<gate name="SUP" symbol="ALIMENTACION" x="-33.02" y="0"/>
+</gates>
+<devices>
+<device name="ACPZ-R7" package="CP_16_19">
+<connects>
+<connect gate="A" pin="+IN" pad="4"/>
+<connect gate="A" pin="-IN" pad="1"/>
+<connect gate="A" pin="OUT" pad="15"/>
+<connect gate="A" pin="REF" pad="6"/>
+<connect gate="A" pin="RG+" pad="3"/>
+<connect gate="A" pin="RG-" pad="2"/>
+<connect gate="B" pin="+IN" pad="9"/>
+<connect gate="B" pin="-IN" pad="12"/>
+<connect gate="B" pin="OUT" pad="14"/>
+<connect gate="B" pin="REF" pad="7"/>
+<connect gate="B" pin="RG+" pad="10"/>
+<connect gate="B" pin="RG-" pad="11"/>
+<connect gate="SUP" pin="V+" pad="5 16"/>
+<connect gate="SUP" pin="V-" pad="8 13"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="505-AD8224ACPZ-R7CT-ND" constant="no"/>
+<attribute name="IBIAS" value="25 pA" constant="no"/>
+<attribute name="I_OUT" value="15 mA" constant="no"/>
+<attribute name="I_SUP" value="350 uA" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="AD8224ACPZ-R7" constant="no"/>
+<attribute name="VOS" value="300 uV" constant="no"/>
+<attribute name="V_SUP" value="4.5 ~ 36 V" constant="no"/>
+<attribute name="V_SUP_DUAL" value="1.35 ~ 18 V" constant="no"/>
 </technology>
 </technologies>
 </device>
