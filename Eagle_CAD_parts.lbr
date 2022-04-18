@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="10" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="17" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -7240,7 +7240,6 @@
 <wire x1="-1.2446" y1="1.4986" x2="-1.2446" y2="-1.4986" width="0.1524" layer="21"/>
 </package>
 <package name="IND_XFL4020">
-<dimension x1="-1.185" y1="0" x2="1.185" y2="0" x3="0" y3="1.7" textsize="0.254" layer="47" width="0"/>
 <smd name="1" x="-1.185" y="0" dx="0.98" dy="3.4" layer="1"/>
 <smd name="2" x="1.185" y="0" dx="0.98" dy="3.4" layer="1"/>
 <wire x1="-2" y1="2" x2="2" y2="2" width="0.127" layer="21"/>
@@ -7249,14 +7248,12 @@
 <wire x1="-2" y1="-2" x2="-2" y2="2" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="1.33523125" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="1.088725" width="0.127" layer="21"/>
-<dimension x1="-1.675" y1="1.7" x2="-0.7" y2="1.7" x3="-1.1875" y3="1.92" textsize="0.254" layer="47" width="0"/>
-<dimension x1="-1.675" y1="1.7" x2="-1.675" y2="-1.7" x3="-2" y3="0" textsize="0.254" layer="47" width="0"/>
 <text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.127" layer="39"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.127" layer="39"/>
-<wire x1="2.54" y1="-2.54" x2="-2.54" y2="-2.54" width="0.127" layer="39"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.127" layer="39"/>
+<wire x1="-2.3" y1="2.3" x2="2.3" y2="2.3" width="0.0635" layer="39"/>
+<wire x1="2.3" y1="2.3" x2="2.3" y2="-2.3" width="0.0635" layer="39"/>
+<wire x1="2.3" y1="-2.3" x2="-2.3" y2="-2.3" width="0.0635" layer="39"/>
+<wire x1="-2.3" y1="-2.3" x2="-2.3" y2="2.3" width="0.0635" layer="39"/>
 </package>
 <package name="10-VQFN">
 <dimension x1="0" y1="0" x2="0" y2="1.05" x3="-3.2" y3="0.525" textsize="0.254" layer="47" width="0" precision="3"/>
@@ -15210,6 +15207,38 @@
 <wire x1="-1.5" y1="-1.8" x2="-1.5" y2="1.8" width="0.0635" layer="39"/>
 <smd name="11B" x="0.69" y="1.25" dx="0.375" dy="0.25" layer="1"/>
 <smd name="7B" x="0.69" y="-1.25" dx="0.38" dy="0.25" layer="1"/>
+</package>
+<package name="20-QFN-4X4">
+<smd name="1" x="-1.9" y="1" dx="0.6" dy="0.25" layer="1"/>
+<smd name="2" x="-1.9" y="0.5" dx="0.6" dy="0.25" layer="1"/>
+<smd name="3" x="-1.9" y="0" dx="0.6" dy="0.25" layer="1"/>
+<smd name="4" x="-1.9" y="-0.5" dx="0.6" dy="0.25" layer="1"/>
+<smd name="5" x="-1.9" y="-1" dx="0.6" dy="0.25" layer="1"/>
+<smd name="6" x="-1" y="-1.9" dx="0.6" dy="0.25" layer="1" rot="R90"/>
+<smd name="7" x="-0.5" y="-1.9" dx="0.6" dy="0.25" layer="1" rot="R90"/>
+<smd name="8" x="0" y="-1.9" dx="0.6" dy="0.25" layer="1" rot="R90"/>
+<smd name="9" x="0.5" y="-1.9" dx="0.6" dy="0.25" layer="1" rot="R90"/>
+<smd name="10" x="1" y="-1.9" dx="0.6" dy="0.25" layer="1" rot="R90"/>
+<smd name="11" x="1.9" y="-1" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="12" x="1.9" y="-0.5" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="13" x="1.9" y="0" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="14" x="1.9" y="0.5" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="15" x="1.9" y="1" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="16" x="1" y="1.9" dx="0.6" dy="0.25" layer="1" rot="R270"/>
+<smd name="17" x="0.5" y="1.9" dx="0.6" dy="0.25" layer="1" rot="R270"/>
+<smd name="18" x="0" y="1.9" dx="0.6" dy="0.25" layer="1" rot="R270"/>
+<smd name="19" x="-0.5" y="1.9" dx="0.6" dy="0.25" layer="1" rot="R270"/>
+<smd name="20" x="-1" y="1.9" dx="0.6" dy="0.25" layer="1" rot="R270"/>
+<smd name="21" x="0" y="0" dx="2.7" dy="2.7" layer="1"/>
+<wire x1="-2" y1="2" x2="2" y2="2" width="0.0635" layer="21"/>
+<wire x1="2" y1="2" x2="2" y2="-2" width="0.0635" layer="21"/>
+<wire x1="2" y1="-2" x2="-2" y2="-2" width="0.0635" layer="21"/>
+<wire x1="-2" y1="-2" x2="-2" y2="2" width="0.0635" layer="21"/>
+<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.0635" layer="39"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.0635" layer="39"/>
+<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.0635" layer="39"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="0.0635" layer="39"/>
+<circle x="-2.3" y="2.3" radius="0.1" width="0.2032" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -34766,6 +34795,24 @@
 <pin name="IC/ADJ" x="20.32" y="0" length="middle" rot="R180"/>
 <pin name="GND" x="0" y="-20.32" length="middle" rot="R90"/>
 </symbol>
+<symbol name="ISL91110IR_SYM">
+<wire x1="-17.78" y1="27.94" x2="17.78" y2="27.94" width="0.254" layer="94"/>
+<wire x1="17.78" y1="27.94" x2="17.78" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-25.4" x2="-17.78" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-25.4" x2="-17.78" y2="27.94" width="0.254" layer="94"/>
+<pin name="PVIN" x="-22.86" y="22.86" length="middle"/>
+<pin name="VIN" x="-22.86" y="0" length="middle"/>
+<pin name="EN" x="-22.86" y="-12.7" length="middle"/>
+<pin name="MODE" x="-22.86" y="-17.78" length="middle"/>
+<pin name="SGND" x="-5.08" y="-30.48" length="middle" rot="R90"/>
+<pin name="PGND" x="5.08" y="-30.48" length="middle" rot="R90"/>
+<pin name="FB" x="22.86" y="-12.7" length="middle" rot="R180"/>
+<pin name="VOUT" x="22.86" y="0" length="middle" rot="R180"/>
+<pin name="LX2" x="22.86" y="5.08" length="middle" rot="R180"/>
+<pin name="LX1" x="22.86" y="22.86" length="middle" rot="R180"/>
+<text x="-15.24" y="15.24" size="1.778" layer="95">&gt;NAME</text>
+<text x="-15.24" y="12.7" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LA6681MC">
@@ -46789,6 +46836,53 @@ Range: -40°C to +125°C&lt;br&gt;</description>
 <attribute name="VOS" value="300 uV" constant="no"/>
 <attribute name="V_SUP" value="4.5 ~ 36 V" constant="no"/>
 <attribute name="V_SUP_DUAL" value="1.35 ~ 18 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ISL91110IR" prefix="U">
+<description>The ISL91110IR is a high-current buck-boost switching regulator
+for systems using new battery chemistries. It uses Intersil’s
+proprietary buck-boost algorithm to maintain voltage regulation
+while providing excellent efficiency and very low output voltage
+ripple when the input voltage is close to the output voltage.
+The ISL91110IR is capable of delivering at least 2A continuous
+output current (VOUT = 3.3V) over a battery voltage range of 2.5V
+to 4.35V. This maximizes the energy utilization of advanced
+single-cell Li-ion battery chemistries that have significant capacity
+left at voltages below the system voltage. Its fully synchronous
+low ON-resistance 4-switch architecture and a low quiescent
+current of only 35μA optimize efficiency under all load conditions.
+The ISL91110IR supports standalone applications with a fixed
+3.3V or 3.5V output voltage or adjustable output voltage with an
+external resistor divider. Output voltages as low as 1V or as high
+as 5.2V are supported.
+The ISL91110IR requires only a single inductor and very few
+external components. Power supply solution size is minimized by
+its 2.5MHz switching frequency, allowing small size external
+components.</description>
+<gates>
+<gate name="G$1" symbol="ISL91110IR_SYM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="NZ-T7A" package="20-QFN-4X4">
+<connects>
+<connect gate="G$1" pin="EN" pad="11"/>
+<connect gate="G$1" pin="FB" pad="15"/>
+<connect gate="G$1" pin="LX1" pad="4 5"/>
+<connect gate="G$1" pin="LX2" pad="1 2"/>
+<connect gate="G$1" pin="MODE" pad="12"/>
+<connect gate="G$1" pin="PGND" pad="3 21"/>
+<connect gate="G$1" pin="PVIN" pad="6 7 8 9"/>
+<connect gate="G$1" pin="SGND" pad="13 14"/>
+<connect gate="G$1" pin="VIN" pad="10"/>
+<connect gate="G$1" pin="VOUT" pad="17 18 19 20"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="ISL91110IRNZ-T7A-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ISL91110IRNZ-T7A" constant="no"/>
 </technology>
 </technologies>
 </device>
