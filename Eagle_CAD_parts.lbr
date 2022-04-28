@@ -15299,6 +15299,51 @@
 <wire x1="10.5" y1="-26.5" x2="-10.5" y2="-26.5" width="0.254" layer="39"/>
 <wire x1="-10.5" y1="-26.5" x2="-10.5" y2="3.5" width="0.254" layer="39"/>
 </package>
+<package name="4_PINES_2F2C_SMD">
+<wire x1="0" y1="1.905" x2="0.635" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="2.54" x2="2.54" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-0.635" x2="-1.905" y2="0" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="0" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0.635" y2="0" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="0" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="1.905" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="0" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-2.54" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="1.905" x2="-1.905" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="0" y1="1.905" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="-0.635" y2="0" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="2.54" x2="-0.635" y2="2.54" width="0.1524" layer="21"/>
+<rectangle x1="-1.524" y1="-1.524" x2="-1.016" y2="-1.016" layer="21" rot="R90"/>
+<rectangle x1="1.016" y1="1.016" x2="1.524" y2="1.524" layer="21" rot="R90"/>
+<rectangle x1="-1.524" y1="1.016" x2="-1.016" y2="1.524" layer="21" rot="R90"/>
+<wire x1="0" y1="-0.635" x2="0.635" y2="0" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="0" x2="2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-2.54" x2="1.905" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="0" y1="-1.905" x2="0.635" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-2.54" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
+<rectangle x1="1.016" y1="-1.524" x2="1.524" y2="-1.016" layer="21" rot="R270"/>
+<wire x1="-2.54" y1="-1.905" x2="-1.905" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-2.54" x2="0" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-2.54" x2="-0.635" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-1.905" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="-0.635" x2="0" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="2.54" x2="1.905" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="0" x2="-0.635" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="0" x2="1.905" y2="0" width="0.1524" layer="21"/>
+<smd name="1" x="-1.27" y="-2.7" dx="1" dy="3.1" layer="1" rot="R180"/>
+<smd name="3" x="1.27" y="-2.7" dx="1" dy="3.1" layer="1" rot="R180"/>
+<smd name="2" x="-1.27" y="2.7" dx="1" dy="3.1" layer="1" rot="R180"/>
+<smd name="4" x="1.27" y="2.7" dx="1" dy="3.1" layer="1" rot="R180"/>
+<wire x1="-2.8" y1="-4.6" x2="-2.8" y2="4.6" width="0.127" layer="39"/>
+<wire x1="-2.8" y1="4.6" x2="2.8" y2="4.6" width="0.127" layer="39"/>
+<wire x1="2.8" y1="4.6" x2="2.8" y2="-4.6" width="0.127" layer="39"/>
+<wire x1="2.8" y1="-4.6" x2="-2.8" y2="-4.6" width="0.127" layer="39"/>
+<text x="-2.9" y="-4" size="0.8128" layer="21">1</text>
+<text x="2.3" y="3.2" size="0.8128" layer="21">4</text>
+<text x="-2.9" y="4.7" size="0.8128" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="PUENTE-H">
@@ -39285,6 +39330,22 @@ portable devices</description>
 <attribute name="DIGIKEY_PART_NUMBER" value="S5635-ND" constant="no"/>
 <attribute name="I" value="3 A" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="NPPC041KFXC-RC" constant="no"/>
+<attribute name="V" value="250 V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_WR-PHD_3" package="4_PINES_2F2C_SMD">
+<connects>
+<connect gate="A" pin="S" pad="1"/>
+<connect gate="B" pin="S" pad="2"/>
+<connect gate="C" pin="S" pad="3"/>
+<connect gate="D" pin="S" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART_NUMBER" value="732-5379-1-ND" constant="no"/>
+<attribute name="I" value="3 A" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="61030421121" constant="no"/>
 <attribute name="V" value="250 V" constant="no"/>
 </technology>
 </technologies>
